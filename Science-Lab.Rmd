@@ -222,6 +222,13 @@ vermutlich den praktischen Nutzen. Für spätere wissenschaftliche
 Arbeiten ist die Nutzung solcher Programme vermutlich aber sehr
 hilfreich.^[Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.]
 
+## Nutzung von KI-gestützten Diensten
+
+- Was können diese Dienste leisten?
+- Was eher nicht?
+- Wie funktionieren diese Dienste
+- Wir probieren Sie aus!
+
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
 <style>body {text-align: justify}</style>
