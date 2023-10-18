@@ -265,15 +265,15 @@ als hilfreich:
 
     -   [List Forum für Wirtschafts- und Finanzpolitik](https://link.springer.com/journal/41025/volumes-and-issues)
 
-    -   [Perspektiven der Wirtschaftspolitik](https://www.degruyter.com/journal/key/pwp/html?lang=de)
+    -   [Perspektiven der Wirtschaftspolitik](https://www.degruyter.com/journal/key/pwp/html?lang=de#issues)
 
-    -   [Wirtschaftsdienst](https://link.springer.com/journal/10273;)
+    -   [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/)
 
     -   [Zeitschrift für Wirtschaftspolitik](https://www.degruyter.com/journal/key/zfwp/html?lang=de)
 
 -   **Englischsprachige Zeitschriften**
 
-    -   [Intereconomics](https://link.springer.com/journal/10272/volumes-and-issues)
+    -   [Intereconomics](https://www.intereconomics.eu/)
 
     -   [Journal of Economic Literature](https://www.aeaweb.org/journals/JEL)
 
@@ -294,7 +294,7 @@ seien beispielhaft nur einige genannt:
 -   [EconLit](https://dbis.uni-regensburg.de/warpto.php?bib_id=hfwu&color=2&titel_id=6926&url=http%3A%2F%2Fwww.redi-bw.de%2Fdb%2Fstart.php%3Fdatabase%3DEconLit-FT-ebsco),
     ein sehr umfangreiches Suchportal insbesondere für ökonomische Texte
 
--   [Econis](http://www.econis.eu), ein Suchportal der Zentralbibliothek für
+-   [EconBiz](https://www.econbiz.de), ein Suchportal der Zentralbibliothek für
     Wirtschaftswissenschaften (ZBW) in Kiel
 
 -   [Google Scholar](http://scholar.google.de), das Suchportal für wissenschaftliche
