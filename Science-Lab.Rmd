@@ -360,10 +360,29 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
   \(\rightarrow\) Wissenschaftliches Wissen bezieht sich i.d.R. nicht auf singuläre Tatsachen sondern **allgemeine Zusammenhänge**.
   - Wissen ist **irrtumssensibel**, es *könnte* also falsch sein und durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
   - Wissen ist **irritationsfest**, die Überzeugung, dass es wahr ist, hält auch (zumindest zunächst) Einwänden stand.
+  
+  
+- Derartiges Wissen besteht nicht zwingend nur aus wahren Aussagen (Irrtum kann immer noch entdeckt werden)
+
+- Aber eine Person, die diese Ansprüche gelten lässt, kann einfordern im Diskurs ernst genommen zu werden
+
+- Ernsthaft kann man über dieses Wissen nicht beliebig reden. (Konkurrierende) Positionen zu diesem Wissen können ihrerseits nur Geltung einfordern, wenn sie sich diese Ansprüche erfüllen
     
+## Exkurs: Philosophische Happy Hour zur Wahrheit {-}
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5BZ9ThwirdM?si=V31nf9MBclwn0Nap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 ## Wissen und Wissenschaft
 
+
+## Exkurs: Philosophische Happy Hour zur Wissenschaft {-}
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xDgWX6ksLnc?si=7G2ro0UEbyK6PJQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+## Exkurs: Philosophische Happy Hour zur Forschung {-}
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/e1JmMqzl_uA?si=KJJKPnvaYil4frsE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Wissen und Wissenschaft im politischen Prozess
 
@@ -387,7 +406,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
   
   $\rightarrow$ Wichtig ist die Offenlegung der zugrundegelegten Werturteile
   
-## Twitter-Universität: Wertfreie Wissenschaft? {-}
+## Exkurs: X-Universität zur Wertfreie Wissenschaft? {-}
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="de" dir="ltr">Nehme das Argument ja durchaus ernst. Aber, hier herrscht bei vielen die Fiktion vor (und wird auch vertreten), dass es so etwas wie neutrale (Sozial)Wissenschaft geben würde. Neutral ist sie dann, wenn sie Fragen des „Wer, Wann, Was, Wo“nachgeht. Geht es um ihren Kern, 1 <a href="https://t.co/95ThFyL7QD">https://t.co/95ThFyL7QD</a></p>&mdash; Carlo &quot;Realism, Gedankenfetzen and Rants&quot; Masala (@CarloMasala1) <a href="https://twitter.com/CarloMasala1/status/1644299134034231296?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
