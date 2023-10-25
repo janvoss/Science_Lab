@@ -414,7 +414,9 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 ![Aufbau der Arbeit](./TikZ/Elemente.svg)
 
 ## Wissenschaftliches Zitieren
-...
+
+$\dots$
+
 ## Literaturverzeichnis 
 ...
 
