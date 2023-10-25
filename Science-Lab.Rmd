@@ -414,7 +414,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 ## Aufbau der Arbeit und einzelner Teilabschnitte
 
-![Aufbau der Arbet](./Tikz/Elemente.svg)
+![Aufbau der Arbeit](./TikZ/Elemente.svg)
 
 ## Wissenschaftliches Zitieren
 ...
