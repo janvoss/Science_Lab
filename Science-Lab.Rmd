@@ -409,16 +409,28 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 # Wissenschaftliches Schreiben
 
-## Aufbau der Arbeit und einzelner Teilabschnitte
+## Aufbau der Arbeit 
+
+### Inhaltlicher Aufbau
 
 ![Aufbau der Arbeit](./TikZ/Elemente.svg)
 
+### Formaler Aufbau
+
+![Gliederungstechnik](Gliederungstechnik.svg)
+
+
 ## Wissenschaftliches Zitieren
 
-$\dots$
+![Zitiertechniken](Zitieren.svg)
 
 ## Literaturverzeichnis 
-...
+
+s. das Literaturverzeichnis in meinen Unterlagen und siehe @Oehlrich15.
+
+## Sprachlicher Ausdruck
+
+s. @Oehlrich15 und meine Ausführungen dazu.
 
 # Selbst- und Gruppenmanagement
 
