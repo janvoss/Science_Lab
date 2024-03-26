@@ -1,0 +1,97 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{smartdiagram} %für tikz
+\usepackage[ngerman]{babel} %Sprache deutsch (für Silbentrennung)
+\usepackage[utf8]{inputenc} %UTF-Code für Umlaute
+\usepackage[T1]{fontenc} %Trennung von Wörtern mit Umlauten
+\usepackage{lmodern} %Schriftart
+%\usepackage{libertine}
+\renewcommand*\familydefault{\sfdefault} %Serifenlose Schrift als Standard
+\usepackage{microtype}
+\usesmartdiagramlibrary{additions}
+\usetikzlibrary{fit}
+\usetikzlibrary{decorations.pathreplacing}
+
+\tikzstyle{container} = [draw, rectangle, semithick, inner sep=0.3cm
+]
+
+%Aufzählungsstriche
+\AtBeginDocument{
+	\def\labelitemi{\normalfont\bfseries{--}}
+}
+
+
+\begin{document}
+	%Stand: 9.11.2020
+	
+	\begin{tikzpicture}[
+		every node/.style = {shape=rectangle, % is not necessary, default node's shape is rectangle
+			rounded corners,
+			%	draw, semithick,
+			text width=7cm,
+			align=center,
+			node distance=0.1cm
+		}
+		]
+		
+		%Überschriften
+		\node (Mitte)[]{};
+		
+		\node (Titel)[above= 1cm  of Mitte, text width=15cm,
+		]{\large Wissenschaftliche Politikberatung\\
+			\normalsize Eine Themensammlung \today };
+		
+		\node [below left = 1cm of Mitte](T1) {\textbf{(Mangelnde) Unabhängigeit} \\ 
+			\begin{itemize}
+				\item Transparenz/Wahrhaftigkeit
+				\item konkrete Auftragsformulierung
+				\item Offenlegung von Kooperationsstrukturen
+		\end{itemize}};
+		
+		\node [right =  of T1] (T2) {\textbf{Datenverfügbarkeit} \\ 
+			\begin{itemize}
+				
+				\item Datenschutz als Problem (?)
+				\item Bevorzugung von ausländischen Themen
+				\item Berücksichtigung verfügbarer Datensätze
+				\item Internationale Angleichung des Rechtsrahmens (?)
+				
+		\end{itemize}}; 
+
+	\node [right =  of T2] (T3) {\textbf{Ethische Maßstäbe} \\ 
+		\begin{itemize}
+			
+			\item Transparenzpflichten
+			\item Objektivität/Wahrhaftigkeit
+			\item Keine unnötige Polarisierung
+			\item Einbettung in den wissenschaftlichen Kontext
+			\item Fairer Wettbewerb im Wissenschaftsbetrieb
+			\item Auswahl vorrangig auf der Basis von Kompetenz
+		
+			
+	\end{itemize}}; 	
+
+	\node [right =  of T3] (T4) {\textbf{Anreize} \\ 
+		\begin{itemize}
+			
+			\item Fehlende Wertschätzung der Beratung
+			\item Fehlende Berücksichtigung der Ergebnisse
+			\item Politische Anreize vs. wissenschaftliche Anreize
+			\item 
+			
+	\end{itemize}}; 
+	
+		\node [right =  of T4] (T5) {\textbf{Kommunikationsprobleme} \\ 
+		\begin{itemize}
+			
+			\item Unklare Auftragserteilung
+			\item Unklare Absprachen zwischen Auftraggeber und "~nehmer
+			\item Kommunikation der Ergebnisse
+			
+	\end{itemize}}; 
+	
+		
+		
+		
+	\end{tikzpicture}
+	
+\end{document}

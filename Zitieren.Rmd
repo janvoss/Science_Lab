@@ -1,0 +1,35 @@
+---
+title: ""
+date: ''
+output:
+  pdf_document:
+    toc: no
+    number_sections: yes
+  html_document:
+    number_sections: yes
+    toc: no
+lang: de
+---
+
+# Angaben direkt im Text
+Text. Noch mehr Text.
+
+Text mit Übernommenen Gedanken (Bartels, 2020, S. 744). 
+
+Bartels (2020) führt aus, dass ... . 
+
+Dies ist ein Satz. Dies ist ein Satz.  Dies ist ein Satz. Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz (Bartels, 2020, S. 744).
+
+Dies ist ein Satz.^[Dieser Absatz beruht auf Bartels (2020), S. 744.] Dies ist ein Satz.  Dies ist ein Satz. Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.  Dies ist ein Satz.
+
+Dies ist ein Satz. 
+
+# Angaben in Fußnoten
+
+Text mit übernommenen Gedanken.^[Bartels (2020), S. 744.] 
+
+
+# Literaturverzeichnis {-}
+
+Bartels, Charlotte (2020): Die Bedeutung von Mieteinkommen und Immobilien für die Ungleichheit in Deutschland. Wirtschaftsdienst, 100, 741-746
+
