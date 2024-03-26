@@ -1,7 +1,7 @@
 ---
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
-date: "HfWU Zukunftsökonomie | WiSe 2023/24"
+date: "HfWU Zukunftsökonomie | SoSe 20224"
 
 output:
 
@@ -46,19 +46,17 @@ generate_svg(qr, filename = "qr.svg")
 <style>body {text-align: justify}</style>
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Wachstum und Wohlstand in Deutschland**. Als Prüfungsleistungen schreiben Sie
+**Chancen und Risiken von Künstlicher Intelligenz für die deutsche Wirtschaft**. Als Prüfungsleistungen schreiben Sie
 in Dreierteams (zur Not: allein) eine kurze **wissenschaftliche
 Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**. Die Ergebnisse ihrer Ausarbeitungen werden wir am Ende (vielleicht) in einem **Plakat** zusammenfassen
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
-der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2023/heft/7/beitrag/wachstum-und-wohlstand-in-deutschland.html)
+der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2023/heft/8/beitrag/chancen-und-risiken-von-kuenstlicher-intelligenz-fuer-die-deutsche-wirtschaft.html)
 zum oben genannten Thema:
-
-@demaryMitDigitalisierungKlimaneutralem2023,
-@dirksenWohlstandNeuDenken2023,
-@holtemoellerMarktUmweltUnd2023,
-@kurzWachstumsunabhaengigkeitTransformationUnd2023 und
-@petersenWachstumOderSchrumpfung2023
+@bertschek_jetzt_2023,
+@bruhl_kunstliche_2023, 
+@engels_kunstliche_2023 und 
+@vopel_unmenschliche_2023.
 
 In Ihrer Seminararbeit setzen Sie sich mit mindestens drei der Texte aus
 dem Wirtschaftsdienst auseinander. Als zusätzliche Literatur
@@ -94,7 +92,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *20. Dezember 2023*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *26. uni 2024*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
