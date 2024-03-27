@@ -448,7 +448,7 @@ unterschiedlichen Fähigkeiten. Lassen Sie sich nicht gegenseitig im
 Stich. Verlassen Sie sich nicht ohne Absprache darauf, dass die anderen Teampartner für Sie einspringen werden. Bei ernsthaften Problemen in der Teamarbeit, die den Erfolg des Projektes zu gefährden drohen, kommen Sie
 bitte auf mich zu.
 
-# 20.12.: Letzte Tipps
+# Letzte Tipps vor der Abgabe {-}
 
 **Checkliste**
 
