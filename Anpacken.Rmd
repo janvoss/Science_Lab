@@ -1,0 +1,35 @@
+---
+title: "Nachgang zu Sprechstunden im Science-Lab"
+author: "Prof. Dr. Jan S. Voßwinkel"
+#date: "17 5 2023"
+
+output:
+  bookdown::gitbook:
+    config:
+      sharing: no
+    number_sections: no
+---
+
+# {}
+
+# Eindruck aus den Sprechstunden
+
+- Einige haben (zaghaft?) begonnen, die Texte zu lesen, über Themen nachzudenken
+
+- Die Mehrzahl von Ihnen hat noch mit gar nichts begonnen
+
+$\rightarrow$ Das ist ungewöhnlich.
+
+$\rightarrow$ Kommunikationsproblem?
+
+$\rightarrow$ Ressourcenproblem?
+
+# Schlussfolgerungen
+
+- Ab jetzt: **Anpacken!**
+
+- Neue Struktur der (verbleibenden 3) gemeinsamen Sitzungen:  
+  - Kurzer Input von mir
+  - Sie arbeiten in Teams an Ihren Projekten (ich stehe für Fragen zur Verfügung)
+  - Ggf. Vorstellung von Arbeitsergebnissen
+  - Schlusswort

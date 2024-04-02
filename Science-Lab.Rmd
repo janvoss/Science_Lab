@@ -222,10 +222,96 @@ hilfreich.^[Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.]
 
 ## Nutzung von KI-gestützten Diensten
 
-- Was können diese Dienste leisten?
-- Was eher nicht?
-- Wie funktionieren diese Dienste
-- Wir probieren Sie aus!
+- Im Bereich der künstlichen Intelligenz  (KI) erfreuen sich Dienste auf der Basis von
+generative pre-trained transformers einer zunehmenden Beliebtheit. 
+
+- Beispiele: Chat GPT, Microsoft Bing Chat, Google  Gemini, Monica, Perplexity, $\dots$
+
+- Diese Dienste können in menschlicher Sprache mit NutzerInnen interagieren
+
+- Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einschätzen
+
+- Subjektiver Eindruck: Entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber ohne fachlich vertiefte Kenntnis 
+
+- Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß 
+
+
+### Liefern die Dienste Wissen?
+
+- Sie erinnern sich: [Definition wissenschaftliches Wissen im Science_Lab](https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen)
+
+- Die Antworten von KI-gestützten Diensten sind  
+  - regelmäßig nicht nachvollziehbar begründet
+  - immer wieder nicht irritationsfest
+  
+- Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der ihre Antworten in einem (möglichst wahren) Bezug stehen sollten. 
+
+- Die Dienste "überlegen" nicht, wenn sie eine Antwort suchen. Sie verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher Wahrscheinlichkeit "gute" Antworten sind. Das müssen nicht "wahre" Antworten sein.
+
+- Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen ohne Bewusstsein. 
+
+### KI-gestützte Dienste als Schummelsoftware
+
+- Komplette Arbeit schreiben
+
+
+- Schlechte Idee!
+
+  - Halluzinieren i.e.S.
+
+  - keine Inhaltliche Kompetenz des Dienstes (und der/des Studierenden?)
+
+  - keine  Nachvollziehbarkeit der faktischen  Grundlage
+
+  - Prüfungstechnisch: Kein eigener Wissenserwerb $\rightarrow$ Täuschungsversuch
+
+
+### KI-gestützte Dienste als Rechercheersatz oder Inhaltlicher Antwortgeber
+
+- Dafür sind die Dienste nicht gemacht
+
+- Eher Gesprächspartner als Orakel
+
+### Konzeptionelle Unterstützung
+
+- Fragestellungen diskutieren
+
+- Vorschläge für wichtige Aspekte geben lassen
+
+- Ideen "gemeinsam" reflektieren
+
+- Gliederung erstellen und verfeinern lassen 
+
+- Gliederung zur Diskussion stellen
+
+- $\dots$
+
+### Redaktionelle Unterstützung
+
+- Fehlerkorrektur
+
+- Formulierungshilfen
+
+### Schreiben von Code
+
+- Große Unterstützung bei der Erstellung von Code in gängigen Sprachen
+
+- Neben den genannten Diensten etwa github Copilot oder Rtutor.ai
+
+### Genereller Nutzungshinweis
+
+- Präzise Formulierung der Aufgabenstellung (prompt) erhöht die inhaltliche Qualität der Antworten.
+
+- Dazu gehören u.U. auch Angaben über den Kontext und den gewünschten Sprachstil
+
+- Kommunikation mit Dienst als Gespräch sehen.  Nicht unbedingt mit der ersten Antwort zufrieden geben, sondern weiter damit arbeiten
+
+- Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen lassen sondern produktiver machen!
+
+- Dienste für Literaturrecherche und -auswertung wie [Consensus](https://consensus.app) und [Elicit](https://elicit.com)  sind eher noch (!?) experimentell
+
+
+
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 

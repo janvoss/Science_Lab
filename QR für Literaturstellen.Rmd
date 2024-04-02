@@ -1,0 +1,33 @@
+---
+title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
+author: "Prof. Dr. Jan S. Voßwinkel"
+date: "HfWU Zukunftsökonomie | WiSe 2022/23"
+
+output:
+
+     bookdown::gitbook:
+      split_bib: no
+      config:
+        sharing: no
+        lang: de
+     number_sections: no
+     lang : de
+lang: de
+
+---
+# Hier geht es zur Literatur
+
+[Haucap (2022)](https://www.wirtschaftsdienst.eu/inhalt/jahr/2022/heft/7/beitrag/datenmangel-und-andere-probleme-der-wirtschaftswissenschaftlichen-politikberatung-in-deutschland.html)
+```{r qr,  echo=FALSE, warning=FALSE}
+library(qrcode)
+
+qr <- qr_code('https://www.wirtschaftsdienst.eu/inhalt/jahr/2022/heft/7/beitrag/datenmangel-und-andere-probleme-der-wirtschaftswissenschaftlichen-politikberatung-in-deutschland.html')
+plot(qr)
+
+#generate_svg(qr, filename = "qr.svg")
+
+```
+
+
+
+

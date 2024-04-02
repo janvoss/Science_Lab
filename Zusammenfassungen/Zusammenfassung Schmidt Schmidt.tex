@@ -1,0 +1,65 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{smartdiagram}
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage{microtype}
+\usesmartdiagramlibrary{additions}
+\usetikzlibrary{fit}
+\usetikzlibrary{decorations.pathreplacing}
+
+\AtBeginDocument{
+	\def\labelitemi{\normalfont\bfseries{--}}
+}
+
+\begin{document}
+	\begin{tikzpicture}[		every node/.style = {			shape=rectangle,			rounded corners,			text width=5cm,			align=center,			node distance=0.1cm		}	]
+	
+	\node (Kernpunkte)[text depth=.25ex]{\textbf{Kernpunkte}};
+	
+	\node (Forderungen)[text depth=.25ex, right = of Kernpunkte]{\textbf{Forderungen}};
+	
+	\node (Kommentar)[text depth=.25ex, right = of Forderungen]{\textbf{Kommentar}};
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+	
+	\node[below= of Kernpunkte, align=left]{
+		\begin{itemize}
+		\item Klimaschutz und Deindustrialisierung sind miteinander verbunden
+		\item Ziel: Fossilwirtschaft durch Klimaschutz und Ressourceneffizienz ersetzen
+		\item Entkoppelung von Wirtschaftswachstum und Ressourcenverbrauch notwendig
+		\end{itemize}
+	};
+	
+	\node[below= of Forderungen, align=left]{
+		\begin{itemize}
+		\item Verstärkte Investitionen in erneuerbare Energien, Energieeffizienz und Kreislaufwirtschaft
+		\item Entwicklung und Einsatz von Technologien zur Reduktion von Treibhausgasemissionen
+		\item Schaffung von Anreizen für Unternehmen und Konsumenten zur Reduktion von Treibhausgasemissionen
+		\end{itemize}
+	};
+	
+	\node[below= of Kommentar, align=left]{
+		\begin{itemize}
+		\item Der Artikel zeigt die Herausforderungen auf, die mit der Deindustrialisierung und Defossilierung verbunden sind
+		\item Die Forderungen nach verstärkten Investitionen und Technologieentwicklung sind ein wichtiger Schritt, um diese Herausforderungen zu meistern
+		\item Der Text gibt eine gute Übersicht über die wichtigsten Handlungsoptionen und ihre möglichen Auswirkungen
+		\end{itemize}
+	};
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\draw [			transform canvas={yshift=-0.1cm}		] (Kernpunkte.south west) -- (Kommentar.south east);
+	
+	\path [draw=none] (Kernpunkte) -- (Kommentar) node [midway] (Mittelpunkt) {};	
+	\node[above= 1cm of Mittelpunkt, text width=15cm]{\huge Schmidt/ Schmidt (2022): Defossilierung vorantreiben und Deindustrialisierung vermeiden: möglich, aber schwierig};
+	
+	\end{tikzpicture}
+\end{document}

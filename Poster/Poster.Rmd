@@ -1,0 +1,79 @@
+---
+main_topsize: 0.2 #percent coverage of the poster
+main_bottomsize: 0.1
+#ESSENTIALS
+title: '**Ethik und Institutionen der wissen-schaftlichen Politikberatung**'
+author:
+  - name: '**Studiengang Zukunftsökonomie**'
+    affil: 1
+    main: true
+  #  orcid: '0000-0002-1099-3857'
+  #  twitter: brentthorne18 
+  #  email: bthorne2@brocku.ca
+ 
+affiliation:
+  - num: 1
+    address: Hochschule für Wirtschaft und Umwelt Nürtingen-Geislingen
+
+main_findings:
+  - "Zukunftsökonomie | **Science Lab**."
+logoleft_name: logo.png
+logoright_name: https&#58;//raw.githubusercontent.com/brentthorne/posterdown/master/images/betterhexlogo.png
+logocenter_name: https&#58;//raw.githubusercontent.com/brentthorne/posterdown/master/images/qr-code-black.png
+
+primary_colour: "#00305E"
+secondary_colour: #"FABB00"
+
+output: 
+  posterdown::posterdown_betterport:
+    self_contained: false
+    pandoc_args: --mathjax
+    number_sections: false
+bibliography: packages.bib
+link-citations: true
+lang: de
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      tidy = FALSE,
+                      message = FALSE,
+                      fig.align = 'center',
+                      out.width = "100%")
+options(knitr.table.format = "html") 
+```
+
+# Einleitung
+
+Lorem markdownum inpensius sub hoc in mucrone certus me rogus iterum. Infirmis en iungere stamina, et formosus ego somni ille est nervis Enipeus tantum. Quem huc inmitis, tectoque frena involvitur exiguam distentus, illo rediit artes, vicina. Alis frequens parte trahentem, matris erat nemus voluptas.
+
+Erit sub designat agat tuque tetigere fatali. Ponto et flectit, et tempora interea amentia ire do adeat, carne his, aede brevissimus quam? Nec ille Pergama dumque. Orandus fuit Hyrie Minervae iaculum devenit ignibus protinus dives, haliaeetus saxaque; nam? Meum mecum ubi semper Bacchus, hoc vox moras demas.
+
+Exserere totidem habuit ventusve. Sed mihi cruciabere protinus est dolebis capillos ergo, tolerare. Hiems Orphea. Passa si bella est illa domosque ab foret tellus ut terras et deus est adfectus Troiae puerosque remisit.
+
+
+
+# Überschrift
+Concita qua placet amicitiae fructus, Labros, verto, in. Nix illius occidit ascendere mirantur dic teste aeternum cum sed suos evanida. Ante quidem; silet par adpuleram Pylos simulatoremque aegro tu corpus motis intremuere humana sollicitatque tempore. Adspicerent potui circumspectis orbus? Pia corporibus et hunc reverti leto hoc vivacia studiosior Phrygum.
+
+Obstitit silvisque Idomeneus et vinci oculos manus vulgaris suaque scindere medullas. Dabat recanduit rudis omnia!
+
+Fixis pro sed ullo, diu tamen. Mentis ferus et densa imperat Aegides subit concipit carmen, spem cruentum, iussus fama.
+
+Manent et cadunt genibusque glaebis non Alcyone suorum, voluitque tellus invidia ferendo. Pronusque cacumine Isthmo. Et inplevere Paeonas clamore mea et veterem trunco quique pollice voco sparsus.
+
+# Überschrift
+
+Obstitit silvisque Idomeneus et vinci oculos manus vulgaris suaque scindere medullas. Dabat recanduit rudis omnia!
+
+Fixis pro sed ullo, diu tamen. Mentis ferus et densa imperat Aegides subit concipit carmen, spem cruentum, iussus fama.
+
+Manent et cadunt genibusque glaebis non Alcyone suorum, voluitque tellus invidia ferendo. Pronusque cacumine Isthmo. Et inplevere Paeonas clamore mea et veterem trunco quique pollice voco sparsus.
+
+# Fazit
+
+
+```
+
+# Literatur 
