@@ -250,6 +250,9 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen ohne Bewusstsein. 
 
+
+<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all we had was Gemini, we could say, hmm “maybe hallucinations are just a bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe hallucinations…</p>&mdash; Gary Marcus (@GaryMarcus) <a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ### KI-gestützte Dienste als Schummelsoftware
 
 - Komplette Arbeit schreiben
