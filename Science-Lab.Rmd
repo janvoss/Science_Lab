@@ -92,7 +92,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *26. uni 2024*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *26. Juni 2024*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
