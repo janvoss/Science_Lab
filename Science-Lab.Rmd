@@ -53,7 +53,9 @@ Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
 der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/1/beitrag/neuwahlen-in-deutschland-empfehlungen-an-die-neue-bundesregierung.html)
 zum oben genannten Thema:
-[Anpassen]::
+
+[Anpassen]:
+
 @bertschek_jetzt_2023,
 @bruhl_kunstliche_2023, 
 @engels_kunstliche_2023 und 
