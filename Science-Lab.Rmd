@@ -278,6 +278,8 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Eher Gesprächspartner als Orakel
 
+- *Kein* umfassender Zugriff auf wissenschaftliche Literatur 
+
 ### Konzeptionelle Unterstützung
 
 - Fragestellungen diskutieren
@@ -292,11 +294,26 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - $\dots$
 
+### Recherchehilfe
+
+- Einige Dienste erlauben auch die Echtzeitsuche im Internet
+
+- Dies kann eine Hilfe bei der Recherche bieten
+
+- Allerdings haben die Dienste keinen umfassenden Zugriff auf wissenschaftliche Literatur 
+
 ### Redaktionelle Unterstützung
 
 - Fehlerkorrektur
 
 - Formulierungshilfen
+
+### Literatur auswerten
+
+- Einige Dienste erlauben das Hochladen und Auswerten von pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen beantworten 
+
+- Google...
+
 
 ### Schreiben von Code
 
