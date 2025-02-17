@@ -1,7 +1,7 @@
 ---
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
-date: "HfWU Zukunftsökonomie | SoSe 2024"
+date: "HfWU Zukunftsökonomie | SoSe 2025"
 
 output:
 
@@ -46,13 +46,14 @@ generate_svg(qr, filename = "qr.svg")
 <style>body {text-align: justify}</style>
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Chancen und Risiken von Künstlicher Intelligenz für die deutsche Wirtschaft**. Als Prüfungsleistungen schreiben Sie
+**Neuwahlen in Deutschland: Empfehlungen an die neue Bundesregierung**. Als Prüfungsleistungen schreiben Sie
 in Dreierteams (zur Not: allein) eine kurze **wissenschaftliche
-Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**. Die Ergebnisse ihrer Ausarbeitungen werden wir am Ende (vielleicht) in einem **Plakat** zusammenfassen
+Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
-der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2023/heft/8/beitrag/chancen-und-risiken-von-kuenstlicher-intelligenz-fuer-die-deutsche-wirtschaft.html)
+der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/1/beitrag/neuwahlen-in-deutschland-empfehlungen-an-die-neue-bundesregierung.html)
 zum oben genannten Thema:
+[Anpassen]::
 @bertschek_jetzt_2023,
 @bruhl_kunstliche_2023, 
 @engels_kunstliche_2023 und 
