@@ -95,7 +95,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *26. Juni 2024*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *25. Juni 2026*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
@@ -228,7 +228,7 @@ hilfreich.^[Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.]
 - Im Bereich der künstlichen Intelligenz  (KI) erfreuen sich Dienste auf der Basis von
 generative pre-trained transformers einer zunehmenden Beliebtheit. 
 
-- Beispiele: Chat GPT, Microsoft Bing Chat, Google  Gemini, Monica, Perplexity, $\dots$
+- Beispiele: Chat GPT, Microsoft Copilot, Google  Gemini, Perplexity, Deep Seek, $\dots$
 
 - Diese Dienste können in menschlicher Sprache mit NutzerInnen interagieren
 
