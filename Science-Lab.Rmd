@@ -537,6 +537,47 @@ unterschiedlichen Fähigkeiten. Lassen Sie sich nicht gegenseitig im
 Stich. Verlassen Sie sich nicht ohne Absprache darauf, dass die anderen Teampartner für Sie einspringen werden. Bei ernsthaften Problemen in der Teamarbeit, die den Erfolg des Projektes zu gefährden drohen, kommen Sie
 bitte auf mich zu.
 
+# Thematische Sammlung: Welche Dimensionen haben Chancen und Risiken der KI
+
+## Chancen
+
+- Chance auf Fehlerfreiheit
+
+- Arbeitsplätze können ersetzt werden: Produktivität der Beschäftigten steigt
+
+- Höhere Effizienz (evtl. höhere Effektivität)
+
+- Automatisierte Erkennung von Gefahren (iwS) im öffentlichen Raum, social media, usw. 
+
+## Risiken
+
+- Arbeitsplätze können ersetzt werden
+
+- Verselbständigung von KI-Systemen
+
+- Denkfaulheit
+
+- Datenschutz/Datensicherheit
+
+- Zensur/Überwachung/...
+
+
+## Herausforderung
+
+- Akzeptanz in der Gesellschaft  
+
+  - Kann man solchen Systemen noch ausweichen
+  
+  - Akzeptanz in unterschiedlichen Alterskohorten
+  
+  - Einfluss auf die Meinungsbildung
+  
+- Unternehmen: Investitionen (mit unsicherem Erfolg)
+
+- Regulatorischer Rahmen
+
+- Aufrechterhaltung der Wettbewerbsfähigkeit
+
 # Letzte Tipps vor der Abgabe {-}
 
 **Checkliste**

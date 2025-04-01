@@ -1,0 +1,6 @@
+---
+title: "Science Lab: Sondertermin zu KI mit Fabian Kurz" 
+output: html_document
+date: "SoSe 2024"
+---
+Heute zu Gast: **Fabian Kurz**, InfectoPharm

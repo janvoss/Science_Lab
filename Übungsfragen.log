@@ -1,163 +1,166 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2023.1.18)  10 JAN 2024 11:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  5 JUN 2024 12:05
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **./Übungsfragen.tex
 (Übungsfragen.tex
-LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-10-12>
-(C:\Program Files\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
-(C:\Program Files\MiKTeX\tex/latex/base\size11.clo
-File: size11.clo 2021/02/12 v1.4n Standard LaTeX file (size option)
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count182
-\c@section=\count183
-\c@subsection=\count184
-\c@subsubsection=\count185
-\c@paragraph=\count186
-\c@subparagraph=\count187
-\c@figure=\count188
-\c@table=\count189
-\abovecaptionskip=\skip47
-\belowcaptionskip=\skip48
-\bibindent=\dimen138
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
 )
-(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks16
-\inpenc@posthook=\toks17
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/10/13 3.64 The Babel package
-\babel@savecnt=\count190
-\U@D=\dimen139
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/02/07 v24.2 The Babel package
+\babel@savecnt=\count196
+\U@D=\dimen141
 \l@unhyphenated=\language79
 
-(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count191
+\bbl@dirlevel=\count197
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/babel-german\ngerman.
-ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngerman.ld
+f
+Language: ngerman 2024/01/19 v2.14 German support for babel (post-1996 orthogra
 phy)
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/babel-german\ngermanb
-.ldf
-Language: ngermanb 2021/02/27 v2.13 German support for babel (post-1996 orthogr
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/babel-german\ngermanb.l
+df
+Language: ngermanb 2024/01/19 v2.14 German support for babel (post-1996 orthogr
 aphy)
 Package babel Info: Making " an active character on input line 122.
-))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/babel-german\ngerman.
-ldf
-Language: ngerman 2021/02/27 v2.13 German support for babel (post-1996 orthogra
-phy)
-))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/setspace\setspace.sty
+)))
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/de\babel
+-ngerman.tex
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 11.
+)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks18
+
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks19
 )
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-\Gm@cnth=\count192
-\Gm@cntv=\count193
-\c@Gm@tempcnt=\count194
-\Gm@bindingoffset=\dimen140
-\Gm@wd@mp=\dimen141
-\Gm@odd@mp=\dimen142
-\Gm@even@mp=\dimen143
-\Gm@layoutwidth=\dimen144
-\Gm@layoutheight=\dimen145
-\Gm@layouthoffset=\dimen146
-\Gm@layoutvoffset=\dimen147
-\Gm@dimlist=\toks19
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+\c@Gm@tempcnt=\count266
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks20
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg
-))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/footmisc\footmisc.sty
-Package: footmisc 2022/03/08 v6.0d a miscellany of footnote facilities
-\FN@temptoken=\toks20
-\footnotemargin=\dimen148
-\@outputbox@depth=\dimen149
-Package footmisc Info: Declaring symbol style bringhurst on input line 695.
-Package footmisc Info: Declaring symbol style chicago on input line 703.
-Package footmisc Info: Declaring symbol style wiley on input line 712.
-Package footmisc Info: Declaring symbol style lamport-robust on input line 723.
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/footmisc\footmisc.sty
+Package: footmisc 2023/07/05 v6.0f a miscellany of footnote facilities
+\FN@temptoken=\toks21
+\footnotemargin=\dimen150
+\@outputbox@depth=\dimen151
+Package footmisc Info: Declaring symbol style bringhurst on input line 696.
+Package footmisc Info: Declaring symbol style chicago on input line 704.
+Package footmisc Info: Declaring symbol style wiley on input line 713.
+Package footmisc Info: Declaring symbol style lamport-robust on input line 724.
 
-Package footmisc Info: Declaring symbol style lamport* on input line 743.
-Package footmisc Info: Declaring symbol style lamport*-robust on input line 764
+Package footmisc Info: Declaring symbol style lamport* on input line 744.
+Package footmisc Info: Declaring symbol style lamport*-robust on input line 765
 .
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen150
-\Gin@req@width=\dimen151
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/totpages\totpages.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/totpages\totpages.sty
 Package: totpages 2005/09/19 v2.00 Totpages Package (muewi)
-(C:\Program Files\MiKTeX\tex/latex/everyshi\everyshi.sty
+
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/everyshi\everyshi.sty
 Package: everyshi 2020/11/18 v4.00 EveryShipout Package
 ))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/libertine\libertine.s
-ty
-Package: libertine 2022/09/12 (Bob Tennent) Supports Libertine and Biolinum fon
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/libertine\libertine.sty
+Package: libertine 2023/11/26 (Bob Tennent) Supports Libertine and Biolinum fon
 ts for all LaTeX engines.
- (C:\Program Files\MiKTeX\tex/generic/iftex\ifxetex.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
 Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 )
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifluatex.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-(C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex
-\XKV@toks=\toks21
-\XKV@tempa@toks=\toks22
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks22
+\XKV@tempa@toks=\toks23
 )
-\XKV@depth=\count195
+\XKV@depth=\count267
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty
+)) (C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/fontaxes\fontaxes.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/fontaxes\fontaxes.sty
 Package: fontaxes 2020/07/21 v1.0e Font selection axes
 LaTeX Info: Redefining \upshape on input line 29.
 LaTeX Info: Redefining \itshape on input line 31.
@@ -170,134 +173,135 @@ LaTeX Info: Redefining \textsw on input line 47.
 LaTeX Info: Redefining \textssc on input line 48.
 LaTeX Info: Redefining \textulc on input line 49.
 )
-LaTeX Info: Redefining \oldstylenums on input line 483.
+LaTeX Info: Redefining \oldstylenums on input line 485.
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/libertine\LinLibertin
-e_I.tex))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.s
-ty
-Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
- (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/libertine\LinLibertine_
+I.tex))
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count196
+\etb@tempcnta=\count268
 )
-\MT@toks=\toks23
-\MT@tempbox=\box50
-\MT@count=\count197
-LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
-LaTeX Info: Redefining \leftprotrusion on input line 1046.
-LaTeX Info: Redefining \rightprotrusion on input line 1056.
-LaTeX Info: Redefining \textls on input line 1234.
-\MT@outer@kern=\dimen152
-LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
-\MT@listname@count=\count198
+\MT@toks=\toks24
+\MT@tempbox=\box51
+\MT@count=\count269
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
+LaTeX Info: Redefining \leftprotrusion on input line 1060.
+\MT@prot@toks=\toks25
+LaTeX Info: Redefining \rightprotrusion on input line 1078.
+LaTeX Info: Redefining \textls on input line 1368.
+\MT@outer@kern=\dimen154
+LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
+\MT@listname@count=\count270
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-p
-dftex.def
-File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
 
-LaTeX Info: Redefining \lsstyle on input line 900.
-LaTeX Info: Redefining \lslig on input line 900.
-\MT@outer@space=\skip49
+LaTeX Info: Redefining \lsstyle on input line 902.
+LaTeX Info: Redefining \lslig on input line 902.
+\MT@outer@space=\skip50
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.c
-fg
-File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
-)) (C:\Program Files\MiKTeX\tex/latex/blindtext\blindtext.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2023/03/13 v3.1a microtype main configuration file (RS)
+))
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/blindtext\blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-
-(C:\Program Files\MiKTeX\tex/latex/tools\xspace.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-\c@blindtext=\count199
-\c@Blindtext=\count266
-\c@blind@countparstart=\count267
-\blind@countxx=\count268
-\blindtext@numBlindtext=\count269
-\blind@countyy=\count270
-\c@blindlist=\count271
-\c@blindlistlevel=\count272
-\c@blindlist@level=\count273
-\blind@listitem=\count274
-\c@blind@listcount=\count275
-\c@blind@levelcount=\count276
-\blind@mathformula=\count277
-\blind@Mathformula=\count278
-\c@blind@randomcount=\count279
-\c@blind@randommax=\count280
-\c@blind@pangramcount=\count281
-\c@blind@pangrammax=\count282
+\c@blindtext=\count271
+\c@Blindtext=\count272
+\c@blind@countparstart=\count273
+\blind@countxx=\count274
+\blindtext@numBlindtext=\count275
+\blind@countyy=\count276
+\c@blindlist=\count277
+\c@blindlistlevel=\count278
+\c@blindlist@level=\count279
+\blind@listitem=\count280
+\c@blind@listcount=\count281
+\c@blind@levelcount=\count282
+\blind@mathformula=\count283
+\blind@Mathformula=\count284
+\c@blind@randomcount=\count285
+\c@blind@randommax=\count286
+\c@blind@pangramcount=\count287
+\c@blind@pangrammax=\count288
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/generic/hologo\hologo.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/hologo\hologo.sty
 Package: hologo 2021-11-16 v1.15 A logo collection with bookmark support (HO)
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
-Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr
-.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.s
-ty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefi
-nekeys.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip50
-\enit@outerparindent=\dimen153
-\enit@toks=\toks24
-\enit@inbox=\box51
-\enit@count@id=\count283
-\enitdp@description=\count284
+\labelindent=\skip51
+\enit@outerparindent=\dimen155
+\enit@toks=\toks26
+\enit@inbox=\box52
+\enit@count@id=\count289
+\enitdp@description=\count290
 )
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 
-\f@nch@headwidth=\skip51
-\f@nch@O@elh=\skip52
-\f@nch@O@erh=\skip53
-\f@nch@O@olh=\skip54
-\f@nch@O@orh=\skip55
-\f@nch@O@elf=\skip56
-\f@nch@O@erf=\skip57
-\f@nch@O@olf=\skip58
-\f@nch@O@orf=\skip59
-) (C:\Program Files\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2020-07-07 v1.5u LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks25
-\verbatim@line=\toks26
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks27
+\verbatim@line=\toks28
 \verbatim@in@stream=\read3
 )
 LaTeX Font Info:    Trying to load font information for T1+LinuxLibertineT-TLF 
 on input line 58.
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/libertine\t1linuxlibe
-rtinet-tlf.fd
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/libertine\t1linuxlibert
+inet-tlf.fd
 File: T1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for T1/Li
 nuxLibertineT-TLF.
 )
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 58.
 
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-10-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count285
-\l__pdf_internal_box=\box52
-)
-(Übungsfragen.aux)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count291
+\l__pdf_internal_box=\box53
+) (Übungsfragen.aux)
 \openout1 = `Übungsfragen.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
@@ -349,34 +353,40 @@ LaTeX Font Info:    ... okay on input line 58.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count286
-\scratchdimen=\dimen154
-\scratchbox=\box53
-\nofMPsegments=\count287
-\nofMParguments=\count288
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count289
-\MPscratchDim=\dimen155
-\MPnumerator=\count290
-\makeMPintoPDFobject=\count291
-\everyMPtoPDFconversion=\toks28
-) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count292
+\scratchdimen=\dimen156
+\scratchbox=\box54
+\nofMPsegments=\count293
+\nofMParguments=\count294
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count295
+\MPscratchDim=\dimen157
+\MPnumerator=\count296
+\makeMPintoPDFobject=\count297
+\everyMPtoPDFconversion=\toks30
+)
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@mv@tabular=\count292
-\c@mv@boldtabular=\count293
+\c@mv@tabular=\count298
+\c@mv@boldtabular=\count299
 LaTeX Info: Redefining \microtypecontext on input line 58.
 Package microtype Info: Applying patch `item' on input line 58.
 Package microtype Info: Applying patch `toc' on input line 58.
 Package microtype Info: Applying patch `eqnum' on input line 58.
 Package microtype Info: Applying patch `footnote' on input line 58.
+Package microtype Info: Applying patch `verbatim' on input line 58.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -396,7 +406,7 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 12.0pt on input line 66.
 
-(C:\Users\Jan Voßwinkel\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+(C:\Users\janvo\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
@@ -416,6 +426,7 @@ File: HFWU-logo_hell.jpg Graphic file (type jpg)
 Package pdftex.def Info: HFWU-logo_hell.jpg  used on input line 96.
 (pdftex.def)             Requested size: 71.62605pt x 28.90755pt.
 
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.98758pt, for example:
 (fancyhdr)                \setlength{\headheight}{32.98758pt}.
@@ -425,8 +436,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1.1
 
-{C:/Users/Jan Voßwinkel/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./HFWU
--logo_hell.jpg>]
+{C:/Users/janvo/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/janv
+o/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/U
+sers/janvo/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.
+enc} <./HFWU-logo_hell.jpg>]
 File: HFWU-logo_hell.jpg Graphic file (type jpg)
 <use HFWU-logo_hell.jpg>
 Package pdftex.def Info: HFWU-logo_hell.jpg  used on input line 142.
@@ -440,22 +453,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.98758pt}.
 
-[2.2] (Übungsfragen.aux) ) 
+[2.2] (Übungsfragen.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+ ) 
 Here is how much of TeX's memory you used:
- 7749 strings out of 479001
- 133604 string characters out of 2863271
- 495609 words of memory out of 3000000
- 25373 multiletter control sequences out of 15000+600000
- 436118 words of font info for 69 fonts, out of 8000000 for 9000
+ 8311 strings out of 474436
+ 149406 string characters out of 5741954
+ 1933190 words of memory out of 5000000
+ 30489 multiletter control sequences out of 15000+600000
+ 590757 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,69p,1012b,529s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Users/Jan Voßwinkel/AppData/Roaming/MiKTeX/font
-s/enc/dvips/libertine/lbtn_nh77jq.enc}{C:/Users/Jan Voßwinkel/AppData/Roaming/
-MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}<C:/Users/Jan Voßwinkel/AppDa
-ta/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/Jan 
-Voßwinkel/AppData/Roaming/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.p
-fb>
-Output written on Übungsfragen.pdf (2 pages, 207083 bytes).
+ 57i,15n,69p,1012b,524s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/janvo/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
+nLibertineT.pfb><C:/Users/janvo/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/libertine/LinLibertineTB.pfb>
+Output written on Übungsfragen.pdf (2 pages, 207112 bytes).
 PDF statistics:
  22 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
