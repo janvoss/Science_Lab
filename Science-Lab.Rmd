@@ -26,7 +26,7 @@ library(qrcode)
 qr <- qr_code('https://janvoss.github.io/Science_Lab')
 #plot(qr)
 
-generate_svg(qr, filename = "qr.svg")
+generate_svg(qr, filename = "qr-titel.svg")
 
 ```
 
@@ -34,7 +34,7 @@ generate_svg(qr, filename = "qr.svg")
 
  ${}$             |  Unterlagen: https://janvoss.github.io/Science_Lab
 :-------------------------:|:-------------------------:
-![](logo.png)  |  ![https://janvoss.github.io/Science_Lab](qr.svg){width=40% }
+![](logo.png)  |  ![https://janvoss.github.io/Science_Lab](qr-titel.svg){width=40% }
 
 
 
@@ -54,14 +54,19 @@ Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
 der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/1/beitrag/neuwahlen-in-deutschland-empfehlungen-an-die-neue-bundesregierung.html)
 zum oben genannten Thema:
 
-[Anpassen]:
+[Anpassen]::
 
-@bertschek_jetzt_2023,
-@bruhl_kunstliche_2023, 
-@engels_kunstliche_2023 und 
-@vopel_unmenschliche_2023.
+@dullien_mit_2025,
+@grimm_wachstumsagenda_2025,
+@gros_drei_2025,
+@holtemoller_wachstumsschwache_2025, 
+@krebs_fair_2025,
+@schmidt_gegen_2025,
+@schuster-johnson_von_2025 und
+@wambach_europa_2025
 
-In Ihrer Seminararbeit setzen Sie sich mit mindestens drei der Texte aus
+
+In Ihrer Seminararbeit setzen Sie sich mit mindestens vier der Texte aus
 dem Wirtschaftsdienst auseinander. Als zusätzliche Literatur
 recherchieren und verarbeiten Sie bitte mindestens *drei zusätzliche
 wissenschaftliche Texte nach eigener Wahl, wobei mindestens ein Text auf Englisch sein
@@ -95,7 +100,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *25. Juni 2026*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *25. Juni 2025*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
@@ -494,7 +499,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 - Schutz der Wissenschaftsfreiheit in  Artikel 5 Absatz 3 Satz 1 GG:  „Wissenschaft, Forschung und Lehre sind frei“ $\rightarrow$ kein hoheitlicher Zugriff auf Entscheidungen über Wahrheit und Entscheidungen über wissenschaftliche Strategien
 
-- Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit anzusehen ist“ (zitiert nach @gaerditzPolitischeGrammatikWissenschaftsfreiheit)
+- Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit anzusehen ist“ (zitiert nach @garditz_politische_nodate)
 
 ## Wissenschaft und normative Aussagen
 
