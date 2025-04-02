@@ -236,9 +236,11 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Diese Dienste können in menschlicher Sprache mit NutzerInnen interagieren
 
-- Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einschätzen
+- Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einzuschätzen
 
 - Subjektiver Eindruck: Entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber ohne fachlich vertiefte Kenntnis 
+
+- Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist.
 
 - Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß 
 
@@ -248,14 +250,16 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Wissensbegiff (s.u.): [Definition wissenschaftliches Wissen im Science_Lab](https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen)
 
 - Die Antworten von KI-gestützten Diensten sind  
-  - regelmäßig nicht nachvollziehbar begründet
-  - immer wieder nicht irritationsfest
+  - inzwischen oft nachvollziehbar begründet und belegt
+  - aber immer wieder nicht irritationsfest
   
 - Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der ihre Antworten in einem (möglichst wahren) Bezug stehen sollten. 
 
 - Die Dienste "überlegen" nicht, wenn sie eine Antwort suchen. Sie verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher Wahrscheinlichkeit "gute" Antworten sind. Das müssen nicht "wahre" Antworten sein.
 
 - Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen ohne Bewusstsein. 
+
+- Dennoch können Sie sehr hilfreich sein.
 
 
 <blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all we had was Gemini, we could say, hmm “maybe hallucinations are just a bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe hallucinations…</p>&mdash; Gary Marcus (@GaryMarcus) <a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
