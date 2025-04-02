@@ -42,7 +42,6 @@ generate_svg(qr, filename = "qr-titel.svg")
 
 # Was wird erarbeitet?
 
-
 <style>body {text-align: justify}</style>
 
 Das Science Lab steht in diesem Semester unter der Überschrift
@@ -416,6 +415,8 @@ seien beispielhaft nur einige genannt:
     Literaturverwaltungsprogramm mit online-Suchfunktion, das zum Verlag
     Elsevier gehört. Um Mendeley nutzen zu können, muss man ein
     (gebührenfreies) Nutzerkonto einrichten.
+    
+-   [Semantic Scholar](https://www.semanticscholar.org/), KI-gestütztes Rechercheportal für wissenschaftliche Texte  
 
 Alle diese Portale weisen verschiedene Vor- und Nachteile auf.^[Gerade bei den letzten beiden Portalen sollten Nutzer sich bewusst sein, dass sie Daten preisgeben, die kommerziell genutzt werden könnten.] Den besten Überblick verschafft man sich durch Ausprobieren.
 
@@ -458,6 +459,8 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 ## Anforderungen an (wissenschaftliches) Wissen
 
+### Wissen als wahre begründete Meinung
+
 - Wissenschaftliches **Wissen ist wahre, begründete Meinung** [@Detel08_GK_Philosophie4; @ElKassar21] 
   - Nur *wahre* Meinung?  Die Wahrheit von Aussagen ist nicht immer beweisbar (Formalwissenschaften vs. empirische Wissenschaften)
     \(\rightarrow\) Wahrheit gegenwärtig plausibel
@@ -467,14 +470,25 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
   - Die **Begründung**/Rechtfertigung **genügt bestimmten Ansprüchen**. 
     - Begründung ist **intersubjektiv überprüfbar**/ wird in **logisch geordneter Form** präsentiert (oder kann zumindest so präsentiert werden )  
-    - Begründung ist einen **nachvollziehbaren Begründungszusammenhang** eingebettet. Die dem Wissen zugrundeliegende Rechtertigungskette gehört zum Wissen.   
+    - Begründung ist in einen **nachvollziehbaren Begründungszusammenhang** eingebettet. Die dem Wissen zugrundeliegende Rechtertigungskette gehört zum Wissen.   
   \(\rightarrow\) **Wissenschaftliches Wissen existiert innerhalb von  Zusammenhängen**  
   \(\rightarrow\) Wissenschaftliches Wissen bezieht sich i.d.R. nicht auf singuläre Tatsachen sondern **allgemeine Zusammenhänge**.
   - Wissen ist **irrtumssensibel**, es *könnte* also falsch sein und durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
   - Wissen ist **irritationsfest**, die Überzeugung, dass es wahr ist, hält auch (zumindest zunächst) Einwänden stand.
-  
-  
-- Derartiges Wissen besteht nicht zwingend nur aus wahren Aussagen (Irrtum kann immer noch entdeckt werden)
+
+### Wissen als rationale Behauptung
+
+- Eine Behauptung beinhaltet dem Anspruch, dass eine andere Person der Behauptung zustimmen kann.
+
+- Eine **rationale Behauptung** macht ihre Beziehung zu den Gründen, aus denen sie ihren Anspruch auf Zustimmung ableitet, sichtbar und legt sie zur Überprüfung offen (s. auch unten die Philosophische Happy Hour zur Wahrheit).
+
+- Durch die Offenlegung kann über die Gründe konstruktiv diskutiert werden. 
+
+(Die philosophische Frage nach der Feststellbarkeit der Wahrheit einer Aussagen lässt sich umgehen, indem man sich auf die offengelegten Gründe konzentriert )
+
+### Die Bedeutung des Wissensbegriffes für den Wissenschaftsbetrieb
+
+- Derartiges Wissen oder derartige Behauptungen bestehen nicht zwingend nur aus wahren Aussagen (Irrtum kann immer noch entdeckt werden)
 
 - Aber eine Person, die diese Ansprüche gelten lässt, kann einfordern im Diskurs ernst genommen zu werden
 
@@ -561,47 +575,6 @@ Arbeitsteilung sorgfältig ab. Berücksichtigen Sie dabei auch Ihre
 unterschiedlichen Fähigkeiten. Lassen Sie sich nicht gegenseitig im
 Stich. Verlassen Sie sich nicht ohne Absprache darauf, dass die anderen Teampartner für Sie einspringen werden. Bei ernsthaften Problemen in der Teamarbeit, die den Erfolg des Projektes zu gefährden drohen, kommen Sie
 bitte auf mich zu.
-
-# Thematische Sammlung: Welche Dimensionen haben Chancen und Risiken der KI
-
-## Chancen
-
-- Chance auf Fehlerfreiheit
-
-- Arbeitsplätze können ersetzt werden: Produktivität der Beschäftigten steigt
-
-- Höhere Effizienz (evtl. höhere Effektivität)
-
-- Automatisierte Erkennung von Gefahren (iwS) im öffentlichen Raum, social media, usw. 
-
-## Risiken
-
-- Arbeitsplätze können ersetzt werden
-
-- Verselbständigung von KI-Systemen
-
-- Denkfaulheit
-
-- Datenschutz/Datensicherheit
-
-- Zensur/Überwachung/...
-
-
-## Herausforderung
-
-- Akzeptanz in der Gesellschaft  
-
-  - Kann man solchen Systemen noch ausweichen
-  
-  - Akzeptanz in unterschiedlichen Alterskohorten
-  
-  - Einfluss auf die Meinungsbildung
-  
-- Unternehmen: Investitionen (mit unsicherem Erfolg)
-
-- Regulatorischer Rahmen
-
-- Aufrechterhaltung der Wettbewerbsfähigkeit
 
 # Letzte Tipps vor der Abgabe {-}
 
