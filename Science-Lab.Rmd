@@ -238,11 +238,13 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einzuschätzen
 
-- Subjektiver Eindruck: Entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber ohne fachlich vertiefte Kenntnis 
+- Subjektiver Eindruck: Die Kompetenz entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber ohne fachlich vertiefte Kenntnis 
 
-- Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist.
+- Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist und über die es qualitativ hochwertige Texte frei verfügbar über das Internet gibt.
 
-- Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß 
+- Problem: In der Regel kein (transparenter) Zugang zu kostenpflichtigen Fachartikeln und damit zu relevanten Teilen der aktuellen Literatur.
+
+- Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß. 
 
 
 ### Liefern die Dienste Wissen?
@@ -250,7 +252,7 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Wissensbegiff (s.u.): [Definition wissenschaftliches Wissen im Science_Lab](https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen)
 
 - Die Antworten von KI-gestützten Diensten sind  
-  - inzwischen oft nachvollziehbar begründet und belegt
+  - inzwischen oft nachvollziehbar begründet und belegt (insbeondere bei Anfragen mit sogenanntem tiefem Nachdenken und Onlinerecherche)
   - aber immer wieder nicht irritationsfest
   
 - Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der ihre Antworten in einem (möglichst wahren) Bezug stehen sollten. 
@@ -269,20 +271,26 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Komplette Arbeit schreiben
 
 
-- Schlechte Idee!
+- Schlechte Idee! (Aber inzwischen nicht mehr *so*schlecht)
 
   - Halluzinieren i.e.S.
 
   - keine Inhaltliche Kompetenz des Dienstes (und der/des Studierenden?)
 
-  - keine  Nachvollziehbarkeit der faktischen  Grundlage
+  - evtl. geringe Nachvollziehbarkeit der faktischenGrundlage
+  
+  - evtll. Probleme bei der Erfüllung formaler Kriterien.
 
   - Prüfungstechnisch: Kein eigener Wissenserwerb $\rightarrow$ Täuschungsversuch
 
 
-### KI-gestützte Dienste als Recherche*ersatz* oder Inhaltlicher Antwortgeber
+### KI-gestützte Dienste als Recherchedienst
 
-- Dafür sind die Dienste nicht gemacht
+- Das gelingt immer besser, aber auch hier nicht immer ein gemeinsames Verständnis vom Thema bzw. der Aufgabe
+
+- Durchaus beachtliche Wahrscheinlichkeit von inhaltlichen Fehlern oder aber bestimmten inhaltlichen Gewichtungen, die Sie nicht für richtig halten müssen.
+
+- Die inhaltliche Bewertung der Rechercheleistung müssen *Sie* leisten. Das kann Ihnen der Dienst nicht abnehmen.
 
 - Eher Gesprächspartner als Orakel
 
@@ -300,15 +308,10 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Gliederung zur Diskussion stellen
 
+- Mathematische Konzepte erklären lassen
+
 - $\dots$
 
-### Recherchehilfe
-
-- Einige Dienste erlauben auch die Echtzeitsuche im Internet
-
-- Dies kann eine Hilfe bei der Recherche bieten
-
-- Allerdings haben die Dienste keinen umfassenden Zugriff auf wissenschaftliche Literatur 
 
 ### Redaktionelle Unterstützung
 
@@ -320,8 +323,9 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Einige Dienste erlauben das Hochladen und Auswerten von pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen beantworten 
 
-- Google...
+- Das kann für einen Überblick sehr interessant sein, es ersetzt typischerweise aber nicht das Lesen der Texte, die Sie tatsächlich verwenden möchten.
 
+- Interessant: Auch Videos könnne teilweise zusammengefasst/ausgewertet werden.
 
 ### Schreiben von Code
 
@@ -340,8 +344,6 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen lassen sondern produktiver machen!
 
 - Dienste für Literaturrecherche und -auswertung wie [Consensus](https://consensus.app) und [Elicit](https://elicit.com)  sind eher noch (!?) experimentell
-
-
 
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
