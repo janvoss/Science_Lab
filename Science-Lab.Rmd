@@ -459,9 +459,23 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 - Phänomenales Wissen
 
+  Unmittelbare Sinneseindrücke (Schmerz, Wärme, Kälte, ...)
+
 - Praktisches Wissen
 
+  - Die Fähigkeit, bestimmte Tätigkeiten auszuführen, evtl. ohne die Fähigkeit zu erklären, wie es geht
+  
+  - Fahrradfahren, Technike des Sports, ein Instrument spielen...
+  
+  - Keith Richards: "I know I can do it, but I don't know *how* I do it."
+  
+  <blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">81-year-old Keith Richards proving he still rocks <a href="https://t.co/OOeBcW4oCK">pic.twitter.com/OOeBcW4oCK</a></p>&mdash; 🎸 Rock History 🎸 (@historyrock_) <a href="https://twitter.com/historyrock_/status/1912174076506022286?ref_src=twsrc%5Etfw">April 15, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 - **Satzförmiges Wissen**
+
+  - Über Sprache vermittelbares Wissen
+  
+  - Kann abstrakte Sachverhalte beinhalten
 
 ## Anforderungen an (wissenschaftliches) Wissen
 
@@ -519,7 +533,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 - Schutz der Wissenschaftsfreiheit in  Artikel 5 Absatz 3 Satz 1 GG:  „Wissenschaft, Forschung und Lehre sind frei“ $\rightarrow$ kein hoheitlicher Zugriff auf Entscheidungen über Wahrheit und Entscheidungen über wissenschaftliche Strategien
 
-- Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit anzusehen ist“ (zitiert nach @garditz_politische_nodate)
+- Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit anzusehen ist“ (zitiert nach @garditz_politische_2021)
 
 ## Wissenschaft und normative Aussagen
 
