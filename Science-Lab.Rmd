@@ -271,7 +271,7 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Komplette Arbeit schreiben
 
 
-- Schlechte Idee! (Aber inzwischen nicht mehr *so*schlecht)
+- Schlechte Idee! (Aber inzwischen nicht mehr *so* schlecht)
 
   - Halluzinieren i.e.S.
 
