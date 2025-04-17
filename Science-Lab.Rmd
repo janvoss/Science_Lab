@@ -346,6 +346,10 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Dienste für Literaturrecherche und -auswertung wie [Consensus](https://consensus.app) und [Elicit](https://elicit.com)  sind eher noch (!?) experimentell
 
 
+### Zusammenfassung
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344" height="399" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
+
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
 <style>body {text-align: justify}</style>
