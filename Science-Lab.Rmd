@@ -348,8 +348,6 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 ### Zusammenfassung
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344" height="399" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
-
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
