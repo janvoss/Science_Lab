@@ -522,7 +522,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 ## Psychologie des Wissens: Kontakt mit dem Unwissen
 
-```{r, eval=F}
+```{r, eval=F, echo=FALSE}
 ## Code erzeugt und speichert das gewünschte Video, führt aber in einen Error.
 
 ## Workaround: Einmal laufen lassen, um Video zu erzeugen, dann auf eval=F setzen, damit Error umgangen wird, und Seite weiter erzeugen
@@ -606,7 +606,7 @@ anim_save("animation_video.mp4", animation = anim)
 anim_save("animation.gif", animation = anim)
 ```
 
-![animation_video.mp4](animation_video.mp4) 
+![Wissen und Unwissen](animation_video.mp4) 
 
     
 ## Exkurs: Philosophische Happy Hour zur Wahrheit {-}
