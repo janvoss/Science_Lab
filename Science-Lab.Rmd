@@ -1,7 +1,7 @@
 ---
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
-date: "HfWU Zukunftsökonomie | SoSe 2025"
+date: "HfWU Zukunftsökonomie | WiSe 2025/26"
 
 output:
 
