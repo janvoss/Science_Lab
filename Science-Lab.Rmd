@@ -55,14 +55,7 @@ zum oben genannten Thema:
 
 [Anpassen]::
 
-@dullien_mit_2025,
-@grimm_wachstumsagenda_2025,
-@gros_drei_2025,
-@holtemoller_wachstumsschwache_2025, 
-@krebs_fair_2025,
-@schmidt_gegen_2025,
-@schuster-johnson_von_2025 und
-@wambach_europa_2025
+...
 
 
 In Ihrer Seminararbeit setzen Sie sich mit mindestens vier der Texte aus
