@@ -45,7 +45,7 @@ generate_svg(qr, filename = "qr-titel.svg")
 <style>body {text-align: justify}</style>
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Neuwahlen in Deutschland: Empfehlungen an die neue Bundesregierung**. Als Prüfungsleistungen schreiben Sie
+**Neubelebung der Industriepolitik**. Als Prüfungsleistungen schreiben Sie
 in Dreierteams (zur Not: allein) eine kurze **wissenschaftliche
 Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
 
@@ -92,7 +92,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *25. Juni 2025*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *9. Januar 2026*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
@@ -668,7 +668,7 @@ s. @Oehlrich15 und meine Ausführungen dazu.
 
 # Ideen vs. Umsetzung
 
-## Ehret das Handwerk!
+## Ehret das Handwerk! {-}
 
 <blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">Steve Jobs explains the difference between a great idea and a great product: <a href="https://t.co/7a088mcWZc">pic.twitter.com/7a088mcWZc</a></p>&mdash; Business Nerd 🧠 (@BusinessNerd_) <a href="https://twitter.com/BusinessNerd_/status/1940162912363913498?ref_src=twsrc%5Etfw">July 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
