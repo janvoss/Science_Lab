@@ -51,12 +51,13 @@ Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
 der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/8/beitrag/neubelebung-der-industriepolitik.html)
-zum oben genannten Thema:
-
-[Anpassen]::
-
-...
-
+zum oben genannten Thema: 
+@kroeger_strukturwandel_2025, 
+@lehmann_strukturwandel_2025, 
+@weizsacker_governance_2025, 
+@huther_industriepolitik_2025, 
+@dullien_industriepolitik_2025, 
+@elspas_raus_2025.
 
 In Ihrer Seminararbeit setzen Sie sich mit mindestens vier der Texte aus
 dem Wirtschaftsdienst auseinander. Als zusätzliche Literatur
@@ -102,9 +103,9 @@ Fragen Sie bei Bedarf!
 
 # Worum geht es ?
 
-```{r}
+```{r echo=FALSE, warning=FALSE, message=FALSE}
 
-8library(knitr)
+library(knitr)
 
 # Erstelle den Data Frame
 industriepolitik <- data.frame(
@@ -703,9 +704,13 @@ anim_save("animation.gif", animation = anim)
 
 s. das Literaturverzeichnis in meinen Unterlagen und siehe @Oehlrich15.
 
+<embed src="https://link.springer.com/content/pdf/10.1007/978-3-658-34791-8_3" type="application/pdf" width="100%" height="700px">
+
 ## Sprachlicher Ausdruck
 
 s. @Oehlrich15 und meine Ausführungen dazu.
+
+<embed src="https://link.springer.com/content/pdf/10.1007/978-3-658-34791-8_5" type="application/pdf" width="100%" height="700px">
 
 # Ideen vs. Umsetzung
 
