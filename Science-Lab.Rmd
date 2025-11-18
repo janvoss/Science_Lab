@@ -273,7 +273,7 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einzuschätzen
 
-- Subjektiver Eindruck: Die Kompetenz entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber ohne fachlich vertiefte Kenntnis 
+- Subjektiver Eindruck: Die Kompetenz entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber mitunter ohne fachlich vertiefte Kenntnis oder nur sehr selektiver fachlicher Kenntnis
 
 - Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist und über die es qualitativ hochwertige Texte frei verfügbar über das Internet gibt.
 
@@ -341,7 +341,7 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Gliederung erstellen und verfeinern lassen 
 
-- Gliederung zur Diskussion stellen
+- Gliederung/ Gedanken zur Diskussion stellen
 
 - Mathematische Konzepte erklären lassen
 
@@ -366,7 +366,7 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 
 - Große Unterstützung bei der Erstellung von Code in gängigen Sprachen
 
-- Neben den genannten Diensten etwa github Copilot oder Rtutor.ai
+- Neben den genannten Diensten etwa github Copilot oder Google Colab
 
 ### Genereller Nutzungshinweis
 
@@ -377,9 +377,6 @@ generative pre-trained transformers einer zunehmenden Beliebtheit.
 - Kommunikation mit Dienst als Gespräch sehen.  Nicht unbedingt mit der ersten Antwort zufrieden geben, sondern weiter damit arbeiten
 
 - Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen lassen sondern produktiver machen!
-
-- Dienste für Literaturrecherche und -auswertung wie [Consensus](https://consensus.app) und [Elicit](https://elicit.com)  sind eher noch (!?) experimentell
-
 
 ### Zusammenfassung
 
