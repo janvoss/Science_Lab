@@ -638,7 +638,13 @@ anim_save("animation_video.mp4", animation = anim)
 anim_save("animation.gif", animation = anim)
 ```
 
-![Wissen und Unwissen](animation_video.mp4) 
+![Wissen und Unwissen.  Basierend auf einer Überlegung von Blaise Pascal, zitiert nach @ElKassar21](animation_video.mp4) 
+
+----
+
+Brian Cox über das Paradox des Wissenszuwachses:
+
+<iframe width="396" height="703" src="https://www.youtube-nocookie.com/embed/bTulR26BjSk" title="Brian Cox on the Paradox of Knowing More #science #knowledge #physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     
 ## Exkurs: Philosophische Happy Hour zur Wahrheit {-}
