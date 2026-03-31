@@ -2,9 +2,7 @@
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
 date: "HfWU Zukunftsökonomie | SoSe 2026"
-
 output:
-
      bookdown::gitbook:
       split_bib: no
       config:
@@ -15,10 +13,12 @@ output:
 link-citations: yes
 bibliography: Science-Lab.bib
 lang: de
-
+editor_options: 
+  markdown: 
+    wrap: 72
 ---
-# {-}
 
+#  {.unnumbered}
 
 ```{r qr,  echo=FALSE, warning=FALSE}
 library(qrcode)
@@ -30,41 +30,40 @@ generate_svg(qr, filename = "qr-titel.svg")
 
 ```
 
-
-
- ${}$             |  Unterlagen: https://janvoss.github.io/Science_Lab
-:-------------------------:|:-------------------------:
-![](logo.png)  |  ![https://janvoss.github.io/Science_Lab](qr-titel.svg){width=40% }
-
-
-
-
+| ${}$ | Unterlagen: <https://janvoss.github.io/Science_Lab> |
+|:----------------------------------:|:----------------------------------:|
+| ![](logo.png) | ![https://janvoss.github.io/Science_Lab](qr-titel.svg){width="40%"} |
 
 # Was wird erarbeitet?
 
+```{=html}
 <style>body {text-align: justify}</style>
+```
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Ökonomische Antworten auf den Populismus**. Als Prüfungsleistungen schreiben Sie
-in Dreierteams (zur Not: allein) eine kurze **wissenschaftliche
-Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
+**Ökonomische Antworten auf den Populismus**. Als Prüfungsleistungen
+schreiben Sie in Dreierteams (zur Not: allein) eine kurze
+**wissenschaftliche Ausarbeitung** und absolvieren Sie eine **mündliche
+Prüfung**.
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
-der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/1/beitrag/oekonomische-antworten-auf-den-populismus.html)
-zum oben genannten Thema: 
+der Zeitschrift
+[Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/1/beitrag/oekonomische-antworten-auf-den-populismus.html)
+zum oben genannten Thema:
 
+@gold_populismus_2026; @gerling_verschworungsmythen_2026;
+@horn_autoritare_2026; und
+@rosel_regionale_2026
 
-
-In Ihrer Seminararbeit setzen Sie sich mit mindestens vier der Texte aus
-dem Wirtschaftsdienst auseinander. Als zusätzliche Literatur
+In Ihrer Seminararbeit setzen Sie sich mit mindestens drei Texten aus diesem Zeitgespräch  auseinander. Als zusätzliche Literatur
 recherchieren und verarbeiten Sie bitte mindestens *drei zusätzliche
-wissenschaftliche Texte nach eigener Wahl, wobei mindestens ein Text auf Englisch sein
-muss*. Merkmale wissenschaftlicher Texte werden wir im Seminar
-besprechen.
+wissenschaftliche Texte nach eigener Wahl, wobei mindestens ein Text auf
+Englisch sein muss*. Merkmale wissenschaftlicher Texte werden wir im
+Seminar besprechen.
 
 In Ihrer Seminararbeit stellen Sie die Argumente ausgewählter Positionen
 dar und setzen sie zueinander in Beziehung. Die von Ihnen ausgewählten
-Aspekte des Themas sollten durch eine gemeinsame &bdquo;gedankliche Klammer&ldquo;
+Aspekte des Themas sollten durch eine gemeinsame „gedankliche Klammer“
 miteinander verbunden sein, die Sie in Ihrer Seminararbeit einleitend
 darstellen.
 
@@ -73,10 +72,10 @@ Wissenschaftstheorie, Prinzipien des wissenschaftlichen Arbeitens sowie
 ausgewählte Inhalte aus dem Themenbereich des Seminars geprüft. Die
 mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
-
 # Warum?
 
--   Sie bekommen einen Einblick in **aktuelle praxisrelevante und methodische Fragen der ökonomischen Analyse**.
+-   Sie bekommen einen Einblick in **aktuelle praxisrelevante und
+    methodische Fragen der ökonomischen Analyse**.
 
 -   Sie erlernen **Grundlagen des wissenschaftlichen Arbeitens**, insb.
     Schreibens.
@@ -85,11 +84,14 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 -   Sie **arbeiten sich selbstständig** in ein Thema **ein**.
 
-- Sie üben **Teamarbeit**.
+-   Sie üben **Teamarbeit**.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *9. Januar 2026*  bitte in elektronischer Form im Portable Document Format (pdf) über den **Uploadordner für Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in dem Format &bdquo;Nachname.pdf&ldquo;.*
+Abgabe aller Unterlagen bis zum *24. Juni 2026* bitte in elektronischer
+Form im Portable Document Format (pdf) über den **Uploadordner für
+Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in
+dem Format „Nachname.pdf“.*
 
 Wer sich für die Verwendung von $\LaTeX$ entscheidet, erhält drei
 zusätzliche Tage Bearbeitungszeit.
@@ -99,49 +101,92 @@ Fragen Sie bei Bedarf!
 
 # Worum geht es ?
 
-```{r echo=FALSE, warning=FALSE, message=FALSE}
+```{r echo=FALSE, message=FALSE, warning=FALSE}
 
-library(knitr)
+# Falls das Paket noch nicht installiert ist, bitte folgende Zeile ausführen:
+# install.packages("DiagrammeR")
 
-# Erstelle den Data Frame
-industriepolitik <- data.frame(
-  Merkmal = c(
-    "Zielgruppe",
-    "Ansatz",
-    "Beispiele",
-    "Vorteile",
-    "Risiken",
-    "Politische Akzeptanz"
-  ),
-  Horizontale_Industriepolitik = c(
-    "Gesamte Wirtschaft/Industrie",
-    "Allgemeine Rahmenbedingungen verbessern",
-    "Infrastruktur, Bildung, Forschung, Steueranreize",
-    "Wettbewerb bleibt erhalten, geringe Verzerrungen",
-    "Weniger gezielte Steuerung, ggf. langsamer Wandel",
-    "Breiter Konsens, marktkonform"
-  ),
-  Vertikale_Industriepolitik = c(
-    "Einzelne Sektoren, Branchen oder Unternehmen",
-    "Selektive Förderung strategischer Bereiche",
-    "Subventionen für Batterien, Stahl, E-Mobilität",
-    "Schnelle Entwicklung strategischer Industrien",
-    "Wettbewerbsverzerrung, Risiko von Fehlallokation",
-    "Umstritten, Gefahr von Lobbyismus"
-  )
-)
+library(DiagrammeR)
 
-# Gib die Tabelle mit kable aus
-kable(industriepolitik, 
-      col.names = c("Merkmal", "Horizontale Industriepolitik", "Vertikale Industriepolitik"),
-      caption = "Vergleich: Horizontale vs. vertikale Industriepolitik")
+# Erstellung und Anzeige des Graphen
+grViz('
+digraph Populismus_Struktur {
 
+  # Allgemeine Graph-Einstellungen
+  graph [rankdir=TB, size="10,10", nodesep=0.5, ranksep=0.8]
+  node [shape=rectangle, style=filled, fontname="Arial", fontsize=10]
+
+  # Sektion: Kernideologie
+  Pop [label="POPULISMUS\\n(Inhaltlich nicht spezifizierte Kernideologie)", fillcolor="#E1F5FE", penwidth=2]
+
+  # Sektion: Die Spaltung (Dualismus)
+  subgraph cluster_dualismus {
+    graph [label="Gesellschaftlicher Dualismus (Antagonismus)", color=lightgrey]
+    Volk [label="Das \\"wahre\\" Volk\\n(Beherrschte Mehrheit)", fillcolor="#FFF9C4"]
+    Elite [label="Die \\"korrupte\\" Elite\\n(Minderheit / Verschwörungsgruppen)", fillcolor="#FFCCBC"]
+    Volk -> Elite [label="Antagonismus", dir=both, color=red]
+  }
+
+  Pop -> Volk
+  Pop -> Elite
+
+  # Sektion: Mechanismen & Kommunikation
+  subgraph cluster_mechanismen {
+    graph [label="Methoden & Kommunikation", color=lightgrey]
+    Verschwörung [label="Verschwörungserzählungen\\n(Wissenschaft, Medien, Politik)", fillcolor="#F8BBD0"]
+    Emotion [label="Emotionalisierung &\\nPolarisierung", fillcolor="#F8BBD0"]
+    Fakten [label="Umwertung von Begriffen &\\nLosem Umgang mit Fakten", fillcolor="#F8BBD0"]
+    Manichaeismus [label="Manichäismus &\\nExklusion", fillcolor="#F8BBD0"]
+  }
+
+  Pop -> Verschwörung
+  Verschwörung -> Emotion
+  Emotion -> Fakten
+  Pop -> Manichaeismus
+
+  # Sektion: Ökonomische & Soziale Treiber
+  subgraph cluster_treiber {
+    graph [label="Ökonomische Treiber", color=lightgrey]
+    Angst [label="Subjektive Abstiegsängste\\n(Statusverlust Mittelschicht)", fillcolor="#C8E6C9"]
+    Trans [label="Komplexe Transformation\\n(Globalisierung / Tech-Wandel)", fillcolor="#C8E6C9"]
+    Ungleichheit [label="Wahrgenommene Ungleichheit", fillcolor="#C8E6C9"]
+  }
+
+  Angst -> Pop [style=dashed]
+  Trans -> Angst
+  Ungleichheit -> Angst
+
+  # Sektion: Ideengeschichtliche Warnungen (wie im Original auskommentiert)
+  /*
+  subgraph cluster_theorie {
+    graph [label="Ideengeschichtliche Perspektiven", color=lightgrey]
+    Hayek [label="Hayek:\\nZusammenklicken durch \\"Wir vs. Andere\\"", shape=ellipse, fillcolor="#D1C4E9"]
+    Eucken [label="Eucken:\\nVersagen des Wettbewerbs -> Autoritarismus", shape=ellipse, fillcolor="#D1C4E9"]
+    Smith [label="Adam Smith:\\nAutoritäre Herrschaft = Rechtlosigkeit", shape=ellipse, fillcolor="#D1C4E9"]
+    Olson [label="Mancur Olson:\\nAutokratie < Demokratie (Wachstum)", shape=ellipse, fillcolor="#D1C4E9"]
+  }
+
+  Pop -> Hayek [style=dotted]
+  Pop -> Eucken [style=dotted]
+  Pop -> Smith [style=dotted]
+  Pop -> Olson [style=dotted]
+  */
+
+  # Sektion: Langfristige Folgen
+  Folgen [label="LANGFRISTIGE FOLGEN:\\n- Korruption & Klientelismus\\n- Unterminierung von Institutionen\\n- Wirtschaftliche Stagnation", fillcolor="#FFCDD2", shape=doubleoctagon]
+  
+  Pop -> Folgen [color=red, penwidth=2]
+
+}
+')
 ```
+
 
 # Ihre Seminararbeit
 
+```{=html}
 <style>body {text-align: justify}</style>
-
+```
 
 Das Erstellen einer wissenschaftlichen Arbeit erfordert die Beachtung
 zahlreicher Vorgaben sowie ein planvolles Vorgehen. Sie müssen sich
@@ -151,8 +196,8 @@ Diese Hinweise sollen Ihnen die Arbeit etwas erleichtern.
 
 ## Umfang Ihrer Seminararbeit
 
-Bitte beachten Sie in Ihrer Arbeit (von Dreierteams erstellt) die Zeichenrestriktion von
-*12.000-15.000 Zeichen*, *inklusive Leerzeichen*.
+Bitte beachten Sie in Ihrer Arbeit (von Dreierteams erstellt) die
+Zeichenrestriktion von *12.000-15.000 Zeichen*, *inklusive Leerzeichen*.
 
 ## Struktur Ihrer Seminararbeit
 
@@ -160,8 +205,6 @@ Ihre Seminararbeit muss eine bestimmte Struktur aufweisen. Wesentliche
 Elemente sind: Deckblatt, Verzeichnisse, Einleitung, Hauptteil, Fazit,
 Literaturverzeichnis sowie ggf. Anhänge. Über Anforderungen an diese
 Elemente werden wir im Seminar sprechen.
-
-[Hier Übersicht]::
 
 ## Wissenschaftliches Schreiben
 
@@ -178,7 +221,7 @@ möglichst klar sein. Ihre Schlussfolgerungen müssen auf
 nachvollziehbaren Argumenten beruhen.
 
 Eine Voraussetzung für die Präsentation einer wissenschaftlichen Arbeit
-besteht in der Einhaltung bestimmter &bdquo;Spielregeln&ldquo; des
+besteht in der Einhaltung bestimmter „Spielregeln“ des
 wissenschaftlichen Schreibens. Eine der wichtigsten Regeln besteht
 darin, dass immer deutlich werden muss, wenn Sie einen Gedanken nicht
 selbst entwickelt, sondern aus einem anderen Text übernommen haben. Dies
@@ -196,53 +239,55 @@ handwerkliche Fähigkeiten der Texterstellung.
 ## Äußere Form Ihres Textes
 
 Ein gut lesbarer Text sollte fehlerfrei sein. Gegenüber eigenen Texten
-wird man mit der Zeit &bdquo;betriebsblind&ldquo;. Daher empfiehlt es sich, für die
+wird man mit der Zeit „betriebsblind“. Daher empfiehlt es sich, für die
 Endredaktion KorrekturleserInnen einzusetzen, die den Text nach
 Möglichkeit noch nicht kennen. Geben Sie den KorrekturleserInnen Zeit!
 
 Der Leser, die Leserin möchte und sollte sich auf den Inhalt Ihres
 Textes konzentrieren. Daraus folgt allerdings gerade nicht, dass die
 äußere Form belanglos wäre -- im Gegenteil: Je weniger die äußere Form
-als &bdquo;störend&ldquo; empfunden wird, desto besser gelingt die Konzentration
-auf das Wesentliche, den Inhalt. Daher sollte das Layout des Textes
+als „störend“ empfunden wird, desto besser gelingt die Konzentration auf
+das Wesentliche, den Inhalt. Daher sollte das Layout des Textes
 übersichtlich und schlicht sein, sodass der Leser sich auf den Inhalt
 des Textes gut konzentrieren kann.
 
 Ich empfehle eine Schriftgröße von 11 oder 12 Punkten, 1,5-fachen
 Zeilenabstand und Blocksatz (mit Silbentrennung). Zur guten Lesbarkeit
-verwenden Sie bitte eine Serifenschrift (z. B. Times New Roman,
-Linux Libertine oder Liberation Serif).
+verwenden Sie bitte eine Serifenschrift (z. B. Times New Roman, Linux
+Libertine oder Liberation Serif).
 
 ## Nutzung von Hard- und Software
 
 ### Software zur Texterstellung
 
 Ein wissenschaftlicher Text entsteht typischerweise nicht (nur) mit
-Stift und Papier, sondern unter Nutzung von Hard- und Software. Um
-einen wissenschaftlichen Text verfassen zu können, muss man mit der
-verwendeten Hard- und Software hinreichend vertraut sein. Dies
-betrifft z.B. die Umsetzung von Formatierungsvorgaben mit einem
+Stift und Papier, sondern unter Nutzung von Hard- und Software. Um einen
+wissenschaftlichen Text verfassen zu können, muss man mit der
+verwendeten Hard- und Software hinreichend vertraut sein. Dies betrifft
+z.B. die Umsetzung von Formatierungsvorgaben mit einem
 Textverarbeitungsprogramm, die Erstellung von Verzeichnissen usw.
 
 Erfahrungsgemäß nutzen viele Studierende eine Version von Microsoft Word
 oder von LibreOffice.
 
-Erwägen Sie aber durchaus auch die Nutzung von  $\LaTeX$. Die Nutzung von
+Erwägen Sie aber durchaus auch die Nutzung von $\LaTeX$. Die Nutzung von
 $\LaTeX$ erlaubt das Erstellen sehr professionell formatierter
 strukturierter Texte und unterstützt eine sehr gute Darstellung
-mathematischer Ausdrücke.^[ $\LaTeX$-Dokumente sind reine Textdokumente,
-die neben dem inhaltlichen Text auch Formatierungsanweisungen enthalten.
-Das Programm $\TeX$ bzw. pdf$\TeX$ erstellt daraus dann eine Druckvorlage,
-etwa im Format portable document format (pdf).]
+mathematischer Ausdrücke.[^1]
+
+[^1]: $\LaTeX$-Dokumente sind reine Textdokumente, die neben dem
+    inhaltlichen Text auch Formatierungsanweisungen enthalten. Das
+    Programm $\TeX$ bzw. pdf$\TeX$ erstellt daraus dann eine
+    Druckvorlage, etwa im Format portable document format (pdf).
 
 Die Verwendung von $\LaTeX$ erfordert eine Installation des jeweiligen
 Programms und zahlreicher Pakete, die etwas lästig sein kann. Der
 online-Service [Overleaf.com](http://www.overleaf.com) ermöglicht die
-Nutzung von $\LaTeX$ ohne Installation von $\TeX$ und Pflege der $\LaTeX$-Pakete.
-Sie brauchen dazu lediglich einen Webbrowser. Sie schreiben in einem
-übersichtlichen Editorfenster. Ihr Quelltext wird dann in ein
-pdf-Dokument kompiliert. Dieser Prozess stellt eine sehr einfache Form
-der Nutzung von $\LaTeX$ dar.
+Nutzung von $\LaTeX$ ohne Installation von $\TeX$ und Pflege der
+$\LaTeX$-Pakete. Sie brauchen dazu lediglich einen Webbrowser. Sie
+schreiben in einem übersichtlichen Editorfenster. Ihr Quelltext wird
+dann in ein pdf-Dokument kompiliert. Dieser Prozess stellt eine sehr
+einfache Form der Nutzung von $\LaTeX$ dar.
 
 Wenn Sie im Team arbeiten, sollten Sie sich hinsichtlich der Nutzung
 eines Textverarbeitungsprogramms abstimmen. Auch unterschiedliche
@@ -253,136 +298,196 @@ Zusammenfügen von Dokumententeilen zu Problemen führen.
 
 Für die Verwaltung bibliografischer Angaben gibt es zahlreiche
 Programme, die auch direkt mit Ihrem Textverarbeitungsprogramm
-interagieren können. Zu nennen wären etwa Citavi, Zotero oder Mendeley. Für das Erstellen einer kurzen Arbeit übersteigt der Aufwand der Einarbeitung
-vermutlich den praktischen Nutzen. Für spätere wissenschaftliche
-Arbeiten ist die Nutzung solcher Programme vermutlich aber sehr
-hilfreich.^[Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.]
+interagieren können. Zu nennen wären etwa Citavi, Zotero oder Mendeley.
+Für das Erstellen einer kurzen Arbeit übersteigt der Aufwand der
+Einarbeitung vermutlich den praktischen Nutzen. Für spätere
+wissenschaftliche Arbeiten ist die Nutzung solcher Programme vermutlich
+aber sehr hilfreich.[^2]
+
+[^2]: Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.
 
 ## Nutzung von KI-gestützten Diensten
 
-- Im Bereich der künstlichen Intelligenz  (KI) erfreuen sich Dienste auf der Basis von
-generative pre-trained transformers einer zunehmenden Beliebtheit. 
+-   Im Bereich der künstlichen Intelligenz (KI) erfreuen sich Dienste
+    auf der Basis von generative pre-trained transformers einer
+    zunehmenden Beliebtheit.
 
-- Beispiele: Chat GPT, Microsoft Copilot, Google  Gemini, Perplexity, Deep Seek, $\dots$
+-   Beispiele: Chat GPT, Microsoft Copilot, Google Gemini, Perplexity,
+    Deep Seek, $\dots$
 
-- Diese Dienste können in menschlicher Sprache mit NutzerInnen interagieren
+-   Diese Dienste können in menschlicher Sprache mit NutzerInnen
+    interagieren
 
-- Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einzuschätzen
+-   Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche
+    Kompetenz ist von außen schwer einzuschätzen
 
-- Subjektiver Eindruck: Die Kompetenz entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber mitunter ohne fachlich vertiefte Kenntnis oder nur sehr selektiver fachlicher Kenntnis
+-   Subjektiver Eindruck: Die Kompetenz entspricht der eines
+    Gesprächspartners mit guter Allgemeinenbildung, aber mitunter ohne
+    fachlich vertiefte Kenntnis oder nur sehr selektiver fachlicher
+    Kenntnis
 
-- Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist und über die es qualitativ hochwertige Texte frei verfügbar über das Internet gibt.
+-   Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren
+    Nische nicht zu eng ist und über die es qualitativ hochwertige Texte
+    frei verfügbar über das Internet gibt.
 
-- Problem: In der Regel kein (transparenter) Zugang zu kostenpflichtigen Fachartikeln und damit zu relevanten Teilen der aktuellen Literatur.
+-   Problem: In der Regel kein (transparenter) Zugang zu
+    kostenpflichtigen Fachartikeln und damit zu relevanten Teilen der
+    aktuellen Literatur.
 
-- Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß. 
-
+-   Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber
+    nicht, wenn er etwas nicht weiß.
 
 ### Liefern die Dienste Wissen?
 
-- Wissensbegiff (s.u.): [Definition wissenschaftliches Wissen im Science_Lab](https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen)
+-   Wissensbegiff (s.u.): [Definition wissenschaftliches Wissen im
+    Science_Lab](https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen)
 
-- Die Antworten von KI-gestützten Diensten sind  
-  - inzwischen oft nachvollziehbar begründet und belegt (insbeondere bei Anfragen mit sogenanntem tiefem Nachdenken und Onlinerecherche)
-  - aber immer wieder nicht irritationsfest
-  
-- Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der ihre Antworten in einem (möglichst wahren) Bezug stehen sollten. 
+-   Die Antworten von KI-gestützten Diensten sind
 
-- Die Dienste "überlegen" nicht, wenn sie eine Antwort suchen. Sie verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher Wahrscheinlichkeit "gute" Antworten sind. Das müssen nicht "wahre" Antworten sein.
+    -   inzwischen oft nachvollziehbar begründet und belegt (insbeondere
+        bei Anfragen mit sogenanntem tiefem Nachdenken und
+        Onlinerecherche)
+    -   aber immer wieder nicht irritationsfest
 
-- Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen ohne Bewusstsein. 
+-   Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der
+    ihre Antworten in einem (möglichst wahren) Bezug stehen sollten.
 
-- Dennoch können Sie sehr hilfreich sein.
+-   Die Dienste "überlegen" nicht, wenn sie eine Antwort suchen. Sie
+    verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher
+    Wahrscheinlichkeit "gute" Antworten sind. Das müssen nicht "wahre"
+    Antworten sein.
 
+-   Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen
+    ohne Bewusstsein.
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="en" dir="ltr">If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all we had was Gemini, we could say, hmm “maybe hallucinations are just a bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe hallucinations…</p>&mdash; Gary Marcus (@GaryMarcus) <a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April 20, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+-   Dennoch können Sie sehr hilfreich sein.
+
+<blockquote class="twitter-tweet" data-dnt="true">
+
+<p lang="en" dir="ltr">
+
+If all we had was ChatGPT, we could say, hmm “maybe hallucinations are
+just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all
+we had was Gemini, we could say, hmm “maybe hallucinations are just a
+bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe
+hallucinations…
+
+</p>
+
+— Gary Marcus (@GaryMarcus)
+<a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April
+20, 2024</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 ### KI-gestützte Dienste als Schummelsoftware
 
-- Komplette Arbeit schreiben
+-   Komplette Arbeit schreiben
 
+-   Schlechte Idee! (Aber inzwischen nicht mehr *so* schlecht)
 
-- Schlechte Idee! (Aber inzwischen nicht mehr *so* schlecht)
+    -   Halluzinieren i.e.S.
 
-  - Halluzinieren i.e.S.
+    -   keine Inhaltliche Kompetenz des Dienstes (und der/des
+        Studierenden?)
 
-  - keine Inhaltliche Kompetenz des Dienstes (und der/des Studierenden?)
+    -   evtl. geringe Nachvollziehbarkeit der faktischenGrundlage
 
-  - evtl. geringe Nachvollziehbarkeit der faktischenGrundlage
-  
-  - evtll. Probleme bei der Erfüllung formaler Kriterien.
+    -   evtll. Probleme bei der Erfüllung formaler Kriterien.
 
-  - Prüfungstechnisch: Kein eigener Wissenserwerb $\rightarrow$ Täuschungsversuch
-
+    -   Prüfungstechnisch: Kein eigener Wissenserwerb $\rightarrow$
+        Täuschungsversuch
 
 ### KI-gestützte Dienste als Recherchedienst
 
-- Das gelingt immer besser, aber auch hier nicht immer ein gemeinsames Verständnis vom Thema bzw. der Aufgabe
+-   Das gelingt immer besser, aber auch hier nicht immer ein gemeinsames
+    Verständnis vom Thema bzw. der Aufgabe
 
-- Durchaus beachtliche Wahrscheinlichkeit von inhaltlichen Fehlern oder aber bestimmten inhaltlichen Gewichtungen, die Sie nicht für richtig halten müssen.
+-   Durchaus beachtliche Wahrscheinlichkeit von inhaltlichen Fehlern
+    oder aber bestimmten inhaltlichen Gewichtungen, die Sie nicht für
+    richtig halten müssen.
 
-- Die inhaltliche Bewertung der Rechercheleistung müssen *Sie* leisten. Das kann Ihnen der Dienst nicht abnehmen.
+-   Die inhaltliche Bewertung der Rechercheleistung müssen *Sie*
+    leisten. Das kann Ihnen der Dienst nicht abnehmen.
 
-- Eher Gesprächspartner als Orakel
+-   Eher Gesprächspartner als Orakel
 
-- *Kein* umfassender Zugriff auf wissenschaftliche Literatur 
+-   *Kein* umfassender Zugriff auf wissenschaftliche Literatur
 
 ### Konzeptionelle Unterstützung
 
-- Fragestellungen diskutieren
+-   Fragestellungen diskutieren
 
-- Vorschläge für wichtige Aspekte geben lassen
+-   Vorschläge für wichtige Aspekte geben lassen
 
-- Ideen "gemeinsam" reflektieren
+-   Ideen "gemeinsam" reflektieren
 
-- Gliederung erstellen und verfeinern lassen 
+-   Gliederung erstellen und verfeinern lassen
 
-- Gliederung/ Gedanken zur Diskussion stellen
+-   Gliederung/ Gedanken zur Diskussion stellen
 
-- Mathematische Konzepte erklären lassen
+-   Mathematische Konzepte erklären lassen
 
-- $\dots$
-
+-   $\dots$
 
 ### Redaktionelle Unterstützung
 
-- Fehlerkorrektur
+-   Fehlerkorrektur
 
-- Formulierungshilfen
+-   Formulierungshilfen
 
 ### Literatur auswerten
 
-- Einige Dienste erlauben das Hochladen und Auswerten von pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen beantworten 
+-   Einige Dienste erlauben das Hochladen und Auswerten von
+    pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen
+    beantworten
 
-- Das kann für einen Überblick sehr interessant sein, es ersetzt typischerweise aber nicht das Lesen der Texte, die Sie tatsächlich verwenden möchten.
+-   Das kann für einen Überblick sehr interessant sein, es ersetzt
+    typischerweise aber nicht das Lesen der Texte, die Sie tatsächlich
+    verwenden möchten.
 
-- Interessant: Auch Videos könnne teilweise zusammengefasst/ausgewertet werden.
+-   Interessant: Auch Videos könnne teilweise
+    zusammengefasst/ausgewertet werden.
 
 ### Schreiben von Code
 
-- Große Unterstützung bei der Erstellung von Code in gängigen Sprachen
+-   Große Unterstützung bei der Erstellung von Code in gängigen Sprachen
 
-- Neben den genannten Diensten etwa github Copilot oder Google Colab
+-   Neben den genannten Diensten etwa github Copilot oder Google Colab
 
 ### Genereller Nutzungshinweis
 
-- Präzise Formulierung der Aufgabenstellung (prompt) erhöht die inhaltliche Qualität der Antworten.
+-   Präzise Formulierung der Aufgabenstellung (prompt) erhöht die
+    inhaltliche Qualität der Antworten.
 
-- Dazu gehören u.U. auch Angaben über den Kontext und den gewünschten Sprachstil
+-   Dazu gehören u.U. auch Angaben über den Kontext und den gewünschten
+    Sprachstil
 
-- Kommunikation mit Dienst als Gespräch sehen.  Nicht unbedingt mit der ersten Antwort zufrieden geben, sondern weiter damit arbeiten
+-   Kommunikation mit Dienst als Gespräch sehen. Nicht unbedingt mit der
+    ersten Antwort zufrieden geben, sondern weiter damit arbeiten
 
-- Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen lassen sondern produktiver machen!
+-   Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten
+    Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen
+    lassen sondern produktiver machen!
 
 ### Zusammenfassung
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Eingebetteter Beitrag"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen title="Eingebetteter Beitrag">
+
+</iframe>
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
+```{=html}
 <style>body {text-align: justify}</style>
+```
 
 ## Grundsätzliches
+
 Sie müssen sich mit einer für sie noch nicht vertrauten Materie
 auseinandersetzen. Dies erfordert, dass Sie erkennen, welche
 Informationen Sie benötigen. Im nächsten Schritt müssen Sie sich
@@ -391,7 +496,7 @@ Informationen Sie benötigen. Im nächsten Schritt müssen Sie sich
 Die Literaturrecherche erfordert Übung und Geduld. Passende Literatur
 über ein Thema zu finden, mit dem man sich noch nicht gut auskennt, ist
 immer eine Herausforderung. Auch besteht die Gefahr, dass man sich
-&bdquo;verzettelt&ldquo; und viel Zeit für wenig geeignete Texte aufwendet. Für
+„verzettelt“ und viel Zeit für wenig geeignete Texte aufwendet. Für
 dieses Seminar habe ich Ihnen umfangreiche Startliteratur vorausgewählt.
 
 ## Fundstellen für wirtschaftswissenschaftliche Artikel
@@ -408,32 +513,41 @@ als hilfreich:
 
 -   **Deutschsprachige Zeitschriften**
 
-    -   [Aus Politik und Zeitgeschichte](https://www.bpb.de/shop/zeitschriften/apuz/) ^[Hierbei handelt es sich nicht um eine wirtschaftswissenschaftliche
-    Fachzeitschrift i. e. S. Aber es werden mitunter
-    wirtschaftswissenschaftlich relevante Themen behandelt.]
+    -   [Aus Politik und
+        Zeitgeschichte](https://www.bpb.de/shop/zeitschriften/apuz/)
+        [^3]
 
-    -   [List Forum für Wirtschafts- und Finanzpolitik](https://link.springer.com/journal/41025/volumes-and-issues)
+    -   [List Forum für Wirtschafts- und
+        Finanzpolitik](https://link.springer.com/journal/41025/volumes-and-issues)
 
-    -   [Perspektiven der Wirtschaftspolitik](https://www.degruyter.com/journal/key/pwp/html?lang=de#issues)
+    -   [Perspektiven der
+        Wirtschaftspolitik](https://www.degruyter.com/journal/key/pwp/html?lang=de#issues)
 
     -   [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/)
 
-    -   [Zeitschrift für Wirtschaftspolitik](https://www.degruyter.com/journal/key/zfwp/html?lang=de)
+    -   [Zeitschrift für
+        Wirtschaftspolitik](https://www.degruyter.com/journal/key/zfwp/html?lang=de)
 
 -   **Englischsprachige Zeitschriften**
 
     -   [Intereconomics](https://www.intereconomics.eu/)
 
-    -   [Journal of Economic Literature](https://www.aeaweb.org/journals/JEL)
+    -   [Journal of Economic
+        Literature](https://www.aeaweb.org/journals/JEL)
 
-    -   [Journal of Economic Perspectives](https://www.aeaweb.org/journals/jep)
+    -   [Journal of Economic
+        Perspectives](https://www.aeaweb.org/journals/jep)
 
-    -   [Journal of Economic Surveys](https://onlinelibrary.wiley.com/journal/14676419).
+    -   [Journal of Economic
+        Surveys](https://onlinelibrary.wiley.com/journal/14676419).
+
+[^3]: Hierbei handelt es sich nicht um eine wirtschaftswissenschaftliche
+    Fachzeitschrift i. e. S. Aber es werden mitunter
+    wirtschaftswissenschaftlich relevante Themen behandelt.
 
 Darüber hinaus sind z.B. die Gutachten des Sachverständigenrates zur
 Begutachtung der gesamtwirtschaftlichen Lage oder die Monatsberichte der
 Bundesbank für einige Themen hilfreiche Fundstellen.
-
 
 ## Suchportale
 
@@ -443,20 +557,26 @@ seien beispielhaft nur einige genannt:
 -   [EconLit](https://dbis.uni-regensburg.de/warpto.php?bib_id=hfwu&color=2&titel_id=6926&url=http%3A%2F%2Fwww.redi-bw.de%2Fdb%2Fstart.php%3Fdatabase%3DEconLit-FT-ebsco),
     ein sehr umfangreiches Suchportal insbesondere für ökonomische Texte
 
--   [EconBiz](https://www.econbiz.de), ein Suchportal der Zentralbibliothek für
-    Wirtschaftswissenschaften (ZBW) in Kiel
+-   [EconBiz](https://www.econbiz.de), ein Suchportal der
+    Zentralbibliothek für Wirtschaftswissenschaften (ZBW) in Kiel
 
--   [Google Scholar](http://scholar.google.de), das Suchportal für wissenschaftliche
-    Veröffentlichungen von Google
+-   [Google Scholar](http://scholar.google.de), das Suchportal für
+    wissenschaftliche Veröffentlichungen von Google
 
 -   [Mendeley](https://www.mendeley.com), ein
     Literaturverwaltungsprogramm mit online-Suchfunktion, das zum Verlag
     Elsevier gehört. Um Mendeley nutzen zu können, muss man ein
     (gebührenfreies) Nutzerkonto einrichten.
-    
--   [Semantic Scholar](https://www.semanticscholar.org/), KI-gestütztes Rechercheportal für wissenschaftliche Texte  
 
-Alle diese Portale weisen verschiedene Vor- und Nachteile auf.^[Gerade bei den letzten beiden Portalen sollten Nutzer sich bewusst sein, dass sie Daten preisgeben, die kommerziell genutzt werden könnten.] Den besten Überblick verschafft man sich durch Ausprobieren.
+-   [Semantic Scholar](https://www.semanticscholar.org/), KI-gestütztes
+    Rechercheportal für wissenschaftliche Texte
+
+Alle diese Portale weisen verschiedene Vor- und Nachteile auf.[^4] Den
+besten Überblick verschafft man sich durch Ausprobieren.
+
+[^4]: Gerade bei den letzten beiden Portalen sollten Nutzer sich bewusst
+    sein, dass sie Daten preisgeben, die kommerziell genutzt werden
+    könnten.
 
 ## Zugang zu Literatur
 
@@ -465,18 +585,23 @@ v. a. in elektronischer Form. Teile sind gelegentlich frei zugänglich,
 der größte Teil ist allerdings kostenpflichtig. Über die
 Hochschulbibliothek haben Sie Zugang zu einem großen Teil des
 elektronischen Angebots der wirtschaftswissenschaftlichen
-Fachzeitschriften.^[Der nicht-autorisierte Zugriff auf Fachliteratur aus eigentlich  kostenpflichtigen Fachzeitschriften erfreut sich allerdings offenbar immer größerer Beliebtheit
-    [@Bohannon2016; @McKenzie2017; @Himmelstein2017; @Bjork2017].] Viele Fachbücher erscheinen ebenfalls in
+Fachzeitschriften.[^5] Viele Fachbücher erscheinen ebenfalls in
 elektronischer Form. Auch auf viele Fachbücher in elektronischer Form
 haben Sie über die Bibliothek Zugriff. Für den physischen Zugriff auf
 (gedruckte) Bücher lohnt sich ein Blick in den Bestand der
 Hochschulbibliothek. Bei Nichtvorhandensein besteht grundsätzlich die
 Möglichkeit zu einer Fernleihe.
 
+[^5]: Der nicht-autorisierte Zugriff auf Fachliteratur aus eigentlich
+    kostenpflichtigen Fachzeitschriften erfreut sich allerdings offenbar
+    immer größerer Beliebtheit [@Bohannon2016; @McKenzie2017;
+    @Himmelstein2017; @Bjork2017].
+
 # Wissenschaftstheorie
 
+```{=html}
 <style>body {text-align: justify}</style>
-
+```
 
 Die Prinzipien des wissenschaftlichen Arbeitens leiten sich aus
 bestimmten Vorstellungen über Wissen sowie über Wahrheit ab. Ein
@@ -489,64 +614,106 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 
 ## Wissensbegriffe
 
-- Phänomenales Wissen
+-   Phänomenales Wissen
 
-  Unmittelbare Sinneseindrücke (Schmerz, Wärme, Kälte, ...)
+    Unmittelbare Sinneseindrücke (Schmerz, Wärme, Kälte, ...)
 
-- Praktisches Wissen
+-   Praktisches Wissen
 
-  - Die Fähigkeit, bestimmte Tätigkeiten auszuführen, evtl. ohne die Fähigkeit zu erklären, wie es geht
-  
-  - Fahrradfahren, Technike des Sports, ein Instrument spielen...
-  
-  - Keith Richards: "I know I can do it, but I don't know *how* I do it."
-  
-  <blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">81-year-old Keith Richards proving he still rocks <a href="https://t.co/OOeBcW4oCK">pic.twitter.com/OOeBcW4oCK</a></p>&mdash; 🎸 Rock History 🎸 (@historyrock_) <a href="https://twitter.com/historyrock_/status/1912174076506022286?ref_src=twsrc%5Etfw">April 15, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    -   Die Fähigkeit, bestimmte Tätigkeiten auszuführen, evtl. ohne die
+        Fähigkeit zu erklären, wie es geht
 
-- **Satzförmiges Wissen**
+    -   Fahrradfahren, Technike des Sports, ein Instrument spielen...
 
-  - Über Sprache vermittelbares Wissen
-  
-  - Kann abstrakte Sachverhalte beinhalten
+    -   Keith Richards: "I know I can do it, but I don't know *how* I do
+        it."
+
+    <blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true">
+
+    <p lang="en" dir="ltr">
+
+    81-year-old Keith Richards proving he still rocks
+    <a href="https://t.co/OOeBcW4oCK">pic.twitter.com/OOeBcW4oCK</a>
+
+    </p>
+
+    — 🎸 Rock History 🎸 (@historyrock_)
+    <a href="https://twitter.com/historyrock_/status/1912174076506022286?ref_src=twsrc%5Etfw">April
+    15, 2025</a>
+
+    </blockquote>
+
+    ```{=html}
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    ```
+
+-   **Satzförmiges Wissen**
+
+    -   Über Sprache vermittelbares Wissen
+
+    -   Kann abstrakte Sachverhalte beinhalten
 
 ## Anforderungen an (wissenschaftliches) Wissen
 
 ### Wissen als wahre begründete Meinung
 
-- Wissenschaftliches **Wissen ist wahre, begründete Meinung** [@Detel08_GK_Philosophie4; @ElKassar21] 
-  - Nur *wahre* Meinung?  Die Wahrheit von Aussagen ist nicht immer beweisbar (Formalwissenschaften vs. empirische Wissenschaften)
-    \(\rightarrow\) Wahrheit gegenwärtig plausibel
-    \(\rightarrow\) Wissen ist nicht Gewissheit
-    
-- Weitere Anforderungen  [@ElKassar21]  
+-   Wissenschaftliches **Wissen ist wahre, begründete Meinung**
+    [@Detel08_GK_Philosophie4; @ElKassar21]
 
-  - Die **Begründung**/Rechtfertigung **genügt bestimmten Ansprüchen**. 
-    - Begründung ist **intersubjektiv überprüfbar**/ wird in **logisch geordneter Form** präsentiert (oder kann zumindest so präsentiert werden )  
-    - Begründung ist in einen **nachvollziehbaren Begründungszusammenhang** eingebettet. Die dem Wissen zugrundeliegende Rechtertigungskette gehört zum Wissen.   
-  \(\rightarrow\) **Wissenschaftliches Wissen existiert innerhalb von  Zusammenhängen**  
-  \(\rightarrow\) Wissenschaftliches Wissen bezieht sich i.d.R. nicht auf singuläre Tatsachen sondern **allgemeine Zusammenhänge**.
-  - Wissen ist **irrtumssensibel**, es *könnte* also falsch sein und durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
-  - Wissen ist **irritationsfest**, die Überzeugung, dass es wahr ist, hält auch (zumindest zunächst) Einwänden stand.
+    -   Nur *wahre* Meinung? Die Wahrheit von Aussagen ist nicht immer
+        beweisbar (Formalwissenschaften vs. empirische Wissenschaften)
+        $\rightarrow$ Wahrheit gegenwärtig plausibel $\rightarrow$
+        Wissen ist nicht Gewissheit
+
+-   Weitere Anforderungen [@ElKassar21]
+
+    -   Die **Begründung**/Rechtfertigung **genügt bestimmten
+        Ansprüchen**.
+        -   Begründung ist **intersubjektiv überprüfbar**/ wird in
+            **logisch geordneter Form** präsentiert (oder kann zumindest
+            so präsentiert werden )\
+        -   Begründung ist in einen **nachvollziehbaren
+            Begründungszusammenhang** eingebettet. Die dem Wissen
+            zugrundeliegende Rechtertigungskette gehört zum Wissen.\
+            $\rightarrow$ **Wissenschaftliches Wissen existiert
+            innerhalb von Zusammenhängen**\
+            $\rightarrow$ Wissenschaftliches Wissen bezieht sich i.d.R.
+            nicht auf singuläre Tatsachen sondern **allgemeine
+            Zusammenhänge**.
+    -   Wissen ist **irrtumssensibel**, es *könnte* also falsch sein und
+        durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
+    -   Wissen ist **irritationsfest**, die Überzeugung, dass es wahr
+        ist, hält auch (zumindest zunächst) Einwänden stand.
 
 ### Wissen als rationale Behauptung
 
-[Ist das nicht eher eine Frage der Wahrheit?]::
+-   Eine Behauptung beinhaltet dem Anspruch, dass eine andere Person der
+    Behauptung zustimmen kann.
 
-- Eine Behauptung beinhaltet dem Anspruch, dass eine andere Person der Behauptung zustimmen kann.
+-   Eine **rationale Behauptung** macht ihre Beziehung zu den Gründen,
+    aus denen sie ihren Anspruch auf Zustimmung ableitet, sichtbar und
+    legt sie zur Überprüfung offen (s. auch unten die Philosophische
+    Happy Hour zur Wahrheit).
 
-- Eine **rationale Behauptung** macht ihre Beziehung zu den Gründen, aus denen sie ihren Anspruch auf Zustimmung ableitet, sichtbar und legt sie zur Überprüfung offen (s. auch unten die Philosophische Happy Hour zur Wahrheit).
+-   Durch die Offenlegung kann über die Gründe konstruktiv diskutiert
+    werden.
 
-- Durch die Offenlegung kann über die Gründe konstruktiv diskutiert werden. 
-
-(Die philosophische Frage nach der Feststellbarkeit der Wahrheit einer Aussagen lässt sich umgehen, indem man sich auf die offengelegten Gründe konzentriert )
+(Die philosophische Frage nach der Feststellbarkeit der Wahrheit einer
+Aussagen lässt sich umgehen, indem man sich auf die offengelegten Gründe
+konzentriert )
 
 ### Die Bedeutung des Wissensbegriffes für den Wissenschaftsbetrieb
 
-- Derartiges Wissen oder derartige Behauptungen bestehen nicht zwingend nur aus wahren Aussagen (Irrtum kann immer noch entdeckt werden)
+-   Derartiges Wissen oder derartige Behauptungen bestehen nicht
+    zwingend nur aus wahren Aussagen (Irrtum kann immer noch entdeckt
+    werden)
 
-- Aber eine Person, die diese Ansprüche gelten lässt, kann einfordern im Diskurs ernst genommen zu werden
+-   Aber eine Person, die diese Ansprüche gelten lässt, kann einfordern
+    im Diskurs ernst genommen zu werden
 
-- Ernsthaft kann man über dieses Wissen nicht beliebig reden. (Konkurrierende) Positionen zu diesem Wissen können ihrerseits nur Geltung einfordern, wenn sie sich diesen Ansprüchen stellen
+-   Ernsthaft kann man über dieses Wissen nicht beliebig reden.
+    (Konkurrierende) Positionen zu diesem Wissen können ihrerseits nur
+    Geltung einfordern, wenn sie sich diesen Ansprüchen stellen
 
 ## Psychologie des Wissens: Kontakt mit dem Unwissen
 
@@ -634,57 +801,90 @@ anim_save("animation_video.mp4", animation = anim)
 anim_save("animation.gif", animation = anim)
 ```
 
-![Wissen und Unwissen.  Basierend auf einer Überlegung von Blaise Pascal, zitiert nach @ElKassar21](animation_video.mp4) 
+![Wissen und Unwissen. Basierend auf einer Überlegung von Blaise Pascal,
+zitiert nach @ElKassar21](animation_video.mp4)
 
-----
+------------------------------------------------------------------------
 
 Brian Cox über das Paradox des Wissenszuwachses:
 
-<iframe width="396" height="703" src="https://www.youtube-nocookie.com/embed/bTulR26BjSk" title="Brian Cox on the Paradox of Knowing More #science #knowledge #physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="396" height="703" src="https://www.youtube-nocookie.com/embed/bTulR26BjSk" title="Brian Cox on the Paradox of Knowing More #science #knowledge #physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
 
-    
-## Exkurs: Philosophische Happy Hour zur Wahrheit {-}
+</iframe>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5BZ9ThwirdM?si=V31nf9MBclwn0Nap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+## Exkurs: Philosophische Happy Hour zur Wahrheit {.unnumbered}
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5BZ9ThwirdM?si=V31nf9MBclwn0Nap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+
+</iframe>
 
 ## Wissen und Wissenschaft
 
+## Exkurs: Philosophische Happy Hour zur Wissenschaft {.unnumbered}
 
-## Exkurs: Philosophische Happy Hour zur Wissenschaft {-}
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xDgWX6ksLnc?si=7G2ro0UEbyK6PJQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xDgWX6ksLnc?si=7G2ro0UEbyK6PJQB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+</iframe>
 
 ## Wissen und Wissenschaft im politischen Prozess
 
-- Die Rolle von Wissen im politischen Prozess (Legitimationsfunktion)
+-   Die Rolle von Wissen im politischen Prozess (Legitimationsfunktion)
 
-- Schutz der Wissenschaftsfreiheit in  Artikel 5 Absatz 3 Satz 1 GG:  „Wissenschaft, Forschung und Lehre sind frei“ $\rightarrow$ kein hoheitlicher Zugriff auf Entscheidungen über Wahrheit und Entscheidungen über wissenschaftliche Strategien
+-   Schutz der Wissenschaftsfreiheit in Artikel 5 Absatz 3 Satz 1 GG:
+    „Wissenschaft, Forschung und Lehre sind frei“ $\rightarrow$ kein
+    hoheitlicher Zugriff auf Entscheidungen über Wahrheit und
+    Entscheidungen über wissenschaftliche Strategien
 
-- Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit anzusehen ist“ (zitiert nach @garditz_politische_2021)
+-   Wissenschaft ist nach BVerfG, „was nach Inhalt und Form als
+    ernsthafter und planmäßiger Versuch zur Ermittlung von Wahrheit
+    anzusehen ist“ (zitiert nach @garditz_politische_2021)
 
 ## Wissenschaft und normative Aussagen
 
-- Normative Aussagen sind nicht wahrheitsfähig (sie können nicht wahr oder falsch sein).
+-   Normative Aussagen sind nicht wahrheitsfähig (sie können nicht wahr
+    oder falsch sein).
 
-- Normative Aussagen als solche stellen demzufolge kein Wissen dar.
+-   Normative Aussagen als solche stellen demzufolge kein Wissen dar.
 
-- Dennoch können normative Aussagen Teil einer wissenschaftlichen Auseinandersetzung sein.
+-   Dennoch können normative Aussagen Teil einer wissenschaftlichen
+    Auseinandersetzung sein.
 
-  - Die Überprüfung, ob eine Aussage zu einer anderen passt, ist wahrheitsfähig
-  
-  - Sowohl die Entscheidung für bestimmte Wertungen als auch die Schlussfolgerung aus Wertungen kann kritisch diskutiert werden
-  
-  $\rightarrow$ Wichtig ist die Offenlegung der zugrundegelegten Werturteile
-  
-## Exkurs: X-Universität zur Wertfreie Wissenschaft? {-}
+    -   Die Überprüfung, ob eine Aussage zu einer anderen passt, ist
+        wahrheitsfähig
 
-<blockquote class="twitter-tweet" data-dnt="true"><p lang="de" dir="ltr">Nehme das Argument ja durchaus ernst. Aber, hier herrscht bei vielen die Fiktion vor (und wird auch vertreten), dass es so etwas wie neutrale (Sozial)Wissenschaft geben würde. Neutral ist sie dann, wenn sie Fragen des „Wer, Wann, Was, Wo“nachgeht. Geht es um ihren Kern, 1 <a href="https://t.co/95ThFyL7QD">https://t.co/95ThFyL7QD</a></p>&mdash; Carlo &quot;Realism, Gedankenfetzen and Rants&quot; Masala (@CarloMasala1) <a href="https://twitter.com/CarloMasala1/status/1644299134034231296?ref_src=twsrc%5Etfw">April 7, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+    -   Sowohl die Entscheidung für bestimmte Wertungen als auch die
+        Schlussfolgerung aus Wertungen kann kritisch diskutiert werden
+
+    $\rightarrow$ Wichtig ist die Offenlegung der zugrundegelegten
+    Werturteile
+
+## Exkurs: X-Universität zur Wertfreie Wissenschaft? {.unnumbered}
+
+<blockquote class="twitter-tweet" data-dnt="true">
+
+<p lang="de" dir="ltr">
+
+Nehme das Argument ja durchaus ernst. Aber, hier herrscht bei vielen die
+Fiktion vor (und wird auch vertreten), dass es so etwas wie neutrale
+(Sozial)Wissenschaft geben würde. Neutral ist sie dann, wenn sie Fragen
+des „Wer, Wann, Was, Wo“nachgeht. Geht es um ihren Kern, 1
+<a href="https://t.co/95ThFyL7QD">https://t.co/95ThFyL7QD</a>
+
+</p>
+
+— Carlo "Realism, Gedankenfetzen and Rants" Masala (@CarloMasala1)
+<a href="https://twitter.com/CarloMasala1/status/1644299134034231296?ref_src=twsrc%5Etfw">April
+7, 2023</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 # Wissenschaftliches Schreiben
 
-## Aufbau der Arbeit 
+## Aufbau der Arbeit
 
 ### Inhaltlicher Aufbau
 
@@ -694,34 +894,51 @@ Brian Cox über das Paradox des Wissenszuwachses:
 
 ![Gliederungstechnik](Gliederungstechnik.svg)
 
-
 ## Wissenschaftliches Zitieren
 
 ![Zitiertechniken](Zitieren.svg)
 
-## Literaturverzeichnis 
+## Literaturverzeichnis
 
-s. das Literaturverzeichnis in meinen Unterlagen und siehe @Oehlrich15.
+s.  das Literaturverzeichnis in meinen Unterlagen und siehe @Oehlrich15.
 
 <embed src="https://link.springer.com/content/pdf/10.1007/978-3-658-34791-8_3" type="application/pdf" width="100%" height="700px">
 
 ## Sprachlicher Ausdruck
 
-s. @Oehlrich15 und meine Ausführungen dazu.
+s.  @Oehlrich15 und meine Ausführungen dazu.
 
 <embed src="https://link.springer.com/content/pdf/10.1007/978-3-658-34791-8_5" type="application/pdf" width="100%" height="700px">
 
 # Ideen vs. Umsetzung
 
-## Ehret das Handwerk! {-}
+## Ehret das Handwerk! {.unnumbered}
 
-<blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true"><p lang="en" dir="ltr">Steve Jobs explains the difference between a great idea and a great product: <a href="https://t.co/7a088mcWZc">pic.twitter.com/7a088mcWZc</a></p>&mdash; Business Nerd 🧠 (@BusinessNerd_) <a href="https://twitter.com/BusinessNerd_/status/1940162912363913498?ref_src=twsrc%5Etfw">July 1, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet" data-media-max-width="560" data-dnt="true">
+
+<p lang="en" dir="ltr">
+
+Steve Jobs explains the difference between a great idea and a great
+product:
+<a href="https://t.co/7a088mcWZc">pic.twitter.com/7a088mcWZc</a>
+
+</p>
+
+— Business Nerd 🧠 (@BusinessNerd_)
+<a href="https://twitter.com/BusinessNerd_/status/1940162912363913498?ref_src=twsrc%5Etfw">July
+1, 2025</a>
+
+</blockquote>
+
+```{=html}
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+```
 
 ## Zeitplanung
 
-
 Machen Sie sich einen Zeitplan. Bedenken Sie dabei die verschiedenen
-erforderlichen Arbeitsphasen. Bedenken Sie außerdem, wann Sie wie viel Zeit (und Energie) in das Projekt stecken können. Ihren ersten Zeitplan
+erforderlichen Arbeitsphasen. Bedenken Sie außerdem, wann Sie wie viel
+Zeit (und Energie) in das Projekt stecken können. Ihren ersten Zeitplan
 werden Sie (vermutlich mehrfach) revidieren müssen.
 
 ## Teamarbeit
@@ -730,49 +947,47 @@ Gegebenenfalls arbeiten Sie in Teams. Dies erfordert gegenseitiges
 Vertrauen und Disziplin. Sprechen Sie die Arbeitsschritte und die
 Arbeitsteilung sorgfältig ab. Berücksichtigen Sie dabei auch Ihre
 unterschiedlichen Fähigkeiten. Lassen Sie sich nicht gegenseitig im
-Stich. Verlassen Sie sich nicht ohne Absprache darauf, dass die anderen Teampartner für Sie einspringen werden. Bei ernsthaften Problemen in der Teamarbeit, die den Erfolg des Projektes zu gefährden drohen, kommen Sie
+Stich. Verlassen Sie sich nicht ohne Absprache darauf, dass die anderen
+Teampartner für Sie einspringen werden. Bei ernsthaften Problemen in der
+Teamarbeit, die den Erfolg des Projektes zu gefährden drohen, kommen Sie
 bitte auf mich zu.
 
-# Letzte Tipps vor der Abgabe {-}
+# Letzte Tipps vor der Abgabe {.unnumbered}
 
 **Checkliste**
 
+-   Sind die Anforderungen der Aufgabenstellung erfüllt? Insb. die
+    Verwendung von Texten?
 
-- Sind die Anforderungen der Aufgabenstellung erfüllt? Insb. die Verwendung von Texten?
+-   Literaturverzeichnis vollständig und korrekt?
 
-- Literaturverzeichnis vollständig und korrekt?
+-   Sind alle Aussagen hinreichend belegt?
 
-- Sind alle Aussagen hinreichend belegt?
+-   Stimmen die Strukturen von Einleitung und Fazit?
 
-- Stimmen die Strukturen von Einleitung und Fazit?
+-   Ist die Arbeit korrekturgelesen? Rechtschreibung, Interpunktion,
+    Grammatik?
 
-- Ist die Arbeit korrekturgelesen? Rechtschreibung, Interpunktion, Grammatik?
+-   Zeichenrestriktion passt?
 
-- Zeichenrestriktion passt?
+-   Layout passt?
 
-- Layout passt?
+-   Dateiformat richtig (pdf)
 
-- Dateiformat richtig (pdf)
-
-- Dateiname richtig (beinhaltet Namen)
+-   Dateiname richtig (beinhaltet Namen)
 
 ---
 nocite: '@*'
 csl: technische-universitat-dresden-betriebswirtschaftslehre-rechnungswesen-controlling.csl
 ---
 
-# Literatur {-}
+# Literatur {.unnumbered}
 
+```{=html}
 <style>body {text-align: justify}</style>
+```
 
-
-<div style="text-indent: -40px; padding-left: 40px;">
-
-<div id="refs"></div>
-
-</div>
-
-[Hier LVZ ausgeben]::
-
-[https://dailydevsblog.com/troubleshoot/resolved-how-to-generate-a-hanging-citation-for-an-html-document-in-rmarkdown-151396/]::
-
+:::: {style="text-indent: -40px; padding-left: 40px;"}
+::: {#refs}
+:::
+::::

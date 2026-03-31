@@ -51,6 +51,10 @@
 <link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
 <link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
 <script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
+<script src="libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<script src="libs/viz-1.8.2/viz.js"></script>
+<link href="libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="libs/grViz-binding-1.0.11/grViz.js"></script>
 
 
 
@@ -193,8 +197,8 @@ den Zeitaufwand der jeweiligen Arbeitsschritte genau kennen können.
 Diese Hinweise sollen Ihnen die Arbeit etwas erleichtern.</p>
 <div id="umfang-ihrer-seminararbeit" class="section level2 hasAnchor" number="5.1">
 <h2><span class="header-section-number">5.1</span> Umfang Ihrer Seminararbeit<a href="ihre-seminararbeit.html#umfang-ihrer-seminararbeit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
-<p>Bitte beachten Sie in Ihrer Arbeit (von Dreierteams erstellt) die Zeichenrestriktion von
-<em>12.000-15.000 Zeichen</em>, <em>inklusive Leerzeichen</em>.</p>
+<p>Bitte beachten Sie in Ihrer Arbeit (von Dreierteams erstellt) die
+Zeichenrestriktion von <em>12.000-15.000 Zeichen</em>, <em>inklusive Leerzeichen</em>.</p>
 </div>
 <div id="struktur-ihrer-seminararbeit" class="section level2 hasAnchor" number="5.2">
 <h2><span class="header-section-number">5.2</span> Struktur Ihrer Seminararbeit<a href="ihre-seminararbeit.html#struktur-ihrer-seminararbeit" class="anchor-section" aria-label="Anchor link to header"></a></h2>
@@ -238,24 +242,24 @@ Möglichkeit noch nicht kennen. Geben Sie den KorrekturleserInnen Zeit!</p>
 <p>Der Leser, die Leserin möchte und sollte sich auf den Inhalt Ihres
 Textes konzentrieren. Daraus folgt allerdings gerade nicht, dass die
 äußere Form belanglos wäre – im Gegenteil: Je weniger die äußere Form
-als „störend“ empfunden wird, desto besser gelingt die Konzentration
-auf das Wesentliche, den Inhalt. Daher sollte das Layout des Textes
+als „störend“ empfunden wird, desto besser gelingt die Konzentration auf
+das Wesentliche, den Inhalt. Daher sollte das Layout des Textes
 übersichtlich und schlicht sein, sodass der Leser sich auf den Inhalt
 des Textes gut konzentrieren kann.</p>
 <p>Ich empfehle eine Schriftgröße von 11 oder 12 Punkten, 1,5-fachen
 Zeilenabstand und Blocksatz (mit Silbentrennung). Zur guten Lesbarkeit
-verwenden Sie bitte eine Serifenschrift (z. B. Times New Roman,
-Linux Libertine oder Liberation Serif).</p>
+verwenden Sie bitte eine Serifenschrift (z. B. Times New Roman, Linux
+Libertine oder Liberation Serif).</p>
 </div>
 <div id="nutzung-von-hard--und-software" class="section level2 hasAnchor" number="5.5">
 <h2><span class="header-section-number">5.5</span> Nutzung von Hard- und Software<a href="ihre-seminararbeit.html#nutzung-von-hard--und-software" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <div id="software-zur-texterstellung" class="section level3 hasAnchor" number="5.5.1">
 <h3><span class="header-section-number">5.5.1</span> Software zur Texterstellung<a href="ihre-seminararbeit.html#software-zur-texterstellung" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Ein wissenschaftlicher Text entsteht typischerweise nicht (nur) mit
-Stift und Papier, sondern unter Nutzung von Hard- und Software. Um
-einen wissenschaftlichen Text verfassen zu können, muss man mit der
-verwendeten Hard- und Software hinreichend vertraut sein. Dies
-betrifft z.B. die Umsetzung von Formatierungsvorgaben mit einem
+Stift und Papier, sondern unter Nutzung von Hard- und Software. Um einen
+wissenschaftlichen Text verfassen zu können, muss man mit der
+verwendeten Hard- und Software hinreichend vertraut sein. Dies betrifft
+z.B. die Umsetzung von Formatierungsvorgaben mit einem
 Textverarbeitungsprogramm, die Erstellung von Verzeichnissen usw.</p>
 <p>Erfahrungsgemäß nutzen viele Studierende eine Version von Microsoft Word
 oder von LibreOffice.</p>
@@ -266,11 +270,11 @@ mathematischer Ausdrücke.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1
 <p>Die Verwendung von <span class="math inline">\(\LaTeX\)</span> erfordert eine Installation des jeweiligen
 Programms und zahlreicher Pakete, die etwas lästig sein kann. Der
 online-Service <a href="http://www.overleaf.com">Overleaf.com</a> ermöglicht die
-Nutzung von <span class="math inline">\(\LaTeX\)</span> ohne Installation von <span class="math inline">\(\TeX\)</span> und Pflege der <span class="math inline">\(\LaTeX\)</span>-Pakete.
-Sie brauchen dazu lediglich einen Webbrowser. Sie schreiben in einem
-übersichtlichen Editorfenster. Ihr Quelltext wird dann in ein
-pdf-Dokument kompiliert. Dieser Prozess stellt eine sehr einfache Form
-der Nutzung von <span class="math inline">\(\LaTeX\)</span> dar.</p>
+Nutzung von <span class="math inline">\(\LaTeX\)</span> ohne Installation von <span class="math inline">\(\TeX\)</span> und Pflege der
+<span class="math inline">\(\LaTeX\)</span>-Pakete. Sie brauchen dazu lediglich einen Webbrowser. Sie
+schreiben in einem übersichtlichen Editorfenster. Ihr Quelltext wird
+dann in ein pdf-Dokument kompiliert. Dieser Prozess stellt eine sehr
+einfache Form der Nutzung von <span class="math inline">\(\LaTeX\)</span> dar.</p>
 <p>Wenn Sie im Team arbeiten, sollten Sie sich hinsichtlich der Nutzung
 eines Textverarbeitungsprogramms abstimmen. Auch unterschiedliche
 Versionen des gleichen Programms können erfahrungsgemäß beim
@@ -280,44 +284,71 @@ Zusammenfügen von Dokumententeilen zu Problemen führen.</p>
 <h3><span class="header-section-number">5.5.2</span> Software zur Literaturverwaltung<a href="ihre-seminararbeit.html#software-zur-literaturverwaltung" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <p>Für die Verwaltung bibliografischer Angaben gibt es zahlreiche
 Programme, die auch direkt mit Ihrem Textverarbeitungsprogramm
-interagieren können. Zu nennen wären etwa Citavi, Zotero oder Mendeley. Für das Erstellen einer kurzen Arbeit übersteigt der Aufwand der Einarbeitung
-vermutlich den praktischen Nutzen. Für spätere wissenschaftliche
-Arbeiten ist die Nutzung solcher Programme vermutlich aber sehr
-hilfreich.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+interagieren können. Zu nennen wären etwa Citavi, Zotero oder Mendeley.
+Für das Erstellen einer kurzen Arbeit übersteigt der Aufwand der
+Einarbeitung vermutlich den praktischen Nutzen. Für spätere
+wissenschaftliche Arbeiten ist die Nutzung solcher Programme vermutlich
+aber sehr hilfreich.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
 </div>
 </div>
 <div id="nutzung-von-ki-gestützten-diensten" class="section level2 hasAnchor" number="5.6">
 <h2><span class="header-section-number">5.6</span> Nutzung von KI-gestützten Diensten<a href="#nutzung-von-ki-gest%C3%BCtzten-diensten" class="anchor-section" aria-label="Anchor link to header"></a></h2>
 <ul>
-<li><p>Im Bereich der künstlichen Intelligenz (KI) erfreuen sich Dienste auf der Basis von
-generative pre-trained transformers einer zunehmenden Beliebtheit.</p></li>
-<li><p>Beispiele: Chat GPT, Microsoft Copilot, Google Gemini, Perplexity, Deep Seek, <span class="math inline">\(\dots\)</span></p></li>
-<li><p>Diese Dienste können in menschlicher Sprache mit NutzerInnen interagieren</p></li>
-<li><p>Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche Kompetenz ist von außen schwer einzuschätzen</p></li>
-<li><p>Subjektiver Eindruck: Die Kompetenz entspricht der eines Gesprächspartners mit guter Allgemeinenbildung, aber mitunter ohne fachlich vertiefte Kenntnis oder nur sehr selektiver fachlicher Kenntnis</p></li>
-<li><p>Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren Nische nicht zu eng ist und über die es qualitativ hochwertige Texte frei verfügbar über das Internet gibt.</p></li>
-<li><p>Problem: In der Regel kein (transparenter) Zugang zu kostenpflichtigen Fachartikeln und damit zu relevanten Teilen der aktuellen Literatur.</p></li>
-<li><p>Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber nicht, wenn er etwas nicht weiß.</p></li>
+<li><p>Im Bereich der künstlichen Intelligenz (KI) erfreuen sich Dienste
+auf der Basis von generative pre-trained transformers einer
+zunehmenden Beliebtheit.</p></li>
+<li><p>Beispiele: Chat GPT, Microsoft Copilot, Google Gemini, Perplexity,
+Deep Seek, <span class="math inline">\(\dots\)</span></p></li>
+<li><p>Diese Dienste können in menschlicher Sprache mit NutzerInnen
+interagieren</p></li>
+<li><p>Sie verfügen über eine hohe Sprachkompetenz. Die inhaltliche
+Kompetenz ist von außen schwer einzuschätzen</p></li>
+<li><p>Subjektiver Eindruck: Die Kompetenz entspricht der eines
+Gesprächspartners mit guter Allgemeinenbildung, aber mitunter ohne
+fachlich vertiefte Kenntnis oder nur sehr selektiver fachlicher
+Kenntnis</p></li>
+<li><p>Inzwischen hohe Recherchekompetenz zumindest bei Themen, deren
+Nische nicht zu eng ist und über die es qualitativ hochwertige Texte
+frei verfügbar über das Internet gibt.</p></li>
+<li><p>Problem: In der Regel kein (transparenter) Zugang zu
+kostenpflichtigen Fachartikeln und damit zu relevanten Teilen der
+aktuellen Literatur.</p></li>
+<li><p>Generelle Haltung: Dienst ist ein beflissener Assistent, sagt aber
+nicht, wenn er etwas nicht weiß.</p></li>
 </ul>
 <div id="liefern-die-dienste-wissen" class="section level3 hasAnchor" number="5.6.1">
 <h3><span class="header-section-number">5.6.1</span> Liefern die Dienste Wissen?<a href="ihre-seminararbeit.html#liefern-die-dienste-wissen" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><p>Wissensbegiff (s.u.): <a href="https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen">Definition wissenschaftliches Wissen im Science_Lab</a></p></li>
+<li><p>Wissensbegiff (s.u.): <a href="https://janvoss.github.io/Science_Lab/wissenschaftstheorie.html#anforderungen-an-wissenschaftliches-wissen">Definition wissenschaftliches Wissen im
+Science_Lab</a></p></li>
 <li><p>Die Antworten von KI-gestützten Diensten sind</p>
 <ul>
-<li>inzwischen oft nachvollziehbar begründet und belegt (insbeondere bei Anfragen mit sogenanntem tiefem Nachdenken und Onlinerecherche)</li>
+<li>inzwischen oft nachvollziehbar begründet und belegt (insbeondere
+bei Anfragen mit sogenanntem tiefem Nachdenken und
+Onlinerecherche)</li>
 <li>aber immer wieder nicht irritationsfest</li>
 </ul></li>
-<li><p>Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der ihre Antworten in einem (möglichst wahren) Bezug stehen sollten.</p></li>
-<li><p>Die Dienste “überlegen” nicht, wenn sie eine Antwort suchen. Sie verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher Wahrscheinlichkeit “gute” Antworten sind. Das müssen nicht “wahre” Antworten sein.</p></li>
-<li><p>Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen ohne Bewusstsein.</p></li>
+<li><p>Die Dienste haben schlicht keine Idee von einer Wirklichkeit, zu der
+ihre Antworten in einem (möglichst wahren) Bezug stehen sollten.</p></li>
+<li><p>Die Dienste “überlegen” nicht, wenn sie eine Antwort suchen. Sie
+verwenden Algorithmen, die ihnen sagen, welche Antworten mit hoher
+Wahrscheinlichkeit “gute” Antworten sind. Das müssen nicht “wahre”
+Antworten sein.</p></li>
+<li><p>Eigentlich halluzinieren die Dienst die ganze Zeit: Sie sprechen
+ohne Bewusstsein.</p></li>
 <li><p>Dennoch können Sie sehr hilfreich sein.</p></li>
 </ul>
 <blockquote class="twitter-tweet" data-dnt="true">
 <p lang="en" dir="ltr">
-If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all we had was Gemini, we could say, hmm “maybe hallucinations are just a bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe hallucinations…
+<p>If all we had was ChatGPT, we could say, hmm “maybe hallucinations are
+just a bug”, and fantasize that they weren’t hard to fix.<br><br>If all
+we had was Gemini, we could say, hmm “maybe hallucinations are just a
+bug”.<br><br>If all we had was Mistral, we could say, hmm “maybe
+hallucinations…</p>
 </p>
-— Gary Marcus (<span class="citation">(<a href="#ref-GaryMarcus"><strong>GaryMarcus?</strong></a>)</span>) <a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April 20, 2024</a>
+<p>— Gary Marcus (<span class="citation">(<a href="#ref-GaryMarcus"><strong>GaryMarcus?</strong></a>)</span>)
+<a href="https://twitter.com/GaryMarcus/status/1781769926279409857?ref_src=twsrc%5Etfw">April
+20, 2024</a></p>
 </blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
@@ -328,19 +359,25 @@ If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a 
 <li><p>Schlechte Idee! (Aber inzwischen nicht mehr <em>so</em> schlecht)</p>
 <ul>
 <li><p>Halluzinieren i.e.S.</p></li>
-<li><p>keine Inhaltliche Kompetenz des Dienstes (und der/des Studierenden?)</p></li>
+<li><p>keine Inhaltliche Kompetenz des Dienstes (und der/des
+Studierenden?)</p></li>
 <li><p>evtl. geringe Nachvollziehbarkeit der faktischenGrundlage</p></li>
 <li><p>evtll. Probleme bei der Erfüllung formaler Kriterien.</p></li>
-<li><p>Prüfungstechnisch: Kein eigener Wissenserwerb <span class="math inline">\(\rightarrow\)</span> Täuschungsversuch</p></li>
+<li><p>Prüfungstechnisch: Kein eigener Wissenserwerb <span class="math inline">\(\rightarrow\)</span>
+Täuschungsversuch</p></li>
 </ul></li>
 </ul>
 </div>
 <div id="ki-gestützte-dienste-als-recherchedienst" class="section level3 hasAnchor" number="5.6.3">
 <h3><span class="header-section-number">5.6.3</span> KI-gestützte Dienste als Recherchedienst<a href="#ki-gest%C3%BCtzte-dienste-als-recherchedienst" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><p>Das gelingt immer besser, aber auch hier nicht immer ein gemeinsames Verständnis vom Thema bzw. der Aufgabe</p></li>
-<li><p>Durchaus beachtliche Wahrscheinlichkeit von inhaltlichen Fehlern oder aber bestimmten inhaltlichen Gewichtungen, die Sie nicht für richtig halten müssen.</p></li>
-<li><p>Die inhaltliche Bewertung der Rechercheleistung müssen <em>Sie</em> leisten. Das kann Ihnen der Dienst nicht abnehmen.</p></li>
+<li><p>Das gelingt immer besser, aber auch hier nicht immer ein gemeinsames
+Verständnis vom Thema bzw. der Aufgabe</p></li>
+<li><p>Durchaus beachtliche Wahrscheinlichkeit von inhaltlichen Fehlern
+oder aber bestimmten inhaltlichen Gewichtungen, die Sie nicht für
+richtig halten müssen.</p></li>
+<li><p>Die inhaltliche Bewertung der Rechercheleistung müssen <em>Sie</em>
+leisten. Das kann Ihnen der Dienst nicht abnehmen.</p></li>
 <li><p>Eher Gesprächspartner als Orakel</p></li>
 <li><p><em>Kein</em> umfassender Zugriff auf wissenschaftliche Literatur</p></li>
 </ul>
@@ -367,9 +404,14 @@ If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a 
 <div id="literatur-auswerten" class="section level3 hasAnchor" number="5.6.6">
 <h3><span class="header-section-number">5.6.6</span> Literatur auswerten<a href="ihre-seminararbeit.html#literatur-auswerten" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><p>Einige Dienste erlauben das Hochladen und Auswerten von pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen beantworten</p></li>
-<li><p>Das kann für einen Überblick sehr interessant sein, es ersetzt typischerweise aber nicht das Lesen der Texte, die Sie tatsächlich verwenden möchten.</p></li>
-<li><p>Interessant: Auch Videos könnne teilweise zusammengefasst/ausgewertet werden.</p></li>
+<li><p>Einige Dienste erlauben das Hochladen und Auswerten von
+pdf-Dokumenten und können Zusammenfassungen erstellen und Fragen
+beantworten</p></li>
+<li><p>Das kann für einen Überblick sehr interessant sein, es ersetzt
+typischerweise aber nicht das Lesen der Texte, die Sie tatsächlich
+verwenden möchten.</p></li>
+<li><p>Interessant: Auch Videos könnne teilweise
+zusammengefasst/ausgewertet werden.</p></li>
 </ul>
 </div>
 <div id="schreiben-von-code" class="section level3 hasAnchor" number="5.6.7">
@@ -382,10 +424,15 @@ If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a 
 <div id="genereller-nutzungshinweis" class="section level3 hasAnchor" number="5.6.8">
 <h3><span class="header-section-number">5.6.8</span> Genereller Nutzungshinweis<a href="ihre-seminararbeit.html#genereller-nutzungshinweis" class="anchor-section" aria-label="Anchor link to header"></a></h3>
 <ul>
-<li><p>Präzise Formulierung der Aufgabenstellung (prompt) erhöht die inhaltliche Qualität der Antworten.</p></li>
-<li><p>Dazu gehören u.U. auch Angaben über den Kontext und den gewünschten Sprachstil</p></li>
-<li><p>Kommunikation mit Dienst als Gespräch sehen. Nicht unbedingt mit der ersten Antwort zufrieden geben, sondern weiter damit arbeiten</p></li>
-<li><p>Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen lassen sondern produktiver machen!</p></li>
+<li><p>Präzise Formulierung der Aufgabenstellung (prompt) erhöht die
+inhaltliche Qualität der Antworten.</p></li>
+<li><p>Dazu gehören u.U. auch Angaben über den Kontext und den gewünschten
+Sprachstil</p></li>
+<li><p>Kommunikation mit Dienst als Gespräch sehen. Nicht unbedingt mit der
+ersten Antwort zufrieden geben, sondern weiter damit arbeiten</p></li>
+<li><p>Geben Sie nicht die inhaltliche Verantwortung an den KI-gestützten
+Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen
+lassen sondern produktiver machen!</p></li>
 </ul>
 </div>
 <div id="zusammenfassung" class="section level3 hasAnchor" number="5.6.9">
@@ -398,10 +445,10 @@ If all we had was ChatGPT, we could say, hmm “maybe hallucinations are just a 
 <div class="footnotes">
 <hr />
 <ol start="1">
-<li id="fn1"><p> <span class="math inline">\(\LaTeX\)</span>-Dokumente sind reine Textdokumente,
-die neben dem inhaltlichen Text auch Formatierungsanweisungen enthalten.
-Das Programm <span class="math inline">\(\TeX\)</span> bzw. pdf<span class="math inline">\(\TeX\)</span> erstellt daraus dann eine Druckvorlage,
-etwa im Format portable document format (pdf).<a href="ihre-seminararbeit.html#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn1"><p><span class="math inline">\(\LaTeX\)</span>-Dokumente sind reine Textdokumente, die neben dem
+inhaltlichen Text auch Formatierungsanweisungen enthalten. Das
+Programm <span class="math inline">\(\TeX\)</span> bzw. pdf<span class="math inline">\(\TeX\)</span> erstellt daraus dann eine
+Druckvorlage, etwa im Format portable document format (pdf).<a href="ihre-seminararbeit.html#fnref1" class="footnote-back">↩︎</a></p></li>
 <li id="fn2"><p>Dieser Text wurde unter Nutzung von BibTex und Zotero erstellt.<a href="ihre-seminararbeit.html#fnref2" class="footnote-back">↩︎</a></p></li>
 </ol>
 </div>
