@@ -1,7 +1,7 @@
 ---
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
-date: "HfWU Zukunftsökonomie | WiSe 2025/26"
+date: "HfWU Zukunftsökonomie | SoSe 2026"
 
 output:
 
@@ -45,19 +45,15 @@ generate_svg(qr, filename = "qr-titel.svg")
 <style>body {text-align: justify}</style>
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Neubelebung der Industriepolitik**. Als Prüfungsleistungen schreiben Sie
+**Ökonomische Antworten auf den Populismus**. Als Prüfungsleistungen schreiben Sie
 in Dreierteams (zur Not: allein) eine kurze **wissenschaftliche
 Ausarbeitung** und absolvieren Sie eine **mündliche Prüfung**.
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
-der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2025/heft/8/beitrag/neubelebung-der-industriepolitik.html)
+der Zeitschrift [Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/1/beitrag/oekonomische-antworten-auf-den-populismus.html)
 zum oben genannten Thema: 
-@kroeger_strukturwandel_2025, 
-@lehmann_strukturwandel_2025, 
-@weizsacker_governance_2025, 
-@huther_industriepolitik_2025, 
-@dullien_industriepolitik_2025, 
-@elspas_raus_2025.
+
+
 
 In Ihrer Seminararbeit setzen Sie sich mit mindestens vier der Texte aus
 dem Wirtschaftsdienst auseinander. Als zusätzliche Literatur
