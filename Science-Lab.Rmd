@@ -684,6 +684,89 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
         durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
     -   Wissen ist **irritationsfest**, die Überzeugung, dass es wahr
         ist, hält auch (zumindest zunächst) Einwänden stand.
+        
+        
+### Aber: was ist Wahrheit?
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+# Installiere das Paket, falls noch nicht geschehen:
+# install.packages("DiagrammeR")
+
+library(DiagrammeR)
+
+# Erstellen und Anzeigen des Graphen
+grViz("
+digraph Wahrheitstheorien {
+
+  # --- Graphen-Initialisierung ---
+  graph [rankdir = TB, fontname = 'Arial']
+  node [style = 'filled, rounded', fontname = 'Arial', shape = rectangle]
+
+  # --- ZENTRALER KNOTEN ---
+  Truth [label = 'DIE NATUR DER WAHRHEIT', shape = doubleoctagon, fillcolor = '#eceff1', penwidth = 3]
+
+  # --- BRANCH 1: Korrespondenz (Klassik & Realismus) ---
+  subgraph cluster_correspondence {
+    label = 'Korrespondenztheorie (Aristoteles)'
+    style = filled
+    color = '#e3f2fd'
+    Match [label = 'Übereinstimmung mit der Realität\\n(Strukturelle Korrespondenz)', fillcolor = '#90caf9']
+    External [label = 'Externe Bedingung\\n(Subjektunabhängig)', fillcolor = '#bbdefb']
+    
+    Match -> External
+  }
+
+  # --- BRANCH 2: Kohärenz & Konstruktion ---
+  subgraph cluster_coherence {
+    label = 'Systemische Ansätze'
+    style = filled
+    color = '#f3e5f5'
+    Coherence [label = 'Kohärenztheorie\\n(Widerspruchsfreiheit im System)', fillcolor = '#ce93d8']
+    Constructivism [label = 'Konstruktivismus\\n(Wahrheit als Konstruktion)', fillcolor = '#e1bee7']
+    
+    Coherence -> Constructivism [style = dotted, label = 'Subjektbezug']
+  }
+
+  # --- BRANCH 3: Wissenschaftstheorie (Dynamik) ---
+  subgraph cluster_science {
+    label = 'Wissenschaft & Fortschritt'
+    style = filled
+    color = '#e8f5e9'
+    Popper [label = 'Falsifikation (Popper)\\n(Vorläufige Bewährung)', fillcolor = '#a5d6a7']
+    Kuhn [label = 'Paradigmen (Kuhn)\\n(Sozialer Prozess)', fillcolor = '#a5d6a7']
+    Approx [label = 'Wahrheitsnähe\\n(Approximation)', fillcolor = '#c8e6c9']
+    
+    Popper -> Approx
+    Kuhn -> Popper [style = dashed, label = 'Krisen']
+  }
+
+  # --- BRANCH 4: Logische Typisierung ---
+  subgraph cluster_types {
+    label = 'Arten der Wahrheit'
+    style = filled
+    color = '#fff3e0'
+    Analytic [label = 'Analytisch\\n(Logik / Definition)', fillcolor = '#ffcc80']
+    Synthetic [label = 'Synthetisch\\n(Faktische Welt)', fillcolor = '#ffcc80']
+  }
+
+  # --- SYNTHESE & ZIEL ---
+  Democracy [label = 'Sozialer Konsens\\n(durch öffentliche Auseinandersetzung)', shape = hexagon, fillcolor = '#dcedc8']
+
+  # --- VERBINDUNGEN ZUR MITTE UND ENDPUNKTEN ---
+  Truth -> Match
+  Truth -> Coherence
+  Truth -> Popper
+  Truth -> Analytic
+
+  External -> Democracy [label = 'Faktizität']
+  Coherence -> Democracy [label = 'Konsens']
+
+}
+")
+
+```
+
 
 ### Wissen als rationale Behauptung
 
@@ -701,6 +784,94 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
 (Die philosophische Frage nach der Feststellbarkeit der Wahrheit einer
 Aussagen lässt sich umgehen, indem man sich auf die offengelegten Gründe
 konzentriert )
+
+
+```{r, echo=FALSE, warning=FALSE, message=FALSE}
+
+library(DiagrammeR)
+
+grViz("
+digraph Wissen_als_Behauptung {
+
+  # --- Globale Formatierung ---
+  graph [rankdir = TB, fontname = 'Helvetica,Arial,sans-serif']
+  node [shape = rectangle, style = filled, fontname = 'Helvetica,Arial,sans-serif']
+
+  # --- CLUSTER 1: DAS KLASSISCHE JTB-MODELL & DAS WAHRHEITSPROBLEM ---
+  subgraph cluster_classic {
+    label = 'I. Klassisches Modell (Problem der Korrespondenz)'
+    style = filled
+    fillcolor = '#EBF5FB'
+
+    Belief [label = 'Meinung\\n(Interner Zustand)', fillcolor = '#D6EAF8']
+    Just [label = 'Begründung\\n(Interner Zustand)', fillcolor = '#D6EAF8']
+    Truth [label = 'Wahrheit\\n(Externe Korrespondenz)', fillcolor = '#F1948A']
+
+    Gap [label = 'Erkenntnistheoretische Lücke:\\nKein direkter Zugriff auf\\nsubjektunabhängige Realität', shape = doubleoctagon, fillcolor = 'white']
+
+    Belief -> Gap [style = dotted]
+    Just -> Gap [style = dotted]
+    Gap -> Truth [dir = none, style = dotted] // Verbindung zur Wahrheit verdeutlichen
+    Truth -> Gap [dir = back]
+  }
+
+  # --- CLUSTER 2: DIE SKEPTISCHE BARRIERE ---
+  subgraph cluster_skeptic {
+    label = 'II. Münchhausen-Trilemma (Begründungsnot)'
+    style = filled
+    fillcolor = '#FDEDEC'
+
+    Trilemma [label = 'Unmöglichkeit absoluter Gewissheit', fontname = 'Helvetica-Bold']
+    Regress [label = 'Infiniter Regress']
+    Zirkel [label = 'Zirkelschluss']
+    Dogma [label = 'Dogmatischer Abbruch']
+
+    Trilemma -> Regress
+    Trilemma -> Zirkel
+    Trilemma -> Dogma
+  }
+
+  # --- CLUSTER 3: DIE MODERNE LÖSUNG (RATIONALE BEHAUPTUNG) ---
+  subgraph cluster_modern {
+    label = 'III. Wissen als Rationale Behauptung'
+    style = filled
+    fillcolor = '#E8F5E9'
+
+    Assertion [label = 'Epistemisches Versprechen\\n(Rationale Behauptung)', fillcolor = '#A9DFBF', fontname = 'Helvetica-Bold']
+    Resp [label = 'Begründung und\\n Einladung zur Auseinandersetzung', fillcolor = 'white']
+    Stability [label = 'Irritationsfest\\n(Stabil gegen Einwände)', fillcolor = 'white']
+    Fallible [label = 'Irrtumssensibel\\n(revidierbar/fallibel)', fillcolor = 'white']
+
+    Assertion -> Resp
+    Assertion -> Stability
+    Assertion -> Fallible
+  }
+
+  # --- CLUSTER 4: PRAXIS & DEMOKRATIE ---
+  subgraph cluster_praxis {
+    label = 'IV. Wissenschaft & Gesellschaft'
+    style = filled
+    fillcolor = '#FEF9E7'
+
+    Science [label = 'Wissenschaft:\\nBeste Erklärung (Abduktion)', fillcolor = '#F9E79F']
+    Demo [label = 'Demokratie:\\nTransparenter Dialog &\\nSelbstkorrektur', fillcolor = '#F9E79F']
+
+    Science -> Demo [label = 'Referenzrahmen']
+  }
+
+  # --- Hauptverbindungen zwischen den Clustern ---
+  Gap -> Trilemma [label = 'führt zu']
+  Trilemma -> Assertion [label = 'Shift zu Geltung']
+  
+  # Hinweis: ltail/lhead (Cluster-Verbindungen) erfordern 'compound=true'
+  graph [compound = true]
+  Assertion -> Science [ltail = cluster_modern, lhead = cluster_praxis]
+
+}
+")
+```
+
+
 
 ### Die Bedeutung des Wissensbegriffes für den Wissenschaftsbetrieb
 
@@ -806,11 +977,6 @@ zitiert nach @ElKassar21](animation_video.mp4)
 
 ------------------------------------------------------------------------
 
-Brian Cox über das Paradox des Wissenszuwachses:
-
-<iframe width="396" height="703" src="https://www.youtube-nocookie.com/embed/bTulR26BjSk" title="Brian Cox on the Paradox of Knowing More #science #knowledge #physics" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-
-</iframe>
 
 ## Exkurs: Philosophische Happy Hour zur Wahrheit {.unnumbered}
 
