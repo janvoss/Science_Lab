@@ -52,14 +52,14 @@ der Zeitschrift
 zum oben genannten Thema:
 
 @gold_populismus_2026; @gerling_verschworungsmythen_2026;
-@horn_autoritare_2026; und
-@rosel_regionale_2026
+@horn_autoritare_2026; und @rosel_regionale_2026
 
-In Ihrer Seminararbeit setzen Sie sich mit mindestens drei Texten aus diesem Zeitgespräch  auseinander. Als zusätzliche Literatur
-recherchieren und verarbeiten Sie bitte mindestens *drei zusätzliche
-wissenschaftliche Texte nach eigener Wahl, wobei mindestens ein Text auf
-Englisch sein muss*. Merkmale wissenschaftlicher Texte werden wir im
-Seminar besprechen.
+In Ihrer Seminararbeit setzen Sie sich mit mindestens drei Texten aus
+diesem Zeitgespräch auseinander. Als zusätzliche Literatur recherchieren
+und verarbeiten Sie bitte mindestens *drei zusätzliche wissenschaftliche
+Texte nach eigener Wahl, wobei mindestens ein Text auf Englisch sein
+muss*. Merkmale wissenschaftlicher Texte werden wir im Seminar
+besprechen.
 
 In Ihrer Seminararbeit stellen Sie die Argumente ausgewählter Positionen
 dar und setzen sie zueinander in Beziehung. Die von Ihnen ausgewählten
@@ -180,7 +180,6 @@ digraph Populismus_Struktur {
 }
 ')
 ```
-
 
 # Ihre Seminararbeit
 
@@ -684,8 +683,7 @@ basierend auf @ElKassar21, @Kolmer17 und @Weingart2017 besprochen.
         durch gerechtfertigte Kritik widerlegbar/anzweifelbar sein
     -   Wissen ist **irritationsfest**, die Überzeugung, dass es wahr
         ist, hält auch (zumindest zunächst) Einwänden stand.
-        
-        
+
 ### Aber: was ist Wahrheit?
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
@@ -767,7 +765,6 @@ digraph Wahrheitstheorien {
 
 ```
 
-
 ### Wissen als rationale Behauptung
 
 -   Eine Behauptung beinhaltet dem Anspruch, dass eine andere Person der
@@ -784,7 +781,6 @@ digraph Wahrheitstheorien {
 (Die philosophische Frage nach der Feststellbarkeit der Wahrheit einer
 Aussagen lässt sich umgehen, indem man sich auf die offengelegten Gründe
 konzentriert )
-
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE}
 
@@ -870,8 +866,6 @@ digraph Wissen_als_Behauptung {
 }
 ")
 ```
-
-
 
 ### Die Bedeutung des Wissensbegriffes für den Wissenschaftsbetrieb
 
@@ -977,12 +971,156 @@ zitiert nach @ElKassar21](animation_video.mp4)
 
 ------------------------------------------------------------------------
 
-
 ## Exkurs: Philosophische Happy Hour zur Wahrheit {.unnumbered}
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5BZ9ThwirdM?si=V31nf9MBclwn0Nap" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
 
 </iframe>
+
+## Wissen in Theorie, Empirie und Praxis
+
+### Grundlegende Begriffe
+
+Wissenschaftliche Erkenntnisprozesse lassen sich idealisierend als ein
+**dynamisches Wechselspiel zwischen theoretischen Entwürfen,
+vereinfachenden Modellen, empirischen Daten und der praktischen
+Anwendung** begreifen.
+
+Am Anfang dieses Prozesses stehen häufig vortheoretische Vorstellungen
+oder **Intuitionen**, die im Rahmen eines kreativen Prozesses Ideen für
+Wirkungszusammenhänge liefern kann, ohne, dass diese bereits
+systematisch ausgearbeitet sind.
+
+Diese intuitiven Vermutungen werden im Rahmen einer **Theorie**
+systematisiert, die allgemeine Gesetzmäßigkeiten postuliert und darauf
+abzielt, eine Vielzahl von Einzelereignissen durch wenige elementare
+Prinzipien vereinheitlichend zu erklären
+[@schurz_erkenntnistheorie_2021; @healy_fuck_2017]. Eine Theorie bildet
+dabei den ordnenden Rahmen, der über die bloße Beschreibung von
+Einzelfakten hinausgeht und oft theoretische Begriffe für nicht direkt
+beobachtbare Entitäten enthält [@schurz_erkenntnistheorie_2021].
+
+Da Theorien aufgrund ihres hohen Abstraktionsgrades oft zu komplex sind,
+um unmittelbar auf spezifische Situationen angewandt zu werden, dienen
+**Modelle** als theoriegeleitete Repräsentationen zu erklärender
+Phänomene [@schurz_erkenntnistheorie_2021]. Modelle sind
+notwendigerweise unvollständig und vereinfachen die Realität durch
+gezielte Idealisierungen oder Vernachlässigbarkeitsannahmen, um ein
+Problem überhaupt erst mathematisch oder empirisch handhabbar, also
+traktabel, zu machen [@schurz_erkenntnistheorie_2021;
+@hindriks_tractability_2006]. Ein Modell fungiert somit als ein
+Stellvertreter, der den abstrakten Kern einer Theorie mit der konkreten
+Empirie verbindet, indem er die theoretischen Begriffe für messbare
+Daten operationalisiert [@schurz_erkenntnistheorie_2021].
+
+Unter **Empirie** wird in diesem Zusammenhang die Gesamtheit der durch
+systematische Beobachtung oder kontrollierte Experimente gewonnenen
+Informationen verstanden, welche die Basis für die Prüfung
+wissenschaftlicher Aussagen bilden [@schurz_erkenntnistheorie_2021;
+@Weingart2017].
+
+Die Verbindung dieser Elemente führt zu einem **iterativen
+Fortschritt**, der **als Feedback-Schleife zwischen Theorie und Praxis**
+organisiert ist [@box_science_1976]. In der Praxis werden aus
+theoretischen Modellen spezifische Voraussagen über reale Abläufe
+abgeleitet. Wenn diese theoretischen Erwartungen im Abgleich mit der
+empirischen Erfahrung Diskrepanzen aufweisen, dient dieses Fehlersignal
+als Impuls, um die zugrunde liegende Theorie zu modifizieren oder
+vollständig zu revidieren [@schurz_erkenntnistheorie_2021;
+@Weingart2017]. Hierfür wird dann gegebenenfalls wieder auf
+vortheoretische Intuition zurückgegriffen.
+
+Während die Empirie das Material für diesen Abgleich liefert, stellt die
+**Praxis** den realen Anwendungsbereich dar, in dem sich
+wissenschaftliches Wissen durch Verlässlichkeit bewähren muss
+[@Kolmer17; @speiser_wissenschaftsrecht_2022]. In einer Welt der
+Ungewissheit dient dieses methodisch gesicherte Wissen schließlich dazu,
+das menschliche Urteilsvermögen zu stützen und rationale Entscheidungen
+in komplexen Systemen vorzubereiten [@schurz_erkenntnistheorie_2021]. Es
+kann den Umgang mit der Ungewissheit unterstützen. Es kann sie nicht
+beseitigen.
+
+### Die Notwendigkeit von theoretischen Vorstellungen für den Erkenntnisprozess
+
+Die Unmöglichkeit, Kausalität direkt wahrzunehmen, bildet eine der
+grundlegendsten Herausforderungen der Erkenntnistheorie und der
+empirischen Wissenschaften [@chavez_causality_2026]. Beobachtbar sind
+bestenfalls regelmäßige Abfolgen von Ereignissen oder deren räumliche
+Nähe, niemals jedoch die notwendige kausale Verknüpfung selbst
+[@schurz_erkenntnistheorie_2021; @chavez_causality_2026]. Das, was wir
+als Kausalität bezeichnen, ist aus dieser skeptischen Perspektive primär
+eine Projektion unseres Geistes, die auf der Gewohnheit basiert,
+wiederkehrende Muster in der Vergangenheit als zukünftige
+Notwendigkeiten zu interpretieren. **In der statistischen Analyse äußert
+sich dieses Problem darin, dass Korrelation nicht mit Kausalität
+gleichgesetzt werden darf**, da ein statistischer Zusammenhang durch
+verborgene Drittvariablen, umgekehrte Kausalität oder bloße
+Selektionseffekte verzerrt sein kann. **Ebenso wenig darf das Fehlen
+einer Korrelation als Beweis für die Abwesenheit von Kausalität gewertet
+werden**, da nichtlineare Effekte, sich gegenseitig aufhebende
+Kausalpfade oder eine erhebliche Heterogenität innerhalb der
+Untersuchungsgruppen tatsächliche Wirkungszusammenhänge maskieren können
+[@chavez_causality_2026].
+
+Da wir somit Kausalität niemals unmittelbar wahrnehmen, sondern immer
+nur abduktiv erschließen können, sind wissenschaftliche Modelle
+unverzichtbare Werkzeuge, um Hypothesen über die Beschaffenheit der
+Realität strukturiert zu formulieren [@schurz_erkenntnistheorie_2021;
+@chavez_causality_2026].
+
+Ökonomische Modelle fungieren dabei als theoriegeleitete
+Repräsentationen, die das vorhandene Wissen über die Natur oder die
+Gesellschaft ordnen, anstatt die ungefilterte Wirklichkeit abzubilden.
+Innerhalb dieser Modelle wird eine analytische Struktur geschaffen, die
+auf logisch zwingenden Deduktionen beruht, welche die Wahrheit gesetzter
+Prämissen auf die Konklusion übertragen. **Diese analytische Wahrheit
+dient im Modell als Stellvertreter für synthetische Vermutungen über die
+Außenwelt**, wobei die logische Konsistenz des Modells sicherstellt,
+dass die postulierten Zusammenhänge in einer idealisierten Welt
+widerspruchsfrei funktionieren [@schurz_erkenntnistheorie_2021]. Der
+Übergang von diesen analytisch wahren Aussagen zur Beschreibung der
+faktischen Wirklichkeit bleibt jedoch ein hypothetisches und unsicheres
+Unterfangen, da Modelle die Realität notwendigerweise bestenfalls nur
+homomorph, also vergröbert und lückenhaft, abbilden können. **Jedes
+Modell ist in diesem Sinne ontologisch betrachtet „falsch“**, da es auf
+idealisierenden Annahmen erster Ordnung beruht
+[@schurz_erkenntnistheorie_2021; @box_science_1976; @Musgrave81;
+@hindriks_tractability_2006].
+
+Diese deskriptive Unwirklichkeit von Annahmen ist jedoch kein
+methodischer Fehler, sondern eine notwendige Bedingung für die
+wissenschaftliche Handhabbarkeit komplexer Probleme. **Ein Modell ist
+dann nützlich, wenn es trotz seiner Vereinfachungen den kausalen Kern
+eines Phänomens isoliert und dadurch erfolgreiche Voraussagen oder
+plausible Erklärungen ermöglicht** [@hindriks_tractability_2006;
+@ungureanu_uniformity_2013; @Maki00]. Die Rechtfertigung für die
+Verwendung solcher „falschen“ Modelle liefern Annahmen zweiter Ordnung,
+die den Zweck der jeweiligen Idealisierung explizieren
+[@hindriks_tractability_2006]. Hierbei spielen
+Vernachlässigbarkeitsannahmen eine zentrale Rolle, die behaupten, dass
+ein real existierender Faktor für die spezifische Forschungsfrage keinen
+signifikanten Einfluss hat. Ebenso wichtig sind Traktabilitätsannahmen,
+bei denen eine bewusste Vereinfachung vorgenommen wird, um ein Problem
+mathematisch oder empirisch überhaupt erst lösbar, also handhabbar zu
+machen [@Musgrave81; @Maki00; @hindriks_tractability_2006;
+@ungureanu_uniformity_2013].
+
+In einer Welt der Ungewissheit, in der die Zukunft nicht einfach eine
+berechenbare Fortsetzung der Vergangenheit ist, dienen Modelle zudem
+dazu, das menschliche Urteilsvermögen zu schärfen und rationale
+Entscheidungen vorzubereiten. Während rein statistische Verfahren wie
+die Metainduktion auf der Analyse vergangener Erfolgsraten basieren,
+erlauben Modelle die Simulation kontrafaktischer Szenarien, um die
+Auswirkungen potenzieller Interventionen abzuschätzen. Die Nützlichkeit
+eines Modells bemisst sich daher nicht an seiner vollständigen
+Isomorphie zur Wirklichkeit, sondern an seiner Fähigkeit, als
+heuristisches Instrument den Weg zu wahrheitsnäheren Erkenntnissen zu
+ebnen. Letztlich bleibt wissenschaftliches Wissen ein dynamischer
+Prozess, in dem Modelle fortwährend durch Kritik gehärtet oder bei
+eklatantem Widerspruch zur empirischen Evidenz revidiert werden, um eine
+bestmögliche Annäherung an die subjektunabhängige Realität zu erreichen.
+
+### Alle Modelle sind falsch
 
 ## Wissen und Wissenschaft
 
