@@ -867,6 +867,67 @@ digraph Wissen_als_Behauptung {
 ")
 ```
 
+Die klassische Definition von Wissen als wahre, begründete Meinung
+stellt drei notwendige Bedingungen auf, damit ein Subjekt
+rechtmäßigerweise behaupten kann, etwas zu wissen. Neben der
+psychologischen Komponente der Überzeugung und der logischen
+Notwendigkeit einer rationalen Begründung bildet die Wahrheit das
+entscheidende objektive Kriterium. Wahrheit wird dabei zumeist im Sinne
+der Korrespondenztheorie verstanden, wonach eine Aussage genau dann wahr
+ist, wenn der behauptete Sachverhalt mit der Wirklichkeit übereinstimmt.
+Diese Wahrheitsbedingung erweist sich jedoch erkenntnistheoretisch als
+problematisch, da sie eine externe Bedingung darstellt, auf die das
+erkennende Subjekt keinen direkten Zugriff hat. Während Überzeugungen
+und Rechtfertigungen interne kognitive Zustände sind, die dem
+Bewusstsein unmittelbar zugänglich sein müssen, bleibt die
+Übereinstimmung mit einer subjektunabhängigen Realität oft eine
+hypothetische Annahme.
+
+Da absolute Gewissheit über die Außenwelt aufgrund grundlegender
+skeptischer Herausforderungen wie dem Münchhausen-Trilemma unerreichbar
+bleibt, wird menschliches Wissen in der modernen Philosophie meist als
+Vermutungswissen oder Wahrscheinlichkeitswissen charakterisiert. Jeder
+Begründungsversuch mündet letztlich entweder in einen infiniten Regress,
+einen Zirkelschluss oder einen dogmatischen Abbruch. In der Konsequenz
+bedeutet dies, dass wir uns der Wahrheit unserer Erkenntnisse nie
+gänzlich sicher sein können, sondern lediglich Grade der Bewährung
+erreichen. Wenn die Wahrheit als Korrespondenz mit der Realität nicht
+zweifelsfrei feststellbar ist, verschiebt sich der Fokus des
+Wissensbegriffs hin zur rationalen Behauptung. Eine solche Behauptung
+fungiert als ein epistemisches Versprechen, für dessen Verlässlichkeit
+der Sprechende die Verantwortung übernimmt.
+
+Das Konzept des Wissens als rationale Behauptung setzt voraus, dass eine
+Aussage nicht nur zufällig wahr ist, sondern auf Gründen basiert, die
+für andere sichtbar und überprüfbar gemacht werden. Eine rationale
+Behauptung zeichnet sich dadurch aus, dass sie ihre Beziehung zu den
+stützenden Gründen offenlegt, anstatt sich lediglich auf eine
+vermeintliche Evidenz oder Autorität zu berufen. Wissen wird so zu einer
+Form der begründeten Geltung, die sich im sozialen und
+wissenschaftlichen Diskurs bewähren muss. Damit eine Überzeugung als
+Wissen gelten kann, muss sie über die bloße Meinung hinausgehen und eine
+Stabilität aufweisen, die sie irritationsfest gegenüber Einwänden macht.
+Gleichzeitig bleibt sie jedoch irrtumssensibel, was bedeutet, dass sie
+im Lichte neuer Informationen oder berechtigter Kritik grundsätzlich
+revidierbar ist.
+
+In der wissenschaftlichen Praxis führt diese Sichtweise dazu, dass nicht
+von ewigen Wahrheiten, sondern von vorläufig gesichertem Wissen
+gesprochen wird. Wissenschaftliche Modelle und Theorien werden als
+theoriegeleitete Repräsentationen akzeptiert, solange sie die beste
+verfügbare Erklärung für beobachtete Phänomene liefern und eine hohe
+Voraussagekraft besitzen. Der Bezug zur Wirklichkeit wird hierbei
+abduktiv erschlossen, wobei die erfolgreichste Theorie als die
+wahrscheinlich wahrheitsnächste gilt. In einer demokratisch verfassten
+Gesellschaft dient dieses methodisch gesicherte Wissen als notwendiger
+Referenzrahmen für rationale Entscheidungen und den Ausgleich von
+Interessen. Die Autorität von Fakten beruht dabei nicht auf einem
+unfehlbaren Zugriff auf die Wahrheit, sondern auf der Transparenz der
+Methoden und der ständigen Bereitschaft zur Selbstkorrektur. Wissen als
+rationale Behauptung ermöglicht somit einen transparenten Dialog über
+die Wirklichkeit, selbst wenn deren letzte Beschaffenheit dem Menschen
+verborgen bleiben mag.
+
 ### Die Bedeutung des Wissensbegriffes für den Wissenschaftsbetrieb
 
 -   Derartiges Wissen oder derartige Behauptungen bestehen nicht
@@ -1118,9 +1179,8 @@ heuristisches Instrument den Weg zu wahrheitsnäheren Erkenntnissen zu
 ebnen. Letztlich bleibt wissenschaftliches Wissen ein dynamischer
 Prozess, in dem Modelle fortwährend durch Kritik gehärtet oder bei
 eklatantem Widerspruch zur empirischen Evidenz revidiert werden, um eine
-bestmögliche Annäherung an die subjektunabhängige Realität zu erreichen.
-
-### Alle Modelle sind falsch
+bestmögliche Annäherung an die subjektunabhängige Realität zu erreichen
+[@schurz_erkenntnistheorie_2021].
 
 ## Wissen und Wissenschaft
 
