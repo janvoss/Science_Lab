@@ -881,7 +881,7 @@ erkennende Subjekt keinen direkten Zugriff hat. Während Überzeugungen
 und Rechtfertigungen interne kognitive Zustände sind, die dem
 Bewusstsein unmittelbar zugänglich sein müssen, bleibt die
 Übereinstimmung mit einer subjektunabhängigen Realität oft eine
-hypothetische Annahme.
+hypothetische Annahme [@schurz_erkenntnistheorie_2021].
 
 Da absolute Gewissheit über die Außenwelt aufgrund grundlegender
 skeptischer Herausforderungen wie dem Münchhausen-Trilemma unerreichbar
@@ -891,11 +891,13 @@ Begründungsversuch mündet letztlich entweder in einen infiniten Regress,
 einen Zirkelschluss oder einen dogmatischen Abbruch. In der Konsequenz
 bedeutet dies, dass wir uns der Wahrheit unserer Erkenntnisse nie
 gänzlich sicher sein können, sondern lediglich Grade der Bewährung
-erreichen. Wenn die Wahrheit als Korrespondenz mit der Realität nicht
-zweifelsfrei feststellbar ist, verschiebt sich der Fokus des
-Wissensbegriffs hin zur rationalen Behauptung. Eine solche Behauptung
-fungiert als ein epistemisches Versprechen, für dessen Verlässlichkeit
-der Sprechende die Verantwortung übernimmt.
+erreichen [@schurz_erkenntnistheorie_2021]. Wenn die Wahrheit als
+Korrespondenz mit der Realität nicht zweifelsfrei feststellbar ist,
+verschiebt sich der Fokus des Wissensbegriffs hin zur rationalen
+Behauptung [@arnold_philosophische_2023. Eine solche Behauptung fungiert
+als ein epistemisches Versprechen, für dessen Verlässlichkeit der
+Sprechende die Verantwortung übernimmt [@arnold_philosophische_2023;
+@schurz_erkenntnistheorie_2021].
 
 Das Konzept des Wissens als rationale Behauptung setzt voraus, dass eine
 Aussage nicht nur zufällig wahr ist, sondern auf Gründen basiert, die
@@ -909,14 +911,15 @@ Wissen gelten kann, muss sie über die bloße Meinung hinausgehen und eine
 Stabilität aufweisen, die sie irritationsfest gegenüber Einwänden macht.
 Gleichzeitig bleibt sie jedoch irrtumssensibel, was bedeutet, dass sie
 im Lichte neuer Informationen oder berechtigter Kritik grundsätzlich
-revidierbar ist.
+revidierbar ist [@arnold_philosophische_2023; @ElKassar21;
+@schurz_erkenntnistheorie_2021].
 
 In der wissenschaftlichen Praxis führt diese Sichtweise dazu, dass nicht
 von ewigen Wahrheiten, sondern von vorläufig gesichertem Wissen
-gesprochen wird. Wissenschaftliche Modelle und Theorien werden als
-theoriegeleitete Repräsentationen akzeptiert, solange sie die beste
-verfügbare Erklärung für beobachtete Phänomene liefern und eine hohe
-Voraussagekraft besitzen. Der Bezug zur Wirklichkeit wird hierbei
+gesprochen wird [@Weingart2017]. Wissenschaftliche Modelle und Theorien
+werden als theoriegeleitete Repräsentationen akzeptiert, solange sie die
+beste verfügbare Erklärung für beobachtete Phänomene liefern und eine
+hohe Voraussagekraft besitzen. Der Bezug zur Wirklichkeit wird hierbei
 abduktiv erschlossen, wobei die erfolgreichste Theorie als die
 wahrscheinlich wahrheitsnächste gilt. In einer demokratisch verfassten
 Gesellschaft dient dieses methodisch gesicherte Wissen als notwendiger
