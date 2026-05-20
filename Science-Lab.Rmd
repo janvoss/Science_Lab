@@ -473,11 +473,11 @@ hallucinations…
     Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen
     lassen sondern produktiver machen!
 
-### Zusammenfassung
 
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7312865778536505344?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen title="Eingebetteter Beitrag">
+### Probleme der Nutzung von KI für den Wissenschaftsbetrieb
 
-</iframe>
+s. einzufügendes Bild
+
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
