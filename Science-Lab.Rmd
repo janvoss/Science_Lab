@@ -473,11 +473,90 @@ hallucinations…
     Dienst ab. Die Dienste sollen sie nicht schlauer machen/erscheinen
     lassen sondern produktiver machen!
 
-
 ### Probleme der Nutzung von KI für den Wissenschaftsbetrieb
 
-s. einzufügendes Bild
+```{r echo=F}
+library(DiagrammeR)
 
+# Verwendung von --- als eindeutiges Trennzeichen für den Raw-String
+modeling_graph <- grViz(r"---(
+  digraph Wissenschaftliche_Modellbildung {
+    
+    graph [rankdir = TB, size = "12,12", fontname = "Arial", compound = true]
+    node [shape = rectangle, style = filled, fillcolor = "#FDFEFE", fontname = "Arial"]
+    edge [fontname = "Arial", fontsize = 10, color = "#2C3E50"]
+
+    subgraph cluster_principles {
+      label = "I. Prinzipien der Repräsentation"
+      style = filled
+      fillcolor = "#EBF5FB"
+      fontname = "Arial"
+      
+      Model [label = "Wissenschaftliches Modell\n(Theoriegeleitete Repräsentation)", fontname = "Arial Bold"]
+      Abstraction [label = "Abstraktion\n(Gezieltes Weglassen von Details)"]
+      Parsimony [label = "Parsimonie (Sparsamkeit)\n\"Ockhams Rasiermesser\"", fillcolor = "#D1F2EB"]
+      Box [label = "George Box:\n\"All models are wrong,\nbut some are useful\"", shape = note, fillcolor = "#FEF9E7"]
+
+      Model -> Abstraction
+      Abstraction -> Parsimony
+      Model -> Box [style = dotted]
+    }
+
+    subgraph cluster_nuance {
+      label = "II. Das \"Nuance\"-Problem (K. Healy)"
+      style = filled
+      fillcolor = "#FDEDEC"
+      fontname = "Arial"
+      
+      Nuance [label = "Übermäßige Nuancierung\n(Detailversessenheit)", fillcolor = "#F1948A"]
+      Escape [label = "Ausweichmanöver\n(Komplexität umarmen statt durchschneiden)"]
+      Overparam [label = "Überparametrisierung\n(Mittelmäßigkeit)"]
+
+      Nuance -> Escape
+      Nuance -> Overparam
+    }
+
+    subgraph cluster_assumptions {
+      label = "III. Methodische Rechtfertigung"
+      style = filled
+      fillcolor = "#EAFAF1"
+      fontname = "Arial"
+      
+      Order1 [label = "Annahmen 1. Ordnung\n(Zustand der Modellwelt)\n\"Deskriptiv falsch\"", fillcolor = "#D5F5E3"]
+      Order2 [label = "Annahmen 2. Ordnung\n(Zweck der Idealisierung)\n\"Faktisch wahr\"", fillcolor = "#D5F5E3"]
+      Tract [label = "Tractability\n(Handhabbarkeit)"]
+      Neglig [label = "Vernachlässigbarkeit\n(Irrelevante Faktoren)"]
+
+      Order1 -> Order2 [label = "begründet durch"]
+      Order2 -> Tract
+      Order2 -> Neglig
+    }
+
+    subgraph cluster_goals {
+      label = "IV. Epistemische Positionen"
+      style = filled
+      fillcolor = "#F4ECF7"
+      fontname = "Arial"
+      
+      Instrumentalism [label = "Instrumentalismus (Friedman)\nFokus: Vorhersageerfolg", fillcolor = "#E1BEE7"]
+      Realism [label = "Kritischer Realismus\nFokus: Kausaler Kern", fillcolor = "#E1BEE7"]
+      Output [label = "Heuristisches Instrument\n(Schrittweise Erkenntnis)", shape = ellipse, fillcolor = "#D6EAF8"]
+      
+      Instrumentalism -> Output
+      Realism -> Output
+    }
+
+    Abstraction -> Order1 [ltail = cluster_principles, lhead = cluster_assumptions]
+    Tract -> Instrumentalism [ltail = cluster_assumptions, lhead = cluster_goals]
+    Neglig -> Realism
+    
+    Abstraction -> Nuance [label = "KONFLIKT", color = red, fontcolor = red, dir = both]
+  }
+)---")
+
+modeling_graph
+```
+Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb nach @messeri_uncritical_2026
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
