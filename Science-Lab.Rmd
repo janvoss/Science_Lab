@@ -476,85 +476,107 @@ hallucinations…
 ### Probleme der Nutzung von KI für den Wissenschaftsbetrieb
 
 ```{r echo=F}
+# install.packages("DiagrammeR")
 library(DiagrammeR)
 
-# Verwendung von --- als eindeutiges Trennzeichen für den Raw-String
-modeling_graph <- grViz(r"---(
-  digraph Wissenschaftliche_Modellbildung {
+ki_wissenschaft_graph <- grViz(r"---(
+  digraph KI_in_der_Wissenschaft {
     
-    graph [rankdir = TB, size = "12,12", fontname = "Arial", compound = true]
-    node [shape = rectangle, style = filled, fillcolor = "#FDFEFE", fontname = "Arial"]
-    edge [fontname = "Arial", fontsize = 10, color = "#2C3E50"]
-
-    subgraph cluster_principles {
-      label = "I. Prinzipien der Repräsentation"
-      style = filled
-      fillcolor = "#EBF5FB"
-      fontname = "Arial"
-      
-      Model [label = "Wissenschaftliches Modell\n(Theoriegeleitete Repräsentation)", fontname = "Arial Bold"]
-      Abstraction [label = "Abstraktion\n(Gezieltes Weglassen von Details)"]
-      Parsimony [label = "Parsimonie (Sparsamkeit)\n\"Ockhams Rasiermesser\"", fillcolor = "#D1F2EB"]
-      Box [label = "George Box:\n\"All models are wrong,\nbut some are useful\"", shape = note, fillcolor = "#FEF9E7"]
-
-      Model -> Abstraction
-      Abstraction -> Parsimony
-      Model -> Box [style = dotted]
-    }
-
-    subgraph cluster_nuance {
-      label = "II. Das \"Nuance\"-Problem (K. Healy)"
-      style = filled
-      fillcolor = "#FDEDEC"
-      fontname = "Arial"
-      
-      Nuance [label = "Übermäßige Nuancierung\n(Detailversessenheit)", fillcolor = "#F1948A"]
-      Escape [label = "Ausweichmanöver\n(Komplexität umarmen statt durchschneiden)"]
-      Overparam [label = "Überparametrisierung\n(Mittelmäßigkeit)"]
-
-      Nuance -> Escape
-      Nuance -> Overparam
-    }
-
-    subgraph cluster_assumptions {
-      label = "III. Methodische Rechtfertigung"
-      style = filled
-      fillcolor = "#EAFAF1"
-      fontname = "Arial"
-      
-      Order1 [label = "Annahmen 1. Ordnung\n(Zustand der Modellwelt)\n\"Deskriptiv falsch\"", fillcolor = "#D5F5E3"]
-      Order2 [label = "Annahmen 2. Ordnung\n(Zweck der Idealisierung)\n\"Faktisch wahr\"", fillcolor = "#D5F5E3"]
-      Tract [label = "Tractability\n(Handhabbarkeit)"]
-      Neglig [label = "Vernachlässigbarkeit\n(Irrelevante Faktoren)"]
-
-      Order1 -> Order2 [label = "begründet durch"]
-      Order2 -> Tract
-      Order2 -> Neglig
-    }
-
-    subgraph cluster_goals {
-      label = "IV. Epistemische Positionen"
-      style = filled
-      fillcolor = "#F4ECF7"
-      fontname = "Arial"
-      
-      Instrumentalism [label = "Instrumentalismus (Friedman)\nFokus: Vorhersageerfolg", fillcolor = "#E1BEE7"]
-      Realism [label = "Kritischer Realismus\nFokus: Kausaler Kern", fillcolor = "#E1BEE7"]
-      Output [label = "Heuristisches Instrument\n(Schrittweise Erkenntnis)", shape = ellipse, fillcolor = "#D6EAF8"]
-      
-      Instrumentalism -> Output
-      Realism -> Output
-    }
-
-    Abstraction -> Order1 [ltail = cluster_principles, lhead = cluster_assumptions]
-    Tract -> Instrumentalism [ltail = cluster_assumptions, lhead = cluster_goals]
-    Neglig -> Realism
+    # Globale Graph-Attribute
+    graph [rankdir = TB, compound = true]
     
-    Abstraction -> Nuance [label = "KONFLIKT", color = red, fontcolor = red, dir = both]
+    # Standard-Styles für Knoten und Kanten
+    node [fontname = "Arial", fontsize = 11, shape = box, style = "filled, rounded", fixedsize = false]
+    edge [fontname = "Arial", fontsize = 9, color = "#4A5568", arrowhead = vee]
+
+    # -------------------------------------------------------------------------
+    # CLUSTER 1: Treiber und quantitative Metriken (Grau/Blau-Töne)
+    # -------------------------------------------------------------------------
+    subgraph cluster_treiber {
+      label = "1. Treiber & Quantitative Produktivität"
+      color = "#CBD5E1"
+      style = "dashed, rounded"
+      bgcolor = "#F8FAFC"
+      fontname = "Arial"
+      
+      industrie [label = "Offensive Vermarktung\ndurch Tech-Industrie", fillcolor = "#E2E8F0", color = "#94A3B8"]
+      adoption [label = "Rasante & unkritische\nIntegration von LLMs", fillcolor = "#BAE6FD", color = "#38BDF8"]
+      output [label = "Steigerung der\nreinen Output-Menge", fillcolor = "#E0F2FE", color = "#7DD3FC"]
+      karriere [label = "Schnellerer Aufstieg &\nhöhere Zitationsraten\n(Vorteil insb. für\nnicht-engl. Muttersprachler)", fillcolor = "#E0F2FE", color = "#7DD3FC"]
+      regulierer [label = "Regulatorische Gegenmaßnahmen\n(Archive & Förderer)", fillcolor = "#FEE2E2", color = "#FCA5A5"]
+    }
+
+    # -------------------------------------------------------------------------
+    # CLUSTER 2: Die fundamentale Ausbildungskrise (Orange/Rot-Töne)
+    # -------------------------------------------------------------------------
+    subgraph cluster_ausbildung {
+      label = "2. Wissenschaftliche Ausbildung & Kontrollverhältnis"
+      color = "#FED7AA"
+      style = "dashed, rounded"
+      bgcolor = "#FFFBEB"
+      fontname = "Arial"
+      
+      routine [label = "Automatisierung von\nRoutineaufgaben", fillcolor = "#FFEDD5", color = "#FDBA74"]
+      implizit [label = "Verlust des Erwerbs von\nimplizitem Fachwissen\n(Plausibilität, Literaturkonsistenz)", fillcolor = "#FDBA74", color = "#F97316"]
+      kompetenz [label = "Fehlende Expertise zur\nÜberwachung automatisierter\nArbeitsabläufe", fillcolor = "#F97316", color = "#EA580C", fontcolor = "white"]
+      kontrolle [label = "Untergrabung des\nKontrollverhältnisses\nMensch vs. autonome KI", fillcolor = "#EF4444", color = "#DC2626", fontcolor = "white"]
+    }
+
+    # -------------------------------------------------------------------------
+    # CLUSTER 3: Qualitäts- und Wissenskrise (Violett-Töne)
+    # -------------------------------------------------------------------------
+    subgraph cluster_qualitaet {
+      label = "3. Wissensökosystem & Qualität"
+      color = "#E9D5FF"
+      style = "dashed, rounded"
+      bgcolor = "#FAF5FF"
+      fontname = "Arial"
+      
+      sprache [label = "Gute Sprache kein Indikator\nmehr für Qualität", fillcolor = "#F3E8FF", color = "#D8B4FE"]
+      abfall [label = "KI-Abfall in Fachliteratur\n(Unsinnige Bilder, Halluzinationen)", fillcolor = "#E9D5FF", color = "#C084FC"]
+      eng [label = "Fokus auf engere Kreise\netablierter Fragen\n(Reproduktion statt Originalität)", fillcolor = "#E9D5FF", color = "#C084FC"]
+      saettigung [label = "Sättigung des Ökosystems mit\noberflächlich überzeugender,\nschwacher Forschung", fillcolor = "#D8B4FE", color = "#A855F7"]
+    }
+
+    # Kernfrage als finaler Endpunkt
+    kernfrage [label = "Wissenschaftliche Institutionen vor Kernfrage:\nBloße Faktensammlung vs. lebendige Gemeinschaft?", 
+               shape = hexagon, fillcolor = "#FFF1F2", color = "#F43F5E", penwidth = "2.0"]
+
+    # -------------------------------------------------------------------------
+    # Kausale Verknüpfungen (Edges)
+    # -------------------------------------------------------------------------
+    # Strang 1: Produktivität und Karriere
+    industrie -> adoption [label = " treibt an"]
+    adoption -> output
+    adoption -> routine
+    output -> karriere [label = " bedingt"]
+    output -> regulierer [label = " provoziert"]
+    karriere -> adoption [label = " verstärkt (Anreiz)", style = "dashed", constraint = false]
+
+    # Strang 2: Ausbildung und Kontrollverlust
+    routine -> implizit [label = " blockiert"]
+    implizit -> kompetenz [label = " führt zu"]
+    kompetenz -> kontrolle [label = " untergräbt"]
+
+    # Strang 3: Qualität und Wissensökosystem
+    adoption -> sprache [label = " entkoppelt"]
+    adoption -> abfall [label = " generiert"]
+    adoption -> eng [label = " verengt"]
+    sprache -> saettigung
+    abfall -> saettigung
+    eng -> saettigung
+
+    # Systemischer Kollaps und Kernfrage
+    kontrolle -> saettigung [label = " schwächt Prüfung", style = "dotted"]
+    saettigung -> kernfrage [style = "bold"]
+    kontrolle -> kernfrage [style = "bold"]
   }
 )---")
 
-modeling_graph
+# Graph anzeigen
+ki_wissenschaft_graph
+
+
 ```
 Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb nach @messeri_uncritical_2026
 
