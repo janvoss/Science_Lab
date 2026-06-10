@@ -181,6 +181,16 @@ digraph Populismus_Struktur {
 ')
 ```
 
+# Exkurs zum Thema Verengung des Mainstreams {.unnumbered}
+
+Bitte lesen Sie den Text @haberle_mainstream-enge_2025.
+
+- Verständnifragen
+
+- Zentrale Aussagen des Textes
+
+- Diskussion
+
 # Ihre Seminararbeit
 
 ```{=html}
@@ -578,7 +588,9 @@ ki_wissenschaft_graph
 
 
 ```
-Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb nach @messeri_uncritical_2026
+
+Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb
+nach @messeri_uncritical_2026
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
