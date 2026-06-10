@@ -185,11 +185,119 @@ digraph Populismus_Struktur {
 
 Bitte lesen Sie den Text @haberle_mainstream-enge_2025.
 
-- Verständnifragen
+- Verständnisfragen
 
 - Zentrale Aussagen des Textes
 
 - Diskussion
+
+
+```{python echo=F, message=F, warning=F, output=F, include=F}
+#| message: false
+#| warning: false
+#| output: false
+
+import graphviz
+#from IPython.display import display
+
+# Erstellung des gerichteten Graphen
+dot = graphviz.Digraph(comment='Haeberle_Populismus_Analyse', format='svg')
+
+# Globale Attribute für ein übersichtliches, akademisches Layout
+dot.attr(rankdir='TB')
+dot.attr('node', fontname='Helvetica,Arial,sans-serif', fontsize='10', shape='box', style='filled,rounded')
+dot.attr('edge', fontname='Helvetica,Arial,sans-serif', fontsize='9', color='#444444', arrowhead='vee')
+
+# ==========================================
+# CLUSTER 1: Die Verengung des Mainstreams (nach Häberle & Schlink)
+# ==========================================
+with dot.subgraph(name='cluster_mainstream') as c:
+    c.attr(label='1. Soziopolitische Mainstream-Enge (Schlink/Häberle)', color='#c0392b', style='dashed,rounded', bgcolor='#fdf2e9')
+    
+    c.node('A1', 'Medialer & politischer Mainstream\nin Deutschland', fillcolor='#f5cbf7')
+    c.node('A2', 'Rhetorik der "Alternativlosigkeit"\n(z.B. Euro- & Flüchtlingspolitik)', fillcolor='#f5b041')
+    c.node('A3', 'Unterbindung des\nparlamentarischen Streits', fillcolor='#f8c471')
+    c.node('A4', 'Moralische Imprägnierung\ndes Diskurses', fillcolor='#e67e22', fontcolor='white')
+    c.node('A5', 'Zweifel/Kritik werden\nmoralisch diskreditiert', fillcolor='#d35400', fontcolor='white')
+    c.node('A6', 'Kollektiver\nDistanzierungszwang', fillcolor='#edbb99')
+    c.node('A7', 'Gesellschaftliche Sanktionen\n& Ausgrenzung', fillcolor='#f5b7b1')
+    c.node('A8', 'Faktische Behinderung\nder Meinungsfreiheit\n(Klima der Vorsicht)', fillcolor='#ec7063', fontcolor='white')
+    c.node('A9', 'Empfundene Repräsentationslücke\nim etablierten Spektrum', fillcolor='#f1948a')
+    c.node('A10', 'Entstehung & Erfolg\nder AfD', fillcolor='#cd6155', fontcolor='white')
+
+# ==========================================
+# CLUSTER 2: Der digitale Strukturwandel
+# ==========================================
+with dot.subgraph(name='cluster_digital') as c:
+    c.attr(label='2. Medientheoretische Dimension (Digitalisierung)', color='#2980b9', style='dashed,rounded', bgcolor='#ebf5fb')
+    
+    c.node('B1', 'Digitalisierung der Öffentlichkeit\n& Soziale Medien', fillcolor='#5dade2')
+    c.node('B2', 'Personalisierte\nSuchalgorithmen', fillcolor='#85c1e9')
+    c.node('B3', 'Informationskokons\n& Echokammern', fillcolor='#3498db', fontcolor='white')
+    c.node('B4', 'Mangel an Austausch mit\ngegensätzlichen Ansichten', fillcolor='#2e86c1', fontcolor='white')
+    c.node('B5', 'Wahrnehmungsverengung\n& Implosion der Meinungsfreiheit', fillcolor='#21618c', fontcolor='white')
+
+# ==========================================
+# CLUSTER 3: Das Radikalisierungsmodell
+# ==========================================
+with dot.subgraph(name='cluster_radicalization') as c:
+    c.attr(label='3. Stufenweiser Radikalisierungsprozess', color='#7f8c8d', style='dotted,rounded', bgcolor='#f2f4f4')
+    
+    c.node('C1', 'Einflussfaktoren:\n• Persönliche Veranlagung\n• Soziales Umfeld\n• Internet-Umgebung', fillcolor='#bdc3c7', align='left')
+    c.node('C2', 'Mittlere Stufe:\nPOPULISMUS\n(Reaktion auf Enge;\nschließt Gewalt aus)', fillcolor='#af7ac5', fontcolor='white', style='filled,bold,rounded')
+    c.node('C3', 'Höhere Stufe:\nEXTREMISMUS\n(Gewaltbereitschaft zur\nZielerreichung)', fillcolor='#7d3c98', fontcolor='white')
+
+# ==========================================
+# CLUSTER 4: Der Lösungsansatz
+# ==========================================
+with dot.subgraph(name='cluster_solution') as c:
+    c.attr(label='Gegenstrategie (Nährbodenentzug)', color='#27ae60', style='solid,rounded', bgcolor='#e8f8f5')
+    
+    c.node('S1', 'Bewusste Öffnung des Mainstreams\nfür unangenehme Themen', fillcolor='#2ecc71', style='filled,bold,rounded')
+    c.node('S2', 'Rückkehr zu respektvollem Zuhören\n& sachlichen Argumenten', fillcolor='#58d68d')
+
+# ==========================================
+# Kausale Verknüpfungen (Edges)
+# ==========================================
+
+# Pfad Mainstream-Enge
+dot.edge('A1', 'A2', label='nutzt')
+dot.edge('A2', 'A3', label='führt zu')
+dot.edge('A1', 'A4', label='unterliegt')
+dot.edge('A4', 'A5', label='bewirkt')
+dot.edge('A5', 'A6', label='erzwingt')
+dot.edge('A6', 'A7', label='verstärkt')
+dot.edge('A3', 'A9', label='begünstigt')
+dot.edge('A7', 'A8', label='erzeugt')
+dot.edge('A8', 'A9', label='führt zu')
+dot.edge('A9', 'A10', label='Katalysator für')
+
+# Pfad Digitalisierung
+dot.edge('B1', 'B2', label='basiert auf')
+dot.edge('B2', 'B3', label='erzeugen')
+dot.edge('B3', 'B4', label='verhindern')
+dot.edge('B4', 'B5', label='mündet in')
+
+# Integration in das Radikalisierungsmodell
+dot.edge('A9', 'C2', label='fordert Repräsentation')
+dot.edge('B5', 'C1', label='treibt kognitive\nProzesse')
+dot.edge('C1', 'C2', label='begünstigen')
+dot.edge('C2', 'C3', label='Grenzlinie:\nGewaltakzeptanz', style='dashed', arrowhead='none')
+dot.edge('A10', 'C2', label='politische\nManifestation', style='dotted')
+
+# Lösungspfade
+dot.edge('S1', 'A4', label='bricht auf', color='#27ae60', style='bold', arrowhead='dot')
+dot.edge('S2', 'B4', label='überwindet', color='#27ae60', style='bold', arrowhead='dot')
+dot.edge('S2', 'C2', label='entzieht\nNährboden', color='#27ae60', style='bold', arrowhead='dot')
+
+# Visualisierung ausgeben
+# display(dot)
+
+dot.render('Diskursenge', format='svg', cleanup=True)
+```
+
+![Diskursenge](Diskursenge.svg)
+
 
 # Ihre Seminararbeit
 
