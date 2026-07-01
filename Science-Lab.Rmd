@@ -1579,3 +1579,59 @@ csl: technische-universitat-dresden-betriebswirtschaftslehre-rechnungswesen-cont
 ::: {#refs}
 :::
 ::::
+
+# Übungsfragen {-}
+
+## Wissenschaftstheorie {-}
+
+1. Welche verschiedenen Arten von Wissen kennen Sie?
+
+1. Was ist wissenschaftliches Wissen?
+
+2. Worauf beruht wissenschaftliches Wissen?
+
+3. Was zeichnet gute Begründungen aus?
+
+
+1. Was ist gemeint mit: Irritationsfestigkeit des Wissens?
+
+1. Was ist mit Irrtumssensibilität des Wissens gemeint?
+
+11. Was ist Objektivität?
+
+
+1. Lässt sich immer erkennen, ob eine Meinung/Überzeugung wahr ist?
+
+1. Was bedeutet es in diesem Zusammenhang, wenn man Wissen als rationale Behauptung bezeichnet?
+
+1. Kann man sich sicher sein, dass man durch das Einhalten wissenschaftlicher Standards auf jeden Fall zu richtigen Antworten/ zur Wahrheit kommt?
+
+1. Bitte grenzen Sie voneinander ab: Theorie, Modelle, Empirie und Praxis
+
+1. Warum ist Theorie nötig? Warum reicht nicht einfach Empirie und das Erkennen von Korrelationen?
+
+
+7. Was ist der Unterschied zwischen singulären Tatsachen und allgemeinen Tatsachen?
+
+
+
+10. Was ist Wissenschaft nach Auffassung des Bundesverfassungsgerichts?
+
+## Wissenschaftliches Arbeiten {-}
+
+1. Warum muss man die Übernahme fremden Gedankengutes deutlich machen?
+15. Gemeinsamkeiten und Unterschiede zwischen wissenschaftlichem und journalistischem Arbeiten/Schreiben
+16. Wann verwendet man ein indirektes Zitat? Wann ein direktes?
+17. Drei Absätze basieren auf einer Quelle. Wie macht man die Übernahme fremder Gedanken kenntlich?
+18. Wie werden Literaturquellen im Literaturverzeichnis angeordnet?
+19. Welche Arten von Literatur gibt es in den Wirtschaftswissenschaften? (Buch, Sammelband, wissenschaftliche Zeitschrift, Working Paper)
+20. Welche Vor- und Nachteile sind mit diesen verschiedenen Formen verbunden?
+21. Welche bibliografischen Angaben benötigt man für:
+    * Fachaufsatz in wissenschaftlicher Zeitschrift
+    * Monografie
+    * Aufsatz in einem Sammelband?
+    * Ein Working Paper?
+    * Internetseite?
+22. Welche Informationen sollten in der Einleitung einer wissenschaftlichen Arbeit enthalten sein?
+23. Es gibt verschiedene Auffassungen über den Inhalt eines Fazits. Was haben wir im Seminar zum Inhalt des Fazits gesagt?
+24. Darf man seine „eigene Meinung“ in eine wissenschaftliche Arbeit einfließen lassen?
