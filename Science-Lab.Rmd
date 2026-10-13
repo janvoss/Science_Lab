@@ -1,7 +1,7 @@
 ---
 title: "Science Lab -- Urteilsfähigkeit und Reflexion kontroverser Perspektiven"
 author: "Prof. Dr. Jan S. Voßwinkel"
-date: "HfWU Zukunftsökonomie | SoSe 2026"
+date: "HfWU Zukunftsökonomie | WiSe 2026/27"
 output:
      bookdown::gitbook:
       split_bib: no
@@ -12,6 +12,7 @@ output:
      lang : de
 link-citations: yes
 bibliography: Science-Lab.bib
+csl: dresden.csl
 lang: de
 editor_options: 
   markdown: 
@@ -41,24 +42,27 @@ generate_svg(qr, filename = "qr-titel.svg")
 ```
 
 Das Science Lab steht in diesem Semester unter der Überschrift
-**Ökonomische Antworten auf den Populismus**. Als Prüfungsleistungen
+**Politikberatung in Zeiten von Polykrisen**. Als Prüfungsleistungen
 schreiben Sie in Dreierteams (zur Not: allein) eine kurze
 **wissenschaftliche Ausarbeitung** und absolvieren Sie eine **mündliche
 Prüfung**.
 
 Grundlage Ihrer Seminararbeit sind die Beiträge aus dem Zeitgespräch in
 der Zeitschrift
-[Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/1/beitrag/oekonomische-antworten-auf-den-populismus.html)
+[Wirtschaftsdienst](https://www.wirtschaftsdienst.eu/inhalt/jahr/2026/heft/8/beitrag/politikberatung-in-zeiten-von-polykrisen.html)
 zum oben genannten Thema:
 
-@gold_populismus_2026; @gerling_verschworungsmythen_2026;
-@horn_autoritare_2026; und @rosel_regionale_2026
+@ankel-peters_von_2026, @fuchs-schundeln_blinde_2026,
+@fuest_folgen_2026,
+@gropp_einfluss_2026,
+@heider_wie_2026,
+@hottenrott_evaluation_2026
+@zinn_transformation_2026.
 
-In Ihrer Seminararbeit setzen Sie sich mit mindestens drei Texten aus
+In Ihrer Seminararbeit setzen Sie sich mit *mindestens vier* Texten aus
 diesem Zeitgespräch auseinander. Als zusätzliche Literatur recherchieren
 und verarbeiten Sie bitte mindestens *drei zusätzliche wissenschaftliche
-Texte nach eigener Wahl, wobei mindestens ein Text auf Englisch sein
-muss*. Merkmale wissenschaftlicher Texte werden wir im Seminar
+Texte nach eigener Wahl, wobei mindestens ein Text auf Englisch sein muss*. Merkmale wissenschaftlicher Texte werden wir im Seminar
 besprechen.
 
 In Ihrer Seminararbeit stellen Sie die Argumente ausgewählter Positionen
@@ -88,7 +92,7 @@ mündliche Prüfung bezieht sich *nicht* auf Ihre Seminararbeit.
 
 # Bis wann?
 
-Abgabe aller Unterlagen bis zum *24. Juni 2026* bitte in elektronischer
+Abgabe aller Unterlagen bis zum *23. Dezember 2026* bitte in elektronischer
 Form im Portable Document Format (pdf) über den **Uploadordner für
 Seminararbeiten** in neo. *Bitte benennen Sie unbedingt Ihre Datei in
 dem Format „Nachname.pdf“.*
@@ -101,203 +105,420 @@ Fragen Sie bei Bedarf!
 
 # Worum geht es ?
 
-```{r echo=FALSE, message=FALSE, warning=FALSE}
+## Was ist das Problem?
 
-# Falls das Paket noch nicht installiert ist, bitte folgende Zeile ausführen:
-# install.packages("DiagrammeR")
-
-library(DiagrammeR)
-
-# Erstellung und Anzeige des Graphen
-grViz('
-digraph Populismus_Struktur {
-
-  # Allgemeine Graph-Einstellungen
-  graph [rankdir=TB, size="10,10", nodesep=0.5, ranksep=0.8]
-  node [shape=rectangle, style=filled, fontname="Arial", fontsize=10]
-
-  # Sektion: Kernideologie
-  Pop [label="POPULISMUS\\n(Inhaltlich nicht spezifizierte Kernideologie)", fillcolor="#E1F5FE", penwidth=2]
-
-  # Sektion: Die Spaltung (Dualismus)
-  subgraph cluster_dualismus {
-    graph [label="Gesellschaftlicher Dualismus (Antagonismus)", color=lightgrey]
-    Volk [label="Das \\"wahre\\" Volk\\n(Beherrschte Mehrheit)", fillcolor="#FFF9C4"]
-    Elite [label="Die \\"korrupte\\" Elite\\n(Minderheit / Verschwörungsgruppen)", fillcolor="#FFCCBC"]
-    Volk -> Elite [label="Antagonismus", dir=both, color=red]
-  }
-
-  Pop -> Volk
-  Pop -> Elite
-
-  # Sektion: Mechanismen & Kommunikation
-  subgraph cluster_mechanismen {
-    graph [label="Methoden & Kommunikation", color=lightgrey]
-    Verschwörung [label="Verschwörungserzählungen\\n(Wissenschaft, Medien, Politik)", fillcolor="#F8BBD0"]
-    Emotion [label="Emotionalisierung &\\nPolarisierung", fillcolor="#F8BBD0"]
-    Fakten [label="Umwertung von Begriffen &\\nLosem Umgang mit Fakten", fillcolor="#F8BBD0"]
-    Manichaeismus [label="Manichäismus &\\nExklusion", fillcolor="#F8BBD0"]
-  }
-
-  Pop -> Verschwörung
-  Verschwörung -> Emotion
-  Emotion -> Fakten
-  Pop -> Manichaeismus
-
-  # Sektion: Ökonomische & Soziale Treiber
-  subgraph cluster_treiber {
-    graph [label="Ökonomische Treiber", color=lightgrey]
-    Angst [label="Subjektive Abstiegsängste\\n(Statusverlust Mittelschicht)", fillcolor="#C8E6C9"]
-    Trans [label="Komplexe Transformation\\n(Globalisierung / Tech-Wandel)", fillcolor="#C8E6C9"]
-    Ungleichheit [label="Wahrgenommene Ungleichheit", fillcolor="#C8E6C9"]
-  }
-
-  Angst -> Pop [style=dashed]
-  Trans -> Angst
-  Ungleichheit -> Angst
-
-  # Sektion: Ideengeschichtliche Warnungen (wie im Original auskommentiert)
-  /*
-  subgraph cluster_theorie {
-    graph [label="Ideengeschichtliche Perspektiven", color=lightgrey]
-    Hayek [label="Hayek:\\nZusammenklicken durch \\"Wir vs. Andere\\"", shape=ellipse, fillcolor="#D1C4E9"]
-    Eucken [label="Eucken:\\nVersagen des Wettbewerbs -> Autoritarismus", shape=ellipse, fillcolor="#D1C4E9"]
-    Smith [label="Adam Smith:\\nAutoritäre Herrschaft = Rechtlosigkeit", shape=ellipse, fillcolor="#D1C4E9"]
-    Olson [label="Mancur Olson:\\nAutokratie < Demokratie (Wachstum)", shape=ellipse, fillcolor="#D1C4E9"]
-  }
-
-  Pop -> Hayek [style=dotted]
-  Pop -> Eucken [style=dotted]
-  Pop -> Smith [style=dotted]
-  Pop -> Olson [style=dotted]
-  */
-
-  # Sektion: Langfristige Folgen
-  Folgen [label="LANGFRISTIGE FOLGEN:\\n- Korruption & Klientelismus\\n- Unterminierung von Institutionen\\n- Wirtschaftliche Stagnation", fillcolor="#FFCDD2", shape=doubleoctagon]
-  
-  Pop -> Folgen [color=red, penwidth=2]
-
-}
-')
-```
-
-# Exkurs zum Thema Verengung des Mainstreams {.unnumbered}
-
-Bitte lesen Sie den Text @haberle_mainstream-enge_2025.
-
-- Verständnisfragen
-
-- Zentrale Aussagen des Textes
-
-- Diskussion
-
-
-```{python echo=F, message=F, warning=F, output=F, include=F}
+```{python}
+#| output: false
 #| message: false
 #| warning: false
-#| output: false
+#| echo: false
+#| eval: false # Bei Bedarf auf true setzen
+
 
 import graphviz
-#from IPython.display import display
+# from IPython.display import display
 
-# Erstellung des gerichteten Graphen
-dot = graphviz.Digraph(comment='Haeberle_Populismus_Analyse', format='svg')
+# Graph-Objekt erstellen
+dot = graphviz.Digraph(
+    "Polykrise",
+    comment="Netzwerkmodell einer Polykrise",
+    format="svg",
+    engine="dot",
+)
 
-# Globale Attribute für ein übersichtliches, akademisches Layout
-dot.attr(rankdir='TB')
-dot.attr('node', fontname='Helvetica,Arial,sans-serif', fontsize='10', shape='box', style='filled,rounded')
-dot.attr('edge', fontname='Helvetica,Arial,sans-serif', fontsize='9', color='#444444', arrowhead='vee')
+# Globale Attribute für sauberes Design
+dot.attr(
+    rankdir="TB",
+    bgcolor="white",
+    nodesep="0.6",
+    ranksep="0.8",
+    fontname="Arial",
+)
+dot.attr(
+    "node",
+    shape="rect",
+    style="filled,rounded",
+    fontname="Arial",
+    fontsize="10",
+    margin="0.2,0.1",
+)
+dot.attr(
+    "edge", fontname="Arial", fontsize="8", color="#555555", arrowsize="0.8"
+)
 
-# ==========================================
-# CLUSTER 1: Die Verengung des Mainstreams (nach Häberle & Schlink)
-# ==========================================
-with dot.subgraph(name='cluster_mainstream') as c:
-    c.attr(label='1. Soziopolitische Mainstream-Enge (Schlink/Häberle)', color='#c0392b', style='dashed,rounded', bgcolor='#fdf2e9')
-    
-    c.node('A1', 'Medialer & politischer Mainstream\nin Deutschland', fillcolor='#f5cbf7')
-    c.node('A2', 'Rhetorik der "Alternativlosigkeit"\n(z.B. Euro- & Flüchtlingspolitik)', fillcolor='#f5b041')
-    c.node('A3', 'Unterbindung des\nparlamentarischen Streits', fillcolor='#f8c471')
-    c.node('A4', 'Moralische Imprägnierung\ndes Diskurses', fillcolor='#e67e22', fontcolor='white')
-    c.node('A5', 'Zweifel/Kritik werden\nmoralisch diskreditiert', fillcolor='#d35400', fontcolor='white')
-    c.node('A6', 'Kollektiver\nDistanzierungszwang', fillcolor='#edbb99')
-    c.node('A7', 'Gesellschaftliche Sanktionen\n& Ausgrenzung', fillcolor='#f5b7b1')
-    c.node('A8', 'Faktische Behinderung\nder Meinungsfreiheit\n(Klima der Vorsicht)', fillcolor='#ec7063', fontcolor='white')
-    c.node('A9', 'Empfundene Repräsentationslücke\nim etablierten Spektrum', fillcolor='#f1948a')
-    c.node('A10', 'Entstehung & Erfolg\nder AfD', fillcolor='#cd6155', fontcolor='white')
+# 1. Einzelne Krisenphänomene (Knoten)
+dot.node(
+    "klima",
+    "Klimawandel\n(Sektorübergreifend)",
+    fillcolor="#FFEBEE",
+    color="#C62828",
+)
+dot.node(
+    "pandemie", "Coronapandemie\n(Gesundheit)", fillcolor="#FFEBEE", color="#C62828"
+)
+dot.node(
+    "geopolitik",
+    "Geopolitische Spannungen &\nKriege",
+    fillcolor="#FFEBEE",
+    color="#C62828",
+)
+dot.node(
+    "energie",
+    "Energiekrisen\n(Rohstoffe)",
+    fillcolor="#FFEBEE",
+    color="#C62828",
+)
+dot.node(
+    "wirtschaft",
+    "Inflation &\nStagflation",
+    fillcolor="#FFEBEE",
+    color="#C62828",
+)
 
-# ==========================================
-# CLUSTER 2: Der digitale Strukturwandel
-# ==========================================
-with dot.subgraph(name='cluster_digital') as c:
-    c.attr(label='2. Medientheoretische Dimension (Digitalisierung)', color='#2980b9', style='dashed,rounded', bgcolor='#ebf5fb')
-    
-    c.node('B1', 'Digitalisierung der Öffentlichkeit\n& Soziale Medien', fillcolor='#5dade2')
-    c.node('B2', 'Personalisierte\nSuchalgorithmen', fillcolor='#85c1e9')
-    c.node('B3', 'Informationskokons\n& Echokammern', fillcolor='#3498db', fontcolor='white')
-    c.node('B4', 'Mangel an Austausch mit\ngegensätzlichen Ansichten', fillcolor='#2e86c1', fontcolor='white')
-    c.node('B5', 'Wahrnehmungsverengung\n& Implosion der Meinungsfreiheit', fillcolor='#21618c', fontcolor='white')
+# 2. Kernmechanismus & Systemeffekte
+dot.node(
+    "polykrise",
+    "POLYKRISE\n(Überlagerung & gegenseitige Verstärkung)",
+    fillcolor="#FFE0B2",
+    color="#EF6C00",
+    penwidth="2.0",
+    fontsize="11",
+)
+dot.node(
+    "zielkonflikt",
+    "Gegensätzliche Anforderungen\nan Stellschrauben (Zielkonflikte)",
+    fillcolor="#ECEFF1",
+    color="#455A64",
+)
+dot.node(
+    "entscheidung",
+    "Handlungsdruck unter\nextremer Unsicherheit & Zeitdruck",
+    fillcolor="#CFD8DC",
+    color="#37474F",
+    penwidth="1.5",
+)
 
-# ==========================================
-# CLUSTER 3: Das Radikalisierungsmodell
-# ==========================================
-with dot.subgraph(name='cluster_radicalization') as c:
-    c.attr(label='3. Stufenweiser Radikalisierungsprozess', color='#7f8c8d', style='dotted,rounded', bgcolor='#f2f4f4')
-    
-    c.node('C1', 'Einflussfaktoren:\n• Persönliche Veranlagung\n• Soziales Umfeld\n• Internet-Umgebung', fillcolor='#bdc3c7', align='left')
-    c.node('C2', 'Mittlere Stufe:\nPOPULISMUS\n(Reaktion auf Enge;\nschließt Gewalt aus)', fillcolor='#af7ac5', fontcolor='white', style='filled,bold,rounded')
-    c.node('C3', 'Höhere Stufe:\nEXTREMISMUS\n(Gewaltbereitschaft zur\nZielerreichung)', fillcolor='#7d3c98', fontcolor='white')
+# 3. Kausalnetzwerk & Wechselwirkungen zwischen den Krisen
+dot.edge(
+    "geopolitik",
+    "energie",
+    label="Angebotsverknappung",
+    color="#C62828",
+    penwidth="1.2",
+)
+dot.edge("energie", "wirtschaft", label="Preisschocks")
+dot.edge("pandemie", "wirtschaft", label="Lieferkettenengpässe")
+dot.edge("klima", "geopolitik", label="Ressourcenkonflikte", dir="both")
+dot.edge(
+    "klima", "wirtschaft", label="Ernteausfälle / Sachschäden", style="dashed"
+)
+dot.edge(
+    "wirtschaft",
+    "geopolitik",
+    label="Soziale Instabilität",
+    style="dashed",
+    color="#C62828",
+)
 
-# ==========================================
-# CLUSTER 4: Der Lösungsansatz
-# ==========================================
-with dot.subgraph(name='cluster_solution') as c:
-    c.attr(label='Gegenstrategie (Nährbodenentzug)', color='#27ae60', style='solid,rounded', bgcolor='#e8f8f5')
-    
-    c.node('S1', 'Bewusste Öffnung des Mainstreams\nfür unangenehme Themen', fillcolor='#2ecc71', style='filled,bold,rounded')
-    c.node('S2', 'Rückkehr zu respektvollem Zuhören\n& sachlichen Argumenten', fillcolor='#58d68d')
+# 4. Zusammenfluss in den Polykrisen-Effekt
+for krisen_node in [
+    "klima",
+    "pandemie",
+    "geopolitik",
+    "energie",
+    "wirtschaft",
+]:
+    dot.edge(krisen_node, "polykrise", color="#EF6C00", style="dotted")
 
-# ==========================================
-# Kausale Verknüpfungen (Edges)
-# ==========================================
+# 5. Konsequenzen für politische/ökonomische Steuerung
+dot.edge("polykrise", "zielkonflikt", label="Multiplikation\nder Wirkungen")
+dot.edge(
+    "zielkonflikt",
+    "entscheidung",
+    label="Reaktionen an\nanderen Stellen",
+    penwidth="1.2",
+)
 
-# Pfad Mainstream-Enge
-dot.edge('A1', 'A2', label='nutzt')
-dot.edge('A2', 'A3', label='führt zu')
-dot.edge('A1', 'A4', label='unterliegt')
-dot.edge('A4', 'A5', label='bewirkt')
-dot.edge('A5', 'A6', label='erzwingt')
-dot.edge('A6', 'A7', label='verstärkt')
-dot.edge('A3', 'A9', label='begünstigt')
-dot.edge('A7', 'A8', label='erzeugt')
-dot.edge('A8', 'A9', label='führt zu')
-dot.edge('A9', 'A10', label='Katalysator für')
+# Rückkopplungsschleife: Maßnahmen erzeugen neue Unsicherheiten
+dot.edge(
+    "entscheidung",
+    "polykrise",
+    label="Unbeabsichtigte\nNebenwirkungen",
+    style="dashed",
+    color="#C62828",
+)
 
-# Pfad Digitalisierung
-dot.edge('B1', 'B2', label='basiert auf')
-dot.edge('B2', 'B3', label='erzeugen')
-dot.edge('B3', 'B4', label='verhindern')
-dot.edge('B4', 'B5', label='mündet in')
-
-# Integration in das Radikalisierungsmodell
-dot.edge('A9', 'C2', label='fordert Repräsentation')
-dot.edge('B5', 'C1', label='treibt kognitive\nProzesse')
-dot.edge('C1', 'C2', label='begünstigen')
-dot.edge('C2', 'C3', label='Grenzlinie:\nGewaltakzeptanz', style='dashed', arrowhead='none')
-dot.edge('A10', 'C2', label='politische\nManifestation', style='dotted')
-
-# Lösungspfade
-dot.edge('S1', 'A4', label='bricht auf', color='#27ae60', style='bold', arrowhead='dot')
-dot.edge('S2', 'B4', label='überwindet', color='#27ae60', style='bold', arrowhead='dot')
-dot.edge('S2', 'C2', label='entzieht\nNährboden', color='#27ae60', style='bold', arrowhead='dot')
-
-# Visualisierung ausgeben
+# Als SVG speichern und in IPython / Jupyter darstellen
+dot.render("polykrise_netzwerk", cleanup=True)
 # display(dot)
+```
+![Muster einer Polykrise](polykrise_netzwerk.svg)
 
-dot.render('Diskursenge', format='svg', cleanup=True)
+
+## Was sagen die Texte?
+
+```{python}
+#| output: false
+#| echo: false
+#| eval: false # bei Bedarf umschalten
+
+from graphviz import Digraph
+# from IPython.display import SVG, display
+
+# Erstellung des Hauptgraphen
+dot = Digraph(
+    "Politikberatung_Polykrisen", comment="Wirtschaftsdienst Synthese"
+)
+
+# Graph-Attribute für übersichtliches & modernes Design
+dot.attr(
+    rankdir="TB",
+    bgcolor="#FFFFFF",
+    fontname="Arial",
+    fontsize="12",
+    compound="true",
+    nodesep="0.4",
+    ranksep="0.7",
+    splines="spline",
+)
+
+# Globale Standardeinstellungen für Nodes und Edges
+dot.attr("node", fontname="Arial", fontsize="10", shape="box", style="filled")
+dot.attr("edge", fontname="Arial", fontsize="8", color="#4A5568")
+
+# ==========================================
+# ZENTRALER KNOTEN: THEMA
+# ==========================================
+dot.node(
+    "CENTER",
+    label="Wissenschaftliche Politikberatung in Polykrisen\n(Zeitschrift Wirtschaftsdienst)\n\nZentrales Spannungsfeld: Zeitdruck & Datenlücken vs. Gründlichkeit & Vertrauen",
+    shape="ellipse",
+    fillcolor="#1A365D",
+    fontcolor="#FFFFFF",
+    fontsize="13",
+    style="filled",
+    height="0.8",
+)
+
+# ==========================================
+# SUBGRAPH 1: DIE 7 BEITRÄGE (EINZELANALYSEN)
+# ==========================================
+with dot.subgraph(name="cluster_beitraege") as c:
+    c.attr(
+        label="Die 7 Autorenbeiträge: Perspektiven & Lösungsansätze",
+        color="#CBD5E0",
+        style="dashed",
+        fontcolor="#2D3748",
+        fontsize="11",
+    )
+
+    # 1. Fuchs-Schündeln et al.
+    c.node(
+        "Fuchs",
+        label="Fuchs-Schündeln, Kübler & Kuss\n\n• Thema: Personelle & thematische Diversität\n• Problem: Homogene Beiräte → Gruppendenken\n• Befund: Lebenszeit-Beiräte mit <25% Frauen\n• Lösung: Reform von Rekrutierungsmechanismen",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 2. Gropp & Wolter
+    c.node(
+        "Gropp",
+        label="Gropp & Wolter\n\n• Thema: Vertrauen & Wissenschaftsfreiheit\n• Problem: Zeitdruck der Politik vs. Gründlichkeit\n• Gefahr: Politisierung & reine Legitimation\n• Lösung: Transparenz über Unsicherheiten",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 3. Hottenrott & Peters
+    c.node(
+        "Hottenrott",
+        label="Hottenrott & Peters\n\n• Thema: Evaluation von Krisenmaßnahmen (§7 BHO)\n• Problem: Datenlücken, DSGVO-Hürden, Schocks\n• Befund: Mangelnde Kausalanalysen staatl. Hilfen\n• Lösung: Evaluierbarkeit von Anfang an (EVALDAT)",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 4. Fuest
+    c.node(
+        "Fuest",
+        label="Fuest\n\n• Thema: Aufdeckung von Zielkonflikten\n• Funktion: Transparenz über Handlungsoptionen\n• Bsp: Körperschaft- vs. Umsatzsteuer\n• Methode: Simulationsmodelle (Effizienz vs. Verteilung)",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 5. Zinn
+    c.node(
+        "Zinn",
+        label="Zinn\n\n• Thema: Transformation der Dateninfrastruktur\n• Problem: Fragmentierte Register-Landschaft\n• Lösung: SOEP-Reform (ab 2028)\n• Instrumente: Quartals-Panel, Flash Surveys, Verknüpfung",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 6. Schmidt & Ankel-Peters
+    c.node(
+        "Schmidt",
+        label="Schmidt & Ankel-Peters\n\n• Thema: Grenzen empirischer Standardansätze\n• Problem: HARKing, Versagen bei Strukturbrüchen\n• Lösung: Neue Komplexitätsbereitschaft\n• Methode: Strukturelle Modelle & Expertenerhebung",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+    # 7. Heider et al.
+    c.node(
+        "Heider",
+        label="Heider, Lindner & Schaffranka\n\n• Thema: Pragmatische Evidenz bei Akutkrisen\n• Praxis: Europäisches Parlament / Finanzmarkt\n• Methode: Kreative Näherungsverfahren (Stresstests)\n• Struktur: Wettbewerbliche Expertengremien",
+        fillcolor="#EBF8FF",
+        color="#3182CE",
+    )
+
+# Verknüpfung vom Zentrum zu den 7 Beiträgen
+for node in [
+    "Fuchs",
+    "Gropp",
+    "Hottenrott",
+    "Fuest",
+    "Zinn",
+    "Schmidt",
+    "Heider",
+]:
+    dot.edge("CENTER", node, color="#A0AEC0", style="solid")
+
+# ==========================================
+# SUBGRAPH 2: QUERVERBINDUNGEN (SYNTHESE)
+# ==========================================
+with dot.subgraph(name="cluster_querbezuege") as c:
+    c.attr(
+        label="Synthese: Übergreifende Querverbindungen & Schnittpunkte",
+        color="#2B6CB0",
+        style="filled",
+        fillcolor="#F7FAFC",
+        fontcolor="#1A365D",
+        fontsize="12",
+    )
+
+    # Schnittpunkt A: Datenlücken & Evidenz
+    c.node(
+        "SYN_Data",
+        label="1. Spannungsverhältnis: Qualitätsstandards vs. Datenlücken\n\n• Problem: Fehlen adäquater Datengrundlagen (Hottenrott & Peters)\n• Infrastruktur-Antwort: Unterjährige Paneldaten ab 2028 (Zinn)\n• Akut-Antwort: Pragmatische Verknüpfung unvollständiger Daten (Heider et al.)",
+        fillcolor="#FEFCBF",
+        color="#D69E2E",
+        shape="note",
+    )
+
+    # Schnittpunkt B: Methodenwandel & Komplexität
+    c.node(
+        "SYN_Method",
+        label="2. Methodischer Paradigmenwechsel & Komplexität\n\n• Kritik an vergangenheitsbezogenen kausalen Designs (Schmidt & Ankel-Peters)\n• Simulation komplexer Zielkonflikte & Wirkungsketten (Fuest)\n• Ergänzung durch Prozessindikatoren & qualitative Ansätze (Hottenrott & Peters)",
+        fillcolor="#FEFCBF",
+        color="#D69E2E",
+        shape="note",
+    )
+
+    # Schnittpunkt C: Diversität & Unabhängigkeit
+    c.node(
+        "SYN_Div",
+        label="3. Institutionalisierte Diversität & Autonomie\n\n• Personelle Diversität verhindert blinde Flecken (Fuchs-Schündeln et al.)\n• Disziplinäre Pluralität erfasst Transformationsprozesse (Schmidt & Ankel-Peters)\n• Wettbewerbliche Ausschreibungen sichern Meinungsvielfalt (Heider et al.)",
+        fillcolor="#FEFCBF",
+        color="#D69E2E",
+        shape="note",
+    )
+
+    # Schnittpunkt D: Vertrauen & Legitimität (Zielpunkt)
+    c.node(
+        "SYN_Trust",
+        label="4. Gesellschaftliche Legitimität & Vertrauen als Fundament\n\n• Vertrauen bestimmt die Handlungswirksamkeit (Gropp & Wolter)\n• Bausteine: Transparente Unsicherheitsmaße, offene Zielkonflikte,\n  Einbeziehung betroffener Gruppen & Schutz vor Politisierung",
+        fillcolor="#C6F6D5",
+        color="#38A169",
+        shape="component",
+        fontsize="11",
+    )
+
+# ==========================================
+# EDGES FÜR QUERVERBINDUNGEN (VERKNÜPFUNGEN)
+# ==========================================
+
+# Schnittpunkt 1 Verbindungen
+dot.edge(
+    "Hottenrott",
+    "SYN_Data",
+    color="#D69E2E",
+    style="dashed",
+    label="Datenkritik",
+)
+dot.edge(
+    "Zinn",
+    "SYN_Data",
+    color="#D69E2E",
+    style="dashed",
+    label="Strukturelle Lösung",
+)
+dot.edge(
+    "Heider", "SYN_Data", color="#D69E2E", style="dashed", label="Pragmatismus"
+)
+
+# Schnittpunkt 2 Verbindungen
+dot.edge(
+    "Schmidt",
+    "SYN_Method",
+    color="#D69E2E",
+    style="dashed",
+    label="Komplexitätsforderung",
+)
+dot.edge(
+    "Fuest",
+    "SYN_Method",
+    color="#D69E2E",
+    style="dashed",
+    label="Zielkonflikt-Simulation",
+)
+dot.edge("Hottenrott", "SYN_Method", color="#D69E2E", style="dashed")
+
+# Schnittpunkt 3 Verbindungen
+dot.edge(
+    "Fuchs",
+    "SYN_Div",
+    color="#D69E2E",
+    style="dashed",
+    label="Personelle Vielfalt",
+)
+dot.edge("Schmidt", "SYN_Div", color="#D69E2E", style="dashed")
+dot.edge("Heider", "SYN_Div", color="#D69E2E", style="dashed")
+
+# Schnittpunkt 4 Verbindungen (Zusammenführung auf Vertrauen & Gropp)
+dot.edge("Gropp", "SYN_Trust", color="#38A169", linewidth="2.0")
+dot.edge(
+    "SYN_Data",
+    "SYN_Trust",
+    color="#38A169",
+    style="dotted",
+    label="schafft Evidenzbasis",
+)
+dot.edge(
+    "SYN_Method",
+    "SYN_Trust",
+    color="#38A169",
+    style="dotted",
+    label="schafft Transparenz",
+)
+dot.edge(
+    "SYN_Div",
+    "SYN_Trust",
+    color="#38A169",
+    style="dotted",
+    label=" sichert Akzeptanz",
+)
+
+# ==========================================
+# AUSGABE UND SPEICHERUNG
+# ==========================================
+
+# Als SVG Datei speichern
+filename = dot.render(
+    filename="politikberatung_polykrisen", format="svg", cleanup=True
+)
+
+# Anzeige in IPython / Jupyter Notebook
+# display(SVG(filename=filename))
 ```
 
-![Diskursenge](Diskursenge.svg)
-
+![Was sagen die Texte?](politikberatung_polykrisen.svg)
 
 # Ihre Seminararbeit
 
@@ -1470,6 +1691,10 @@ des „Wer, Wann, Was, Wo“nachgeht. Geht es um ihren Kern, 1
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ```
 
+# Geschichte und Vielfalt des wirtschaftswissenschaftlichen Denkens
+
+
+
 # Wissenschaftliches Schreiben
 
 ## Aufbau der Arbeit
@@ -1566,7 +1791,7 @@ bitte auf mich zu.
 
 ---
 nocite: '@*'
-csl: technische-universitat-dresden-betriebswirtschaftslehre-rechnungswesen-controlling.csl
+#csl: technische-universitat-dresden-betriebswirtschaftslehre-rechnungswesen-controlling.csl
 ---
 
 # Literatur {.unnumbered}
@@ -1580,58 +1805,66 @@ csl: technische-universitat-dresden-betriebswirtschaftslehre-rechnungswesen-cont
 :::
 ::::
 
-# Übungsfragen {-}
+# Übungsfragen {.unnumbered}
 
-## Wissenschaftstheorie {-}
+## Wissenschaftstheorie {.unnumbered}
 
-1. Welche verschiedenen Arten von Wissen kennen Sie?
+1.  Welche verschiedenen Arten von Wissen kennen Sie?
 
-1. Was ist wissenschaftliches Wissen?
+2.  Was ist wissenschaftliches Wissen?
 
-2. Worauf beruht wissenschaftliches Wissen?
+3.  Worauf beruht wissenschaftliches Wissen?
 
-3. Was zeichnet gute Begründungen aus?
+4.  Was zeichnet gute Begründungen aus?
 
+5.  Was ist gemeint mit: Irritationsfestigkeit des Wissens?
 
-1. Was ist gemeint mit: Irritationsfestigkeit des Wissens?
+6.  Was ist mit Irrtumssensibilität des Wissens gemeint?
 
-1. Was ist mit Irrtumssensibilität des Wissens gemeint?
+7.  Was ist Objektivität?
 
-11. Was ist Objektivität?
+8.  Lässt sich immer erkennen, ob eine Meinung/Überzeugung wahr ist?
 
+9.  Was bedeutet es in diesem Zusammenhang, wenn man Wissen als
+    rationale Behauptung bezeichnet?
 
-1. Lässt sich immer erkennen, ob eine Meinung/Überzeugung wahr ist?
+10. Kann man sich sicher sein, dass man durch das Einhalten
+    wissenschaftlicher Standards auf jeden Fall zu richtigen Antworten/
+    zur Wahrheit kommt?
 
-1. Was bedeutet es in diesem Zusammenhang, wenn man Wissen als rationale Behauptung bezeichnet?
+11. Bitte grenzen Sie voneinander ab: Theorie, Modelle, Empirie und
+    Praxis
 
-1. Kann man sich sicher sein, dass man durch das Einhalten wissenschaftlicher Standards auf jeden Fall zu richtigen Antworten/ zur Wahrheit kommt?
+12. Warum ist Theorie nötig? Warum reicht nicht einfach Empirie und das
+    Erkennen von Korrelationen?
 
-1. Bitte grenzen Sie voneinander ab: Theorie, Modelle, Empirie und Praxis
+13. Was ist der Unterschied zwischen singulären Tatsachen und
+    allgemeinen Tatsachen?
 
-1. Warum ist Theorie nötig? Warum reicht nicht einfach Empirie und das Erkennen von Korrelationen?
+14. Was ist Wissenschaft nach Auffassung des Bundesverfassungsgerichts?
 
+## Wissenschaftliches Arbeiten {.unnumbered}
 
-7. Was ist der Unterschied zwischen singulären Tatsachen und allgemeinen Tatsachen?
-
-
-
-10. Was ist Wissenschaft nach Auffassung des Bundesverfassungsgerichts?
-
-## Wissenschaftliches Arbeiten {-}
-
-1. Warum muss man die Übernahme fremden Gedankengutes deutlich machen?
-15. Gemeinsamkeiten und Unterschiede zwischen wissenschaftlichem und journalistischem Arbeiten/Schreiben
-16. Wann verwendet man ein indirektes Zitat? Wann ein direktes?
-17. Drei Absätze basieren auf einer Quelle. Wie macht man die Übernahme fremder Gedanken kenntlich?
-18. Wie werden Literaturquellen im Literaturverzeichnis angeordnet?
-19. Welche Arten von Literatur gibt es in den Wirtschaftswissenschaften? (Buch, Sammelband, wissenschaftliche Zeitschrift, Working Paper)
-20. Welche Vor- und Nachteile sind mit diesen verschiedenen Formen verbunden?
-21. Welche bibliografischen Angaben benötigt man für:
-    * Fachaufsatz in wissenschaftlicher Zeitschrift
-    * Monografie
-    * Aufsatz in einem Sammelband?
-    * Ein Working Paper?
-    * Internetseite?
-22. Welche Informationen sollten in der Einleitung einer wissenschaftlichen Arbeit enthalten sein?
-23. Es gibt verschiedene Auffassungen über den Inhalt eines Fazits. Was haben wir im Seminar zum Inhalt des Fazits gesagt?
-24. Darf man seine „eigene Meinung“ in eine wissenschaftliche Arbeit einfließen lassen?
+1.  Warum muss man die Übernahme fremden Gedankengutes deutlich machen?
+2.  Gemeinsamkeiten und Unterschiede zwischen wissenschaftlichem und
+    journalistischem Arbeiten/Schreiben
+3.  Wann verwendet man ein indirektes Zitat? Wann ein direktes?
+4.  Drei Absätze basieren auf einer Quelle. Wie macht man die Übernahme
+    fremder Gedanken kenntlich?
+5.  Wie werden Literaturquellen im Literaturverzeichnis angeordnet?
+6.  Welche Arten von Literatur gibt es in den Wirtschaftswissenschaften?
+    (Buch, Sammelband, wissenschaftliche Zeitschrift, Working Paper)
+7.  Welche Vor- und Nachteile sind mit diesen verschiedenen Formen
+    verbunden?
+8.  Welche bibliografischen Angaben benötigt man für:
+    -   Fachaufsatz in wissenschaftlicher Zeitschrift
+    -   Monografie
+    -   Aufsatz in einem Sammelband?
+    -   Ein Working Paper?
+    -   Internetseite?
+9.  Welche Informationen sollten in der Einleitung einer
+    wissenschaftlichen Arbeit enthalten sein?
+10. Es gibt verschiedene Auffassungen über den Inhalt eines Fazits. Was
+    haben wir im Seminar zum Inhalt des Fazits gesagt?
+11. Darf man seine „eigene Meinung“ in eine wissenschaftliche Arbeit
+    einfließen lassen?
