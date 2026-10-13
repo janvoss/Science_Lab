@@ -814,8 +814,11 @@ hallucinations…
 
 ### Probleme der Nutzung von KI für den Wissenschaftsbetrieb
 
-```{r echo=F}
+```{r echo=F, warning=F, output=F}
 # install.packages("DiagrammeR")
+#| warning: false
+#| fig-cap: "Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb nach @messeri_uncritical_2026"
+#| 
 library(DiagrammeR)
 
 ki_wissenschaft_graph <- grViz(r"---(
@@ -911,15 +914,16 @@ ki_wissenschaft_graph <- grViz(r"---(
     kontrolle -> kernfrage [style = "bold"]
   }
 )---")
+```
 
+```{r echo=F}
 # Graph anzeigen
 ki_wissenschaft_graph
 
 
 ```
 
-Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb
-nach @messeri_uncritical_2026
+Probleme der Nutzung KI-gestützter Dienste für den Wissenschaftsbetrieb nach @messeri_uncritical_2026
 
 # Einarbeiten in die Materie: Literaturrecherche und -auswertung
 
